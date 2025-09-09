@@ -156,7 +156,6 @@ export default function SeminarPage() {
     return isValid;
   };
 
-  console.log("formData", formData)
   const handleChange = (field, value) => {
     setFormData((prev) => ({ ...prev, [field]: value }));
   };
@@ -209,7 +208,6 @@ export default function SeminarPage() {
     return !(isTuesday(date) || isThursday(date) || isSaturday(date));
   };
 
-  console.log("available slot", availableSlots)
 
   return (
     <div className="container max-w-4xl mx-auto px-4 py-8">

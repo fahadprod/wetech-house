@@ -26,7 +26,6 @@ export const ContactUs = () => {
       });
 
       const data = await res.json();
-      console.log("API Response:", data);
       if (data.success) {
         setStatus('Email sent successfully!');
         setEmailSent(true);

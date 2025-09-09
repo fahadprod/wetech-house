@@ -52,6 +52,7 @@ export const Header = () => {
     // { label: 'Course Details', action: () => router.push('#') },
     { label: 'About Us', action: () => router.push('/about') },
     { label: 'Contact Us', action: () => router.push('/contact') },
+     ...(user?.role === 'admin' ? [{ label: 'Dashboard', action: () => router.push('/dashboard') }] : user?.role === 'user' ? [{ label: 'Book Seminar', action: () => router.push('/seminar') }] : []),
   ];
 
   const exploreCategories = {
