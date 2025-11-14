@@ -18,6 +18,7 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import { X } from 'lucide-react';
+import parse from 'html-react-parser';
 
 export const CourseDetails = () => {
   const [selectedCourse, setSelectedCourse] = useState(data.courses[0]);
@@ -25,7 +26,7 @@ export const CourseDetails = () => {
   const [dialogOpen, setDialogOpen] = useState(false);
   const [selectedWeek, setSelectedWeek] = useState(null);
   const [selectedTool, setSelectedTool] = useState(null);
-  const [currentVideo, setCurrentVideo] = useState('');
+  const [currentLink, setCurrentLink] = useState('');
 
   const handleCourseSelect = (course) => {
     setSelectedCourse(course);
@@ -43,9 +44,9 @@ export const CourseDetails = () => {
     setDialogOpen(true);
   };
 
-  const handleVideoDialog = (videoLink) => {
+  const handleVideoDialog = (link) => {
     setDialogOpen(true);
-    setCurrentVideo(videoLink);
+    setCurrentLink(link);
   };
 
   const handleDialogClose = () => {
@@ -82,7 +83,7 @@ export const CourseDetails = () => {
             ))}
 
             <Dialog open={dialogOpen} onOpenChange={handleDialogClose}>
-              <DialogContent className="w-full z-100 sm:max-w-4xl max-h-[80vh] overflow-y-auto">
+              <DialogContent className="w-full z-100 sm:max-w-6xl overflow-y-auto">
                 <DialogHeader>
                   <DialogTitle className="text-2xl">{selectedWeek?.title}</DialogTitle>
                 </DialogHeader>
@@ -128,8 +129,8 @@ export const CourseDetails = () => {
             
             {navContent?.content?.map((item, index) => (
               <div key={index} className="mb-6">
-                <h3 className="text-lg font-semibold">{item.title}:</h3>
-                <p className="text-gray-600">{item.description}</p>
+                <h3 className="text-2xl text-red-600 mb-2 font-bold">{item.title}</h3>
+                <p className="text-gray-600">{parse(item.description)}</p>
 
                 {item.VideoLink && (
                   <div
@@ -153,24 +154,23 @@ export const CourseDetails = () => {
 
                 {item.link && (
                   <Button className="w-full mt-6 bg-[#363f46] hover:bg-[#e92e3e]">
-                    <Link
-                      href={item.link}
-                      target="_blank"
-                      className="text-white no-underline w-full"
+                    <Button
+                    onClick={() => handleVideoDialog(item.link)}
+                      className="text-white bg-[#363f46] hover:bg-[#e92e3e] w-full"
                     >
                       Click Here to Watch Live Demo
-                    </Link>
+                    </Button>
                   </Button>
                 )}
               </div>
             ))}
 
             <Dialog open={dialogOpen} onOpenChange={handleDialogClose}>
-              <DialogContent className="w-full z-100 sm:max-w-4xl max-h-[80vh] overflow-y-auto">
-                <div className="relative h-full w-full">
-                  {currentVideo && (
+              <DialogContent className="w-full z-100 sm:max-w-6xl h-[calc(100vh-50px)] overflow-y-auto">
+                <div className="relative h-full w-full mt-4">
+                  {currentLink && (
                     <iframe
-                      src={currentVideo}
+                      src={currentLink}
                       width="100%"
                       height="100%"
                       className="border-0"
