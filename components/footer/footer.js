@@ -47,10 +47,10 @@ export const Footer = () => {
       {/* Column 1 - Logo and Social */}
       <div className="space-y-6">
        <Link href="/" className="block">
-        <h2 className="text-3xl font-bold text-white">Vveba</h2>
+        <h2 className="text-3xl font-bold text-white">WeTechHouse</h2>
        </Link>
        <p>
-        VVEBA Pvt. Ltd. empowers passionate learners to become global tech
+        WETECHHOUSE Pvt. Ltd. empowers passionate learners to become global tech
         leaders through real-world training, guaranteed jobs, and
         industry-recognized certifications—step into your future.
        </p>
@@ -145,11 +145,11 @@ export const Footer = () => {
           <Phone className="flex-shrink-0 text-white" size={18} />
          </span>
          <div className="space-y-1">
-          <a href="tel:923197167168" className="block hover:text-white">
-           (092) 319 71 67 168
+          <a href="tel:923001234567" className="block hover:text-white">
+           (092) 300 12 34 567
           </a>
-          <a href="tel:923264047334" className="block hover:text-white">
-           (092) 326 40 47 334
+          <a href="tel:923001234567" className="block hover:text-white">
+           (092) 300 12 34 567
           </a>
          </div>
         </div>
@@ -158,21 +158,20 @@ export const Footer = () => {
           <MapPin className="flex-shrink-0 text-white" size={18} />
          </span>
          <a
-          href="https://maps.app.goo.gl/bbkj4ijSvsgvg2Pb9"
+          href="https://maps.app.goo.gl/J1hBZfBFAY2Vv8QW8"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-white"
          >
-          Office # 20, Zone/C, 2 Floor, Innovista Technology Zone, DHA Business
-          Hub, DHA Phase 8, Lahore.
+          1, F Block Block F Gulshan-e-Ravi, Lahore
          </a>
         </div>
         <div className="flex items-center gap-4">
          <span className="bg-[#e92e3e] h-10 rounded p-3 flex items-center">
           <Mail className="flex-shrink-0 text-white" size={18} />
          </span>
-         <a href="mailto:Support@vveba.com" className="hover:text-white">
-          Support@vveba.com
+         <a href="mailto:Support@wetechhouse.com" className="hover:text-white">
+          Support@wetechhouse.com
          </a>
         </div>
        </div>
@@ -184,7 +183,7 @@ export const Footer = () => {
     <div className="bg-[#363f46] border-t-1 py-6">
      <div className="max-w-6xl mx-auto px-4">
       <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-       <p>© Vveba {new Date().getFullYear()} | All Rights Reserved</p>
+       <p>© Wetechhouse {new Date().getFullYear()} | All Rights Reserved</p>
        <div className="flex gap-4 flex-wrap">
         <a href="#" className="hover:text-white">
          Terms and conditions

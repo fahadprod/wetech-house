@@ -46,7 +46,7 @@ export const Header = () => {
 
   const menuItems = [
     { label: 'Home', action: () => router.push('/') },
-    { label: 'Gallery', action: () => router.push('/gallery') },
+    // { label: 'Gallery', action: () => router.push('/gallery') },
     // { label: 'Global Recognition', action: scrollToCourses },
     // { label: 'BootCamp Curriculum', action: () => router.push('#') },
     // { label: 'Course Details', action: () => router.push('#') },
@@ -90,7 +90,7 @@ export const Header = () => {
           <Link href="/">
             <div className="relative w-[100px] h-14 lg:w-[150px] lg:h-[50px]">
               <Image
-                src="/images/final_logo.png"
+                src="/images/wetech-logo.png"
                 alt="Logo"
                 fill
                 className="object-contain"

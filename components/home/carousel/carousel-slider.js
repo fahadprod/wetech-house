@@ -45,7 +45,7 @@ const CarouselSlider = () => {
                 title: 'Junior Frontend Developer',
                 topic: '$200/month Guaranteed',
                 description: [
-                    'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
+                    'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
                     'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
@@ -80,7 +80,7 @@ const CarouselSlider = () => {
                 title: 'Full Stack Developer',
                 topic: '$500/month Guaranteed',
                 description: [
-                    'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
+                    'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
                     'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
@@ -118,7 +118,7 @@ const CarouselSlider = () => {
                 title: 'Next.js Specialist',
                 topic: '$1,000/month Guaranteed',
                 description: [
-                    'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
+                    'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
                     'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
@@ -166,7 +166,7 @@ const CarouselSlider = () => {
                 title: 'DevOps Engineer',
                 topic: '$1,500/month Guaranteed',
                 description: [
-                    'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
+                    'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
                     'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
@@ -213,7 +213,7 @@ const CarouselSlider = () => {
                 title: 'Microservices Architect',
                 topic: '$3,000/month Guaranteed',
                 description: [
-                    'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
+                    'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
                     'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
@@ -275,7 +275,7 @@ const CarouselSlider = () => {
                 title: 'Blockchain Developer',
                 topic: '$4,000/month Guaranteed',
                 description: [
-                    'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
+                    'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
                     'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
@@ -330,7 +330,7 @@ const CarouselSlider = () => {
                 title: 'AI Engineer',
                 topic: '$6,000/month Guaranteed',
                 description: [
-                    'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
+                    'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
                     'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
@@ -432,7 +432,7 @@ const CarouselSlider = () => {
                 title: ' Cybersecurity Expert',
                 topic: '$10,000/month Guaranteed',
                 description: [
-                    'We train you and ensure a job placement at VVEBA Pvt. Ltd.',
+                    'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
                     'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',

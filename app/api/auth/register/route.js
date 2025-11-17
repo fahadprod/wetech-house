@@ -1,9 +1,9 @@
+// app/api/auth/register/route.js
 import dbConnect from '@/lib/dbConnect';
 import { sendOTPEmail } from '@/lib/emailService';
 import User from '@/models/User';
 import { NextResponse } from 'next/server';
 import { v4 as uuidv4 } from 'uuid';
-import bcrypt from 'bcryptjs';
 
 export async function POST(req) {
   try {
@@ -34,14 +34,11 @@ export async function POST(req) {
     const otp = uuidv4().replace(/\D/g, '').substring(0, 6).padEnd(6, '0');
     const otpExpires = new Date(Date.now() + 15 * 60 * 1000);
 
-    // Hash password before saving
-    const hashedPassword = await bcrypt.hash(password, 10);
-
-    // Create user (keeping all original fields)
+    // Create user with plain password - let the model handle hashing
     const user = new User({
       name,
       email,
-      password: hashedPassword, // Store hashed password
+      password: password, // Store plain password - model will hash it
       phone,
       cnic,
       role,

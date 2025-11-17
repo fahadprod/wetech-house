@@ -44,16 +44,23 @@ const userSchema = new mongoose.Schema(
  {timestamps: true}
 );
 
-// Hash password before saving
+
+// Hash password before saving - IMPROVED VERSION
 userSchema.pre('save', async function (next) {
- if (!this.isModified('password')) return next();
- this.password = await bcrypt.hash(this.password, 10);
- next();
+  if (!this.isModified('password')) return next();
+  
+  try {
+    // Use 12 rounds for better security (still fast enough)
+    this.password = await bcrypt.hash(this.password, 12);
+    next();
+  } catch (error) {
+    next(error);
+  }
 });
 
 // Method to compare passwords
 userSchema.methods.comparePassword = async function (candidatePassword) {
- return await bcrypt.compare(candidatePassword, this.password);
+  return await bcrypt.compare(candidatePassword, this.password);
 };
 
 export default mongoose.models.User || mongoose.model('User', userSchema);

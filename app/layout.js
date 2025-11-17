@@ -1,11 +1,11 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import { AuthProvider } from "./context/AuthContext";
+import Script from "next/script";
 import { Header } from "@/components/header/header";
 import { Footer } from "@/components/footer/footer";
+import { AuthProvider } from "./context/AuthContext";
 import GTM from "@/lib/GTM";
 import ChatlingWidget from "@/lib/ChatlingWidget";
-import Script from "next/script";
 
 const poppins = Poppins({
   subsets: ["latin"],

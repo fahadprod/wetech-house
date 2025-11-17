@@ -29,7 +29,7 @@ export const AboutUs = () => {
                     ABOUT US
                   </span>
                   <h2 className="text-3xl capitalize md:text-4xl lg:text-5xl font-bold mt-4 mb-6">
-                    VVEBA turns learners into IT entrepreneurs with real skills and
+                    WETECHHOUSE turns learners into IT entrepreneurs with real skills and
                     guaranteed jobs.
                   </h2>
                 </div>
@@ -40,7 +40,7 @@ export const AboutUs = () => {
                 data-aos-duration="1000"
                 data-aos-delay="500"
               >
-                Learn, build, and get hired—VVEBA&apos;s step-by-step tech journey takes you
+                Learn, build, and get hired—WETECHHOUSE&apos;s step-by-step tech journey takes you
                 from beginner to specialist, backed by global certifications and
                 industry-grade job guarantees.
               </p>
@@ -71,7 +71,7 @@ export const AboutUs = () => {
                   <div className="text-left">
                     <a href="tel:9231971671681" className="text-white hover:text-gray-200">
                       <span className="block text-sm">Call for help</span>
-                      <span className="block text-xl font-semibold">+92 319 71671681</span>
+                      <span className="block text-xl font-semibold">+92 3001234567</span>
                     </a>
                   </div>
                 </div>

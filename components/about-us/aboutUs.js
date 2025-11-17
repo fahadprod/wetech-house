@@ -10,11 +10,11 @@ export const AboutUs = () => {
          {/* Introduction Section */}
       <div className="px-4 md:px-30 lg:px-40 py-12 md:py-16">
         <p className="text-justify text-gray-700">
-          VVEBA Pvt Ltd is a career-focused tech bootcamp platform that transforms
+          WETECHHOUSE Pvt Ltd is a career-focused tech bootcamp platform that transforms
           passionate learners into skilled professionals ready for the global digital
           economy. We focus on real-world learning, offering a structured path that
           leads from education to income. With a strong emphasis on practical skills,
-          mentorship, and results, VVEBA stands as a bridge between talent and
+          mentorship, and results, WETECHHOUSE stands as a bridge between talent and
           opportunity. Our mission is to create opportunities, build talent, and
           shape the next generation of tech leaders from the ground up.
         </p>
@@ -29,7 +29,7 @@ export const AboutUs = () => {
               <h5 className="text-white font-medium">WHO WE ARE</h5>
             </div>
             <p className="text-justify text-gray-700">
-              VVEBA Pvt Ltd is a tech bootcamp platform dedicated to helping students
+              WETECHHOUSE Pvt Ltd is a tech bootcamp platform dedicated to helping students
               become skilled, job-ready professionals. We are a passionate team of
               developers, instructors, and mentors committed to delivering real-world,
               practical tech education that drives career growth.
@@ -42,7 +42,7 @@ export const AboutUs = () => {
               <h5 className="text-white font-medium">WHAT WE DO</h5>
             </div>
             <p className="text-justify text-gray-700">
-              VVEBA Pvt Ltd We provide hands-on training in 15 high-demand tech
+              WETECHHOUSE Pvt Ltd We provide hands-on training in 15 high-demand tech
               stacks, along with 4 global certifications. After 6 months of training
               and 2 months of profile projects building, students start earning
               through real world projects, and freelance work at our company.
@@ -91,8 +91,8 @@ export const AboutUs = () => {
           <div className="w-full md:w-1/2">
             <div className="clip-polygon">
               <Image
-                src="https://vveba.s3.eu-north-1.amazonaws.com/about/muhammad-sharif.jpg"
-                alt="Muhammad Sharif"
+                src="https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg"
+                alt="Founder"
                 width={500}
                 height={350}
                 loading="lazy"
@@ -100,7 +100,7 @@ export const AboutUs = () => {
               />
             </div>
             <div className="bg-[#e92e3e] text-white py-2 mt-4 font-bold text-center">
-              Muhammad Sharif <br />
+              Chairman <br />
               <small className="text-sm">The Company Chairman</small>
             </div>
           </div>
@@ -109,8 +109,8 @@ export const AboutUs = () => {
           <div className="w-full md:w-1/2">
             <div className="clip-polygon">
               <Image
-                src="https://vveba.s3.eu-north-1.amazonaws.com/about/shahid-khalid.jpg"
-                alt="Shahid Khalid"
+                src="https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg"
+                alt="co chairman"
                 width={500}
                 height={350}
                 loading="lazy"
@@ -118,7 +118,7 @@ export const AboutUs = () => {
               />
             </div>
             <div className="bg-[#e92e3e] text-white py-2 mt-4 font-bold text-center">
-              Shahid Khalid <br />
+               Co-Chairman <br />
               <small className="text-sm">The Company Co-Chairman</small>
             </div>
           </div>
@@ -184,7 +184,7 @@ export const AboutUs = () => {
 
       {/* Team Vveba Section */}
       <div className="text-center py-16">
-        <h2 className="text-4xl font-bold pb-10">Team Vveba</h2>
+        <h2 className="text-4xl font-bold pb-10">Team WETECHHOUSE</h2>
       </div>
 
       {/* Team Members */}

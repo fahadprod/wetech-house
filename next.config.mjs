@@ -12,6 +12,11 @@ const nextConfig = {
     hostname: 'lh5.googleusercontent.com',
     pathname: '/**',
    },
+   {
+    protocol: 'https',
+    hostname: 'img.freepik.com',
+    pathname: '/**',
+   },
   ],
  },
 };

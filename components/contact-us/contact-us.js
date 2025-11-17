@@ -102,7 +102,7 @@ export const ContactUs = () => {
                         height={50}
                         className="mt-1"
                       />
-                      <div>+92319 7167 168</div>
+                      <div>+92300 1234 567</div>
                     </div>
                     <div className="flex items-center gap-4">
                       <Image
@@ -112,7 +112,7 @@ export const ContactUs = () => {
                         height={50}
                         className="mt-1"
                       />
-                      <div>Support@vveba.com</div>
+                      <div>Support@wetechhouse.com</div>
                     </div>
                     <div className="flex items-center gap-4">
                       <Image
@@ -123,8 +123,7 @@ export const ContactUs = () => {
                         className="mt-1"
                       />
                       <div>
-                        Office # 20, Zone/C, 2 Floor, Innovista Technology Zone, DHA
-                        Business Hub, DHA Phase 8, Lahore.
+                        1, F Block Block F Gulshan-e-Ravi, Lahore
                       </div>
                     </div>
                   </div>

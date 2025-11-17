@@ -8,7 +8,7 @@ export const OurGoals = () => {
    {
     id: 1,
     icon: '/images/1.svg',
-    title: 'Book a free Seminar',
+    title: 'Book a free Appointment',
     description:
      'WEBA Bootcamp: 6-month training plus 2-month profile projects to prepare you for high-paying tech jobs.',
    },

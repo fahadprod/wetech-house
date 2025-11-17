@@ -34,6 +34,8 @@ export default function RegisterPage() {
   const [showOtpForm, setShowOtpForm] = useState(false);
   const [otp, setOtp] = useState('');
   const [isFormValid, setIsFormValid] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [resendLoading, setResendLoading] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -133,12 +135,16 @@ export default function RegisterPage() {
     e.preventDefault();
     setError('');
     setSuccess('');
+    setLoading(true);
 
     Object.keys(formData).forEach((field) => {
       validateField(field, formData[field]);
     });
 
-    if (!isFormValid) return;
+    if (!isFormValid) {
+      setLoading(false);
+      return;
+    }
 
     try {
       const response = await fetch('/api/auth/register', {
@@ -164,15 +170,18 @@ export default function RegisterPage() {
 
       setUserId(data.userId);
       setShowOtpForm(true);
-      setSuccess(data.message);
+      setSuccess(data.message || 'Registration successful! Please verify your email.');
     } catch (err) {
       setError(err.message);
+    } finally {
+      setLoading(false);
     }
   };
 
   const handleVerify = async (e) => {
     e.preventDefault();
     setError('');
+    setLoading(true);
 
     try {
       const response = await fetch('/api/auth/verify', {
@@ -180,7 +189,11 @@ export default function RegisterPage() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ userId, otp }),
+        body: JSON.stringify({ 
+          userId, 
+          otp,
+          email: formData.email // Include email for verification
+        }),
       });
 
       const data = await response.json();
@@ -189,12 +202,42 @@ export default function RegisterPage() {
         throw new Error(data.message || 'Verification failed');
       }
 
-      setSuccess(data.message);
+      setSuccess(data.message || 'Email verified successfully!');
       setTimeout(() => {
         router.push('/login');
       }, 2000);
     } catch (err) {
       setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleResendOtp = async () => {
+    setError('');
+    setSuccess('');
+    setResendLoading(true);
+
+    try {
+      const response = await fetch('/api/auth/resend-otp', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email: formData.email }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.message || 'Failed to resend OTP');
+      }
+
+      setSuccess(data.message || 'OTP resent successfully!');
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setResendLoading(false);
     }
   };
 
@@ -343,9 +386,35 @@ export default function RegisterPage() {
               <Button
                 type="submit"
                 className="w-full bg-[#e92e3e] cursor-pointer hover:bg-[#e92e3e]"
-                disabled={!isFormValid}
+                disabled={loading || !isFormValid}
               >
-                Register
+                {loading ? (
+                  <span className="flex items-center gap-2">
+                    <svg
+                      className="animate-spin h-4 w-4"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <circle
+                        className="opacity-25"
+                        cx="12"
+                        cy="12"
+                        r="10"
+                        stroke="currentColor"
+                        strokeWidth="4"
+                      ></circle>
+                      <path
+                        className="opacity-75"
+                        fill="currentColor"
+                        d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                      ></path>
+                    </svg>
+                    Registering...
+                  </span>
+                ) : (
+                  'Register'
+                )}
               </Button>
 
               <div className="text-center text-sm">
@@ -359,7 +428,7 @@ export default function RegisterPage() {
             <form onSubmit={handleVerify} className="space-y-4">
               <h2 className="text-xl font-bold">Verify Your Email</h2>
               <p className="text-[#e92e3e]">
-                We&apos;ve sent an OTP to your email. Please enter it below.
+                We&apos;ve sent an OTP to {formData.email}. Please enter it below.
               </p>
 
               <div className="space-y-2">
@@ -369,15 +438,32 @@ export default function RegisterPage() {
                 <Input
                   id="otp"
                   name="otp"
+                  placeholder="Enter OTP"
                   value={otp}
                   onChange={(e) => setOtp(e.target.value)}
                   required
                 />
               </div>
 
-              <Button type="submit" className="w-full bg-[#e92e3e] cursor-pointer hover:bg-[#e92e3e]">
-                Verify
+              <Button 
+                type="submit" 
+                className="w-full bg-[#e92e3e] cursor-pointer hover:bg-[#e92e3e]"
+                disabled={loading}
+              >
+                {loading ? 'Verifying...' : 'Verify'}
               </Button>
+
+              <div className="text-center text-sm">
+                Didn&apos;t receive OTP?{' '}
+                <button 
+                  type="button" 
+                  className="text-primary hover:underline disabled:opacity-50"
+                  onClick={handleResendOtp}
+                  disabled={resendLoading}
+                >
+                  {resendLoading ? 'Resending...' : 'Resend OTP'}
+                </button>
+              </div>
             </form>
           )}
         </div>
