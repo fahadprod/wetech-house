@@ -22,7 +22,7 @@ export const OurGoals = () => {
    {
     id: 3,
     icon: '/images/3.svg',
-    title: '12 Hours work daily',
+    title: '8 Hours work daily (4 hrs on campus & 4 hrs online)',
     description:
      'We launched our own blockchain product that will make waves across the world and shake the industry!',
    },

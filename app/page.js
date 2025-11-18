@@ -14,6 +14,7 @@ import Jobs from "@/components/home/jobs-platform/jobs";
 import { useEffect } from "react";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import CourseOutlines from "@/components/home/course-outlines/course-outlines";
 
 
 
@@ -25,7 +26,8 @@ export default function Home() {
   return (
     <>
     <CarouselSlider/>
-    <CourseDetails/>
+    {/* <CourseDetails/> */}
+    <CourseOutlines/>
     <OurGoals/>
     <CertificationSections/>
     <BlogsCard/>

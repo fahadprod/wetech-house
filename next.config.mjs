@@ -17,6 +17,11 @@ const nextConfig = {
     hostname: 'img.freepik.com',
     pathname: '/**',
    },
+   {
+    protocol: 'https',
+    hostname: 'via.placeholder.com',
+    pathname: '/**',
+   },
   ],
  },
 };

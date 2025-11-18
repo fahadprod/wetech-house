@@ -46,7 +46,7 @@ export const Header = () => {
 
   const menuItems = [
     { label: 'Home', action: () => router.push('/') },
-    // { label: 'Gallery', action: () => router.push('/gallery') },
+    { label: 'Gallery', action: () => router.push('/gallery') },
     // { label: 'Global Recognition', action: scrollToCourses },
     // { label: 'BootCamp Curriculum', action: () => router.push('#') },
     // { label: 'Course Details', action: () => router.push('#') },

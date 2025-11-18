@@ -14,7 +14,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Vveba",
+  title: "WeTechHouse",
   description: "Crafting Tomorrow's Solutions Today.",
 };
 

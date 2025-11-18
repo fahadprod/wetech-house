@@ -575,7 +575,7 @@ Allowing DevOps engineers to automate CI/CD pipelines faster
 
 Assisting frontend developers in converting design to code in seconds
 
-At companies like VVEBA, AI is already part of the training ecosystem — helping students become smarter, faster, and more job-ready.
+At companies like WeTechHouse, AI is already part of the training ecosystem — helping students become smarter, faster, and more job-ready.
 
 🧠 It’s Not AI vs. Humans — It’s AI With Humans
 The most successful people in the future tech world won’t be those who fear AI — but those who learn to use it creatively. Think of AI not as a threat, but as a teammate. `,

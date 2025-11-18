@@ -1127,7 +1127,7 @@ export const CoursesData = {
           title: 'Profile',
           content: [
             {
-              title: 'Vveba: Omni Food Website Feature List',
+              title: 'WeTechHouse: Omni Food Website Feature List',
 
               description: `<ul class="list-decimal pl-4 space-y-4">
   <li>
@@ -1285,7 +1285,7 @@ export const CoursesData = {
               link: 'https://vveba-omni-food.vercel.app/',
             },
             {
-              title: 'Vveba: Furniture Website Feature List',
+              title: 'WeTechHouse: Furniture Website Feature List',
               description: `<ul class="list-decimal pl-4 space-y-4">
   <li><strong>Axios Integration</strong>
     <ul class="list-disc pl-6 space-y-2">
@@ -1390,7 +1390,7 @@ export const CoursesData = {
               link: 'https://vveba-furniture.vercel.app/',
             },
             {
-              title: 'Vveba: Portfolio Website Feature List',
+              title: 'WeTechHouse: Portfolio Website Feature List',
               description: `<ul class="list-decimal pl-4 space-y-4">
 
   <li><strong>Dynamic Theme Toggler</strong>
@@ -1502,7 +1502,7 @@ export const CoursesData = {
               link: 'https://vveba-portfolio.vercel.app/',
             },
             {
-              title: 'Vveba: Architecture Website Features List',
+              title: 'WeTechHouse: Architecture Website Features List',
               description: `<ul class="list-decimal pl-4 space-y-4">
 
   <li><strong>Animated Full-Screen Navbar</strong>
@@ -1596,7 +1596,7 @@ export const CoursesData = {
               link: 'https://vveba-architectural.vercel.app/',
             },
             {
-              title: 'Vveba: Coffee Shop Website Features',
+              title: 'WeTechHouse: Coffee Shop Website Features',
               description: `<ul class="list-decimal pl-4 space-y-4">
 
   <li><strong>Animated Fade Effect Menu Bar</strong>
@@ -1696,7 +1696,7 @@ export const CoursesData = {
               link: 'https://vveba-coffee-shop.vercel.app/',
             },
             {
-              title: 'Vveba: Interior Design Website Features',
+              title: 'WeTechHouse: Interior Design Website Features',
               description: `<ul class="list-decimal pl-4 space-y-4">
 
   <li><strong>Full-Screen Loader</strong>
@@ -1820,7 +1820,7 @@ export const CoursesData = {
               link: 'https://vveba-interior-design.vercel.app/',
             },
             {
-              title: 'Vveba: Tours Website Features',
+              title: 'WeTechHouse: Tours Website Features',
               description: `<ul class="list-decimal pl-4 space-y-4">
 
   <li><strong>Full-Screen Animated Menu</strong>
@@ -2038,7 +2038,7 @@ export const CoursesData = {
               link: 'https://vveba-business-agency.vercel.app/',
             },
             {
-              title: 'Vveba: Classic Cars Website Features',
+              title: 'WeTechHouse: Classic Cars Website Features',
               description: `<ul class="list-decimal pl-4 space-y-4">
 
   <li><strong>Animated Rotating Side Menu</strong>
@@ -2156,7 +2156,7 @@ export const CoursesData = {
               link: 'https://vveba-classic-cars.vercel.app/',
             },
             {
-              title: 'Vveba: Apple E-Commerce Website Features',
+              title: 'WeTechHouse: Apple E-Commerce Website Features',
               description: `<ul class="list-decimal pl-4 space-y-4">
 
   <li><strong>Background Image Slider (Fade Effect)</strong>
@@ -2268,7 +2268,7 @@ export const CoursesData = {
               link: 'https://vveba-apple-ecommerce.vercel.app/',
             },
             {
-              title: 'Vveba: Food Website Features List',
+              title: 'WeTechHouse: Food Website Features List',
               description: `<ul class="list-decimal pl-4 space-y-4">
 
   <li><strong>Animated Sticky Navigation</strong>
@@ -2374,7 +2374,7 @@ export const CoursesData = {
               link: 'https://vveba-food-project.vercel.app/',
             },
             {
-              title: 'Vveba: Marketing and Design Agency Website – Detailed Feature List',
+              title: 'WeTechHouse: Marketing and Design Agency Website – Detailed Feature List',
               description: `<ul class="list-decimal pl-4 space-y-4">
 
   <li><strong>Vertically Animated and Sticky Menu</strong>
@@ -2515,7 +2515,7 @@ export const CoursesData = {
               link: 'https://vveba-creative.vercel.app/',
             },
             {
-              title: 'Vveba: PayPal Clone Website Features List',
+              title: 'WeTechHouse: PayPal Clone Website Features List',
               description: `<ul class="list-decimal pl-4 space-y-4">
 
   <li><strong>Mega Menu</strong>
@@ -2681,7 +2681,7 @@ export const CoursesData = {
               link: 'https://vveba-paypal-clone.vercel.app/',
             },
             {
-              title: 'Vveba: NA Tours Website Features List',
+              title: 'WeTechHouse: NA Tours Website Features List',
               description: `<ul class="list-decimal pl-4 space-y-4">
 
   <li><strong>Full-Screen Animated Menu</strong>
@@ -3071,14 +3071,14 @@ export const CoursesData = {
           title: 'Projects',
           content: [
             {
-              title: 'Vveba',
+              title: 'WeTechHouse',
               description:
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur urna nulla, ac tristique est tempus ut. Nulla non mi quis ligula aliquet sodales a in purus. Quisque a nibh eu ante accumsan vestibulum vitae eu nulla. Ut tortor sapien, aliquet id hendrerit eu, scelerisque ut erat. Quisque rutrum semper sodales. Proin tristique a arcu ac tempor. Sed accumsan in metus a rutrum.In ac euismod velit, nec porta risus. Donec laoreet facilisis urna, a eleifend odio pellentesque in. In efficitur, libero non rhoncus rutrum, arcu magna gravida risus, sit amet viverra nibh lectus nec mauris. Mauris eget magna eros.',
               VideoLink:
                 'https://www.youtube.com/embed/xOajkej5vZo?si=LkCW6xn4WOKtq5HD',
             },
             {
-              title: 'Vveba2',
+              title: 'WeTechHouse',
               description:
                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur urna nulla, ac tristique est tempus ut. Nulla non mi quis ligula aliquet sodales a in purus. Quisque a nibh eu ante accumsan vestibulum vitae eu nulla. Ut tortor sapien, aliquet id hendrerit eu, scelerisque ut erat. Quisque rutrum semper sodales. Proin tristique a arcu ac tempor. Sed accumsan in metus a rutrum.In ac euismod velit, nec porta risus. Donec laoreet facilisis urna, a eleifend odio pellentesque in. In efficitur, libero non rhoncus rutrum, arcu magna gravida risus, sit amet viverra nibh lectus nec mauris. Mauris eget magna eros.',
               VideoLink:

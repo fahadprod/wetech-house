@@ -30,7 +30,7 @@ export const AboutUs = () => {
                   </span>
                   <h2 className="text-3xl capitalize md:text-4xl lg:text-5xl font-bold mt-4 mb-6">
                     WETECHHOUSE turns learners into IT entrepreneurs with real skills and
-                    guaranteed jobs.
+                    guaranteed jobs
                   </h2>
                 </div>
               </div>

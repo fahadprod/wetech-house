@@ -46,13 +46,13 @@ const VideoGallery = () => {
   },
   {
    id: 2,
-   title: 'Vveba Intro',
+   title: 'WeTechHouse Intro',
    thumbnail: '/placeholder-thumbnail.jpg', // Added placeholder
    url: 'https://vveba.s3.eu-north-1.amazonaws.com/videos/Reel-03.mp4',
   },
   {
    id: 3,
-   title: 'Vveba Class Rooms',
+   title: 'WeTechHouse Class Rooms',
    thumbnail: '/placeholder-thumbnail.jpg', // Added placeholder
    url: 'https://vveba.s3.eu-north-1.amazonaws.com/videos/Reel-02.mp4',
   },
@@ -155,7 +155,7 @@ const VideoGallery = () => {
 
  return (
   <div className="container mx-auto px-4 py-8" ref={galleryRef}>
-   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+   {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
     {videos.map((video, index) => (
      <motion.div
       key={video.id}
@@ -193,7 +193,7 @@ const VideoGallery = () => {
       <h3 className="mt-2 text-lg font-medium text-gray-800">{video.title}</h3>
      </motion.div>
     ))}
-   </div>
+   </div> */}
 
    <Modal
     isOpen={isOpen}
