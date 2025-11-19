@@ -47,9 +47,9 @@ const MODULE_KEY_MAP = {
     'Agreement': 'agreement',
 };
 
-// Dialog components
-const ReadMoreDialog = ({ open, onOpenChange, selectedWeek, selectedExpertAI }) => {
-    const contentToShow = selectedExpertAI || selectedWeek;
+// Dialog components (keep the same as before)
+const ReadMoreDialog = ({ open, onOpenChange, selectedWeek }) => {
+    const contentToShow = selectedWeek;
 
     return (
         <Dialog open={open} onOpenChange={onOpenChange}>
@@ -74,12 +74,12 @@ const ReadMoreDialog = ({ open, onOpenChange, selectedWeek, selectedExpertAI }) 
                                 )}
                             </p>
                             {day.demo && (
-                                    <p className="text-blue-600 mt-2">
-                                        <Link href={day.demo} target="_blank" className="hover:underline">
-                                            View Demo Theme
-                                        </Link>
-                                    </p>
-                                )}
+                                <p className="text-blue-600 mt-2">
+                                    <Link href={day.demo} target="_blank" className="hover:underline">
+                                        View Demo Theme
+                                    </Link>
+                                </p>
+                            )}
                         </div>
                     ))}
                 </div>
@@ -110,28 +110,28 @@ const VideoDialog = ({ open, onOpenChange, currentLink }) => {
 
 // Main component
 export default function CourseOutlines() {
-    const [selectedCourse] = useState(CoursesData.courses[0]);
+    const [selectedCourseId, setSelectedCourseId] = useState(CoursesData.courses[0].id);
     const [activeSidebarItem, setActiveSidebarItem] = useState('Highlights');
     const [selectedWeek, setSelectedWeek] = useState(null);
     const [dialogOpen, setDialogOpen] = useState(false);
     const [videoDialogOpen, setVideoDialogOpen] = useState(false);
     const [currentLink, setCurrentLink] = useState('');
     const [selectedTool, setSelectedTool] = useState(null);
-    const [selectedYear, setSelectedYear] = useState('year1');
-    const [selectedTab, setSelectedTab] = useState('highlights');
+
+    // Get the selected course based on selectedCourseId
+    const selectedCourse = useMemo(() => {
+        return CoursesData.courses.find(course => course.id === selectedCourseId) || CoursesData.courses[0];
+    }, [selectedCourseId]);
+
+    const handleCourseChange = (value) => {
+        setSelectedCourseId(value)
+        setActiveSidebarItem('Highlights')
+    }
 
     const handleClickOpen = (weekIndex) => {
         const moduleKey = MODULE_KEY_MAP[activeSidebarItem];
         const weeks = selectedCourse.modules[moduleKey]?.content || [];
         setSelectedWeek(weeks[weekIndex]);
-        setDialogOpen(true);
-    };
-
-    const [selectedExpertAI, setSelectedExpertAI] = useState(null);
-
-    const handleExpertAIClickOpen = (year, tab, index) => {
-        const expertAIContent = selectedCourse.modules.module3.expertAI.years[year]?.tabs[tab]?.[index];
-        setSelectedExpertAI(expertAIContent);
         setDialogOpen(true);
     };
 
@@ -144,7 +144,6 @@ export default function CourseOutlines() {
         setDialogOpen(false);
         setVideoDialogOpen(false);
         setSelectedWeek(null);
-        setSelectedExpertAI(null);
         setCurrentLink('');
     };
 
@@ -188,6 +187,7 @@ export default function CourseOutlines() {
             case 'Highlights':
             case 'Module 1':
             case 'Module 2':
+            case 'Module 3':
             case 'Module 4':
             case 'Module 5':
             case 'Module 6':
@@ -207,114 +207,19 @@ export default function CourseOutlines() {
                                         Read More
                                     </span>
                                 </p>
-                                {/* {item.link && (
-                                    <p className="text-blue-600 mt-2">
-                                        <Link href={item.link} target="_blank" className="hover:underline">
-                                            View Resource
-                                        </Link>
-                                    </p>
-                                )} */}
+
+                                {item.link && (
+                                    <div className="w-full mt-6">
+                                        <Button
+                                            onClick={() => handleVideoDialog(item.link)}
+                                            className="text-white bg-[#363f46] hover:bg-[#e92e3e] w-full py-6 text-lg"
+                                        >
+                                            View Project Demo
+                                        </Button>
+                                    </div>
+                                )}
                             </div>
                         ))}
-                    </div>
-                );
-
-            case 'Module 3':
-                return (
-                    <div className="space-y-6">
-                        {/* Main Dropdown Only */}
-                        <div className="border border-gray-200 rounded-lg overflow-hidden mb-6">
-                            <div className="p-4 bg-gray-50">
-                                <Select
-                                    value={selectedYear}
-                                    onValueChange={setSelectedYear}
-                                >
-                                    <SelectTrigger className="w-full">
-                                        <SelectValue placeholder="Select Expert AI Year" />
-                                    </SelectTrigger>
-                                    <SelectContent>
-                                        <SelectItem value="year1">Year 1 Expert AI - 500 USD Per Month</SelectItem>
-                                        <SelectItem value="year2">Year 2 Expert AI - 500 USD Per Month</SelectItem>
-                                        <SelectItem value="year3">Year 3 Expert AI - 500 USD Per Month</SelectItem>
-                                    </SelectContent>
-                                </Select>
-                            </div>
-
-                            {/* Tabs - Independent of dropdown */}
-                            <div className="p-4">
-                                <div className="border-b border-gray-200 mb-4">
-                                    <div className="flex space-x-1 overflow-x-auto pb-2">
-                                        <Button
-                                            variant="ghost"
-                                            className={`px-4 py-2 text-sm font-medium rounded-none border-b-2 whitespace-nowrap flex-shrink-0 ${selectedTab === 'highlights' ? 'border-[#e92e3e] text-[#e92e3e]' : 'border-transparent text-gray-500 hover:text-gray-700'}`}
-                                            onClick={() => setSelectedTab('highlights')}
-                                        >
-                                            Highlights
-                                        </Button>
-                                        <Button
-                                            variant="ghost"
-                                            className={`px-4 py-2 text-sm font-medium rounded-none border-b-2 whitespace-nowrap flex-shrink-0 ${selectedTab === 'authentication' ? 'border-[#e92e3e] text-[#e92e3e]' : 'border-transparent text-gray-500 hover:text-gray-700'}`}
-                                            onClick={() => setSelectedTab('authentication')}
-                                        >
-                                            Authentication
-                                        </Button>
-                                        <Button
-                                            variant="ghost"
-                                            className={`px-4 py-2 text-sm font-medium rounded-none border-b-2 whitespace-nowrap flex-shrink-0 ${selectedTab === 'verification' ? 'border-[#e92e3e] text-[#e92e3e]' : 'border-transparent text-gray-500 hover:text-gray-700'}`}
-                                            onClick={() => setSelectedTab('verification')}
-                                        >
-                                            Verification
-                                        </Button>
-                                    </div>
-                                </div>
-
-                                {/* Tab Content */}
-                                <div className="space-y-4">
-                                    {currentModule.expertAI.years[selectedYear]?.tabs[selectedTab]?.map((item, index) => (
-                                        <div key={index} className="p-4 border border-gray-200 rounded-lg">
-                                            <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                                            <p className="text-gray-600">
-                                                {item.content?.substring(0, 200)}...
-                                                <span
-                                                    onClick={() => handleExpertAIClickOpen(selectedYear, selectedTab, index)}
-                                                    className="text-purple-600 cursor-pointer ml-1 hover:underline"
-                                                >
-                                                    Read More
-                                                </span>
-                                            </p>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Regular weekly content */}
-                        {/* <div className="border border-gray-200 rounded-lg">
-                            <div className="bg-gray-100 px-4 py-3 border-b border-gray-200">
-                                <h3 className="font-semibold">Advanced JavaScript & APIs Weekly Content</h3>
-                            </div>
-                            <div className="p-4">
-                                {currentModule.content?.map((item, index) => (
-                                    <div key={index} className="mb-4 p-4 border border-gray-200 rounded-lg last:mb-0">
-                                        <div className="flex items-center justify-between mb-2">
-                                            <h3 className="text-lg font-semibold">{item.title}</h3>
-                                            <span className="text-sm text-gray-500 bg-gray-100 px-2 py-1 rounded">
-                                                Week {item.week}
-                                            </span>
-                                        </div>
-                                        <p className="text-gray-600">
-                                            {item.content?.substring(0, 200)}...
-                                            <span
-                                                onClick={() => handleClickOpen(index)}
-                                                className="text-purple-600 cursor-pointer ml-1 hover:underline"
-                                            >
-                                                Read More
-                                            </span>
-                                        </p>
-                                    </div>
-                                ))}
-                            </div>
-                        </div> */}
                     </div>
                 );
             case 'Specialization':
@@ -324,7 +229,7 @@ export default function CourseOutlines() {
                     <div className="space-y-6">
                         {activeSidebarItem === 'Specialization' && (
                             <h3 className="text-xl font-bold text-center underline mb-6">
-                                An Individual Profile After completing 8 Months
+                                An Individual Profile After completing {selectedCourse.title}
                             </h3>
                         )}
 
@@ -427,13 +332,37 @@ export default function CourseOutlines() {
         <div className="container mx-auto sm:px-5 px-3 max-w-7xl mt-16" id='coursedetails'>
             <div className="text-center mb-8">
                 <h2 className="text-3xl md:text-4xl text-[#e92e3e] lg:text-[42px] font-bold">Course Details</h2>
+                
+                {/* Year/Course Selection Dropdown */}
+                <div className="mt-6 max-w-md mx-auto">
+                    <Card className="p-4">
+                        <label htmlFor="course-select" className="block text-sm font-medium text-gray-700 mb-2">
+                            Select Course/Year
+                        </label>
+                        <Select
+                            value={selectedCourseId}
+                            onValueChange={handleCourseChange}
+                        >
+                            <SelectTrigger className="w-full !bg-[#909599] hover:bg-[#909599] !text-white !border-l-3 rounded-sm !border-l-[#e92e3e]">
+                                <SelectValue placeholder="Select a course" />
+                            </SelectTrigger>
+                            <SelectContent position="popper" className="max-h-[var(--radix-select-content-available-height)]">
+                                {CoursesData.courses.map((course) => (
+                                    <SelectItem key={course.id} value={course.id}>
+                                        {course.title}
+                                    </SelectItem>
+                                ))}
+                            </SelectContent>
+                        </Select>
+                    </Card>
+                </div>
             </div>
 
             <div className="flex flex-col md:flex-row gap-6">
                 {/* Mobile Dropdown Selector */}
                 <div className="block md:hidden w-full">
                     <Card className="p-4">
-                        <h3 className="text-lg font-bold mb-4">Course Modules</h3>
+                        <h3 className="text-lg font-bold">Course Modules</h3>
                         <Select
                             value={activeSidebarItem}
                             onValueChange={setActiveSidebarItem}
@@ -474,9 +403,11 @@ export default function CourseOutlines() {
                 <div className="w-full md:w-3/4">
                     <Card className="p-0 min-h-[500px] h-[650px] overflow-y-auto">
                         <div className="p-6">
-                            <h2 className="text-2xl font-bold mb-6 capitalize">
-                                {getCurrentContent()?.title || activeSidebarItem}
-                            </h2>
+                            <div className="flex justify-between items-center mb-6">
+                                <h2 className="text-2xl font-bold capitalize">
+                                    {getCurrentContent()?.title || activeSidebarItem}
+                                </h2>
+                            </div>
                             <p className="text-gray-600 mb-6">{getCurrentContent()?.description}</p>
                             <div className="overflow-y-auto max-h-[600px]">
                                 {renderContent()}
@@ -491,7 +422,6 @@ export default function CourseOutlines() {
                 open={dialogOpen}
                 onOpenChange={handleDialogClose}
                 selectedWeek={selectedWeek}
-                selectedExpertAI={selectedExpertAI}
             />
 
             <VideoDialog
