@@ -334,7 +334,7 @@ export default function CourseOutlines() {
                 <h2 className="text-3xl md:text-4xl text-[#e92e3e] lg:text-[42px] font-bold">Course Details</h2>
                 
                 {/* Year/Course Selection Dropdown */}
-                <div className="mt-6 max-w-md mx-auto">
+                <div className="mt-6 sm:max-w-5xl max-w-md mx-auto">
                     <Card className="p-4">
                         <label htmlFor="course-select" className="block text-sm font-medium text-gray-700 mb-2">
                             Select Course/Year

@@ -21,34 +21,36 @@ const CarouselSlider = () => {
             {
                 id: 0,
                 thumbIcon:
-                    'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-1.jpg',
+                    'https://template.canva.com/EAFCdgvvnYI/1/0/1600w-U3rnEojziWQ.jpg',
                 image:
                     'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-01.jpg',
-                details: `Stage 01 is the ideal starting point for passionate beginners looking to become professional frontend developers. It   spans three structured levels. 
+                details: `The Six-Month Intensive Graphic Design + UI/UX Course is a future-ready, professional diploma program that transforms beginners and career-switchers into job-ready designers equipped with both traditional graphic design mastery and cutting-edge AI-enriched workflows. Delivered over 24–26 weeks (approximately 600–800 hours including live sessions, assignments, and portfolio projects), the curriculum focuses exclusively on the Adobe Creative Cloud ecosystem (Photoshop, Illustrator, InDesign, XD/Figma integration, and After Effects basics) while seamlessly integrating generative AI tools such as Midjourney, Adobe Firefly, DALL·E, Runway, Magnific.ai, and Uizard. Graduates complete the program with a competitive portfolio of 10–15 projects spanning branding, digital design, and user interface design, positioning them for high-demand roles in agencies, startups, tech companies, and freelance markets where junior designers now commonly earn projected $3,000–$5,000+ annually (or equivalent).																									
      
-       Level 01: Students undergo 6 months of intensive, paid training (12 hours/day, 5 days/week), where they learn the complete fundamentals of frontend development. This includes HTML, CSS, JavaScript, SASS, Bootstrap, Tailwind CSS, responsive design, DOM manipulation, AJAX, HTML local storage, JSON, webforms and also the best part is data structures to build logic. After completing this core phase, they are provided 2 months of free profile-building support, during which they work on real-world projects to strengthen their portfolio. Upon successful completion of the full 8-month journey—including training and profile projects—students are guaranteed a job at our company with a starting salary of $200/month.
-  
-       By the 4th month, students must successfully clear a rigorous Data Structures & Algorithms (DSA) assessment, achieving at least 80% marks to demonstrate logic-building and problem-solving abilities.
-       In the 5th month, Students must also pass a comprehensive JavaScript test, designed to assess their mastery of core concepts, coding standards, and problem-solving using modern JavaScript.
-       In the 6th month, learners move on to develop a customized final project, applying all previously learned technologies with a core emphasis on React.js.
-  
-       This final phase includes three critical checkpoints: the DSA evaluation, a comprehensive JavaScript proficiency test, and the creation of a customized final project—showcasing the student’s skill set, creativity, and readiness for development roles.
-  
-       
-       Level 02: Students embark on a 6-month deep dive into advanced JavaScript through free training sessions held 4 hours per day. It takes learners from absolute basics to advanced real-world problem solving. It begins with understanding variables (let, const), data types, operators, conditionals, loops, and functions, followed by the concepts of scope, hoisting, and strict mode. Students then progress to working with arrays, objects, destructuring, spread/rest operators, and mastering ES6+ features like arrow functions and classes. Core topics like closures, higher-order functions, and the this keyword build deeper logic-building abilities. DOM manipulation, event handling, form validation, and browser APIs are introduced next to prepare students for frontend interactivity. On the advanced side, the bootcamp covers asynchronous JavaScript with callbacks, promises, and async/await, along with APIs, JSON, local storage, and error handling. Learners dive into the event loop, memory management, modules, data structures, and functional programming. Optional mastery includes topics like debouncing, design patterns, web workers, and introduction to TypeScript, preparing students for any modern JavaScript role with confidence.
-       
-       Level 03: In our comprehensive React.js bootcamp, students begin by understanding the fundamentals of React, including JSX syntax, functional components, props, and state management using useState. They learn to handle events, render lists, and manage forms through controlled components. As they advance, they explore useEffect for side effects, conditional rendering, routing with React Router, and global state sharing through the Context API. The course also introduces styling techniques using CSS modules, Tailwind, and styled-components, along with custom hooks and error boundaries.
-       
-       Stage 01 concludes with a fully developed skillset, followed by a guaranteed $200/month salary.`,
+                Course 01: Students will master visual communication principles, professional Adobe workflows, AI-accelerated ideation and asset creation, and user-centered UI/UX design processes. The program emphasizes ethical AI usage, prompt engineering, iterative prototyping, and human-AI collaboration, ensuring graduates are not replaced by AI but empowered to lead with it.																									
+
+       Month 01: Design Foundations & AI-Powered Ideation Core principles of design (composition, color theory, typography, hierarchy) combined with immediate AI integration. Students learn prompt engineering fundamentals using Midjourney and Adobe Firefly to generate mood boards, color palettes, reference imagery, and typography explorations in minutes. Traditional sketching is paired with AI tools to accelerate concept development. Outcome: Rapid visual thinking and professional-grade reference libraries.																									
+																									
+Month 02: Advanced Raster Workflows – Photoshop + AI Enhancement Deep mastery of Photoshop (layers, masking, retouching, compositing) enriched with AI tools: Adobe Firefly generative fill/remove, Topaz Gigapixel/Magnific for upscaling, and automated selection/refinement. Students create photorealistic mockups, editorial spreads, and social media assets 5–10× faster than traditional methods while maintaining full creative control.																									
+																									
+Month 03: Vector Precision & Scalable Branding – Illustrator + AI Complete Illustrator training (Pen tool, shapes, patterns, symbols, branding systems) turbocharged with AI vector generation (Adobe Illustrator’s Text-to-Vector, Vectorize, Recolor) and third-party tools like Vectorminator AI and Kittl. Projects include logo suites, icon systems, packaging, and illustration—delivered with both manual precision and AI-assisted speed.																									
+																									
+Month 04: Layout, Editorial & Motion – InDesign + After Effects Intro Professional multi-page layout design using InDesign (magazines, brochures, annual reports, interactive PDFs). Students integrate AI-generated imagery and illustrations directly into layouts. Introduction to motion graphics via After Effects for animated logos, social reels, and UI micro-interactions, using plugins like Rubberhose and AI-assisted rotoscoping.																									
+																									
+Month 05: UI/UX Design & Prototyping – Adobe XD / Figma + AI Tools Dedicated UI/UX module covering user research basics, wireframing, high-fidelity prototyping, design systems, and responsive design. Heavy integration of AI tools: Uizard (sketch/image-to-prototype), Visily, Galileo AI for instant wireframes and component generation, and Relume for site mapping. Students design mobile apps, responsive websites, and SaaS dashboards, learning to refine AI outputs into polished, accessible interfaces.																									
+																									
+Month 06: Portfolio, AI Workflow Mastery & Professional Launch Capstone month focuses on building a world-class portfolio (Behance + personal site). Students complete a full rebranding project or UI/UX case study from research to final prototype, documenting both traditional and AI-enriched workflows. Topics include prompt libraries, upscaling pipelines, ethical AI attribution, client presentation decks, rate negotiation, and freelancing on platforms like Upwork and Contra. Final deliverables: interactive portfolio, case studies with before/after AI comparisons, and job/interview preparation.																									
+																									
+By graduation, students are fluent in the entire Adobe Suite, proficient with leading generative AI tools, and capable of delivering production-ready work at 3–5× the speed of traditional designers—making them exceptionally competitive in 2025–2026 job markets that increasingly demand “AI-fluent” creatives.																									`,
                 avatar:
-                    'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-avatar-01.jpg',
-                title: 'Junior Frontend Developer',
-                topic: '$200/month Guaranteed',
+                    'https://template.canva.com/EAFCdgvvnYI/1/0/1600w-U3rnEojziWQ.jpg',
+                title: 'Graphic Designer',
+                modelTitle: 'Six-Month Graphic Design Course (AI-Enriched with Full Adobe Suite & UI/UX Focus)',
+                topic: '$100/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
                     'Appointments Required for Entry',
-                    'Eligibility: Intermediate or equivalent',
+                    'Eligibility: Matric or Higher',
                 ],
             },
             {
@@ -81,7 +83,7 @@ const CarouselSlider = () => {
                 topic: '$500/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
                 ],
@@ -119,7 +121,7 @@ const CarouselSlider = () => {
                 topic: '$1,000/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
                 ],
@@ -167,7 +169,7 @@ const CarouselSlider = () => {
                 topic: '$1,500/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
                 ],
@@ -214,7 +216,7 @@ const CarouselSlider = () => {
                 topic: '$3,000/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
                 ],
@@ -276,7 +278,7 @@ const CarouselSlider = () => {
                 topic: '$4,000/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
                 ],
@@ -331,7 +333,7 @@ const CarouselSlider = () => {
                 topic: '$6,000/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
                 ],
@@ -433,7 +435,7 @@ const CarouselSlider = () => {
                 topic: '$10,000/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 319 7167168',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
                 ],
@@ -536,11 +538,12 @@ const CarouselSlider = () => {
     }, []);
 
     const processedDetails = useMemo(() => {
-        if (!selectedItem) return '';
-        return selectedItem.details
-            .replace(/Level (\d{2}):/g, '<br /><br /><strong>Level $1:</strong>')
-            .replace(/Level (\d):/g, '<br /><br /><strong>Level $1:</strong>');
-    }, [selectedItem]);
+    if (!selectedItem) return '';
+    return selectedItem.details
+        .replace(/Course (\d{2}):/g, '<br /><br /><strong>Course Objectives:</strong>')
+        .replace(/Month (\d{2}):/g, '<br /><br /><strong>Month $1:</strong>')
+        .replace(/Month (\d):/g, '<br /><br /><strong>Month 0$1:</strong>');
+}, [selectedItem]);
 
     const buttonStyles = useMemo(() => ({
         boxShadow: 'none',
@@ -639,7 +642,7 @@ const CarouselSlider = () => {
                                     </Avatar>
                                     <div>
                                         <DialogTitle>
-                                            {'Stage ' + (selectedItem.id + 1) + ': ' + selectedItem.title}
+                                            {selectedItem.modelTitle || selectedItem.title}
                                         </DialogTitle>
                                         <DialogDescription>
                                             {selectedItem.topic}

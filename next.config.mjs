@@ -22,6 +22,11 @@ const nextConfig = {
     hostname: 'via.placeholder.com',
     pathname: '/**',
    },
+    {
+    protocol: 'https',
+    hostname: 'template.canva.com',
+    pathname: '/**',
+   },
   ],
  },
 };
