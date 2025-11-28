@@ -145,7 +145,7 @@ export const Header = () => {
                   <Link href="/" onClick={() => setMobileMenuOpen(false)}>
                     <div className="relative w-[100px] h-[40px]">
                       <Image
-                        src="/images/logo.svg"
+                        src="/images/wetech-logo.png"
                         alt="Logo"
                         fill
                         className="object-contain"

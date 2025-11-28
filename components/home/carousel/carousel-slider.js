@@ -21,7 +21,7 @@ const CarouselSlider = () => {
             {
                 id: 0,
                 thumbIcon:
-                    'https://template.canva.com/EAFCdgvvnYI/1/0/1600w-U3rnEojziWQ.jpg',
+                    'https://template.canva.com/EAGSVDF6hSk/1/0/1600w-ryMlOVBL5JE.jpg',
                 image:
                     'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-01.jpg',
                 details: `The Six-Month Intensive Graphic Design + UI/UX Course is a future-ready, professional diploma program that transforms beginners and career-switchers into job-ready designers equipped with both traditional graphic design mastery and cutting-edge AI-enriched workflows. Delivered over 24–26 weeks (approximately 600–800 hours including live sessions, assignments, and portfolio projects), the curriculum focuses exclusively on the Adobe Creative Cloud ecosystem (Photoshop, Illustrator, InDesign, XD/Figma integration, and After Effects basics) while seamlessly integrating generative AI tools such as Midjourney, Adobe Firefly, DALL·E, Runway, Magnific.ai, and Uizard. Graduates complete the program with a competitive portfolio of 10–15 projects spanning branding, digital design, and user interface design, positioning them for high-demand roles in agencies, startups, tech companies, and freelance markets where junior designers now commonly earn projected $3,000–$5,000+ annually (or equivalent).																									
@@ -42,7 +42,7 @@ Month 06: Portfolio, AI Workflow Mastery & Professional Launch Capstone month fo
 																									
 By graduation, students are fluent in the entire Adobe Suite, proficient with leading generative AI tools, and capable of delivering production-ready work at 3–5× the speed of traditional designers—making them exceptionally competitive in 2025–2026 job markets that increasingly demand “AI-fluent” creatives.																									`,
                 avatar:
-                    'https://template.canva.com/EAFCdgvvnYI/1/0/1600w-U3rnEojziWQ.jpg',
+                    'https://template.canva.com/EAGSVDF6hSk/1/0/1600w-ryMlOVBL5JE.jpg',
                 title: 'Graphic Designer',
                 modelTitle: 'Six-Month Graphic Design Course (AI-Enriched with Full Adobe Suite & UI/UX Focus)',
                 topic: '$100/month Guaranteed',
