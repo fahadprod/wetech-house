@@ -40,6 +40,7 @@ const MODULE_KEY_MAP = {
     'Module 6': 'module6',
     'Module 7': 'module7',
     'Module 8': 'module8',
+    'Module 9': 'module9',
     'Specialization': 'specialization',
     'Team of Ten+': 'teamOfTen',
     'Projects': 'projects',
@@ -47,7 +48,7 @@ const MODULE_KEY_MAP = {
     'Agreement': 'agreement',
 };
 
-// Dialog components (keep the same as before)
+// Dialog components
 const ReadMoreDialog = ({ open, onOpenChange, selectedWeek }) => {
     const contentToShow = selectedWeek;
 
@@ -108,6 +109,37 @@ const VideoDialog = ({ open, onOpenChange, currentLink }) => {
     );
 };
 
+// Updated Projects Dialog Component to accept projects list as prop
+const ProjectsDialog = ({ open, onOpenChange, projects = [] }) => {
+    return (
+        <Dialog open={open} onOpenChange={onOpenChange}>
+            <DialogContent className="w-full z-100 sm:max-w-4xl overflow-y-auto max-h-[90vh]">
+                <DialogHeader>
+                    <DialogTitle className="text-2xl">List of Projects</DialogTitle>
+                </DialogHeader>
+                <div className="mt-4">
+                    <div className="space-y-3">
+                        {projects && projects.length > 0 ? (
+                            projects.map((project, index) => (
+                                <div key={index} className="flex items-start space-x-3 p-3 border border-gray-200 rounded-lg hover:bg-gray-50">
+                                    <span className="flex-shrink-0 w-6 h-6 bg-[#e92e3e] text-white rounded-full flex items-center justify-center text-sm font-medium mt-0.5">
+                                        {index + 1}
+                                    </span>{' '}
+                                    <span className="text-gray-700">{project}</span>
+                                </div>
+                            ))
+                        ) : (
+                            <div className="text-center py-4 text-gray-500">
+                                No projects available for this week.
+                            </div>
+                        )}
+                    </div>
+                </div>
+            </DialogContent>
+        </Dialog>
+    );
+};
+
 // Main component
 export default function CourseOutlines() {
     const [selectedCourseId, setSelectedCourseId] = useState(CoursesData.courses[0].id);
@@ -115,8 +147,10 @@ export default function CourseOutlines() {
     const [selectedWeek, setSelectedWeek] = useState(null);
     const [dialogOpen, setDialogOpen] = useState(false);
     const [videoDialogOpen, setVideoDialogOpen] = useState(false);
+    const [projectsDialogOpen, setProjectsDialogOpen] = useState(false);
     const [currentLink, setCurrentLink] = useState('');
     const [selectedTool, setSelectedTool] = useState(null);
+    const [currentProjects, setCurrentProjects] = useState([]);
 
     // Get the selected course based on selectedCourseId
     const selectedCourse = useMemo(() => {
@@ -140,11 +174,18 @@ export default function CourseOutlines() {
         setVideoDialogOpen(true);
     };
 
+    const handleProjectsDialog = (projects) => {
+        setCurrentProjects(projects || []);
+        setProjectsDialogOpen(true);
+    };
+
     const handleDialogClose = () => {
         setDialogOpen(false);
         setVideoDialogOpen(false);
+        setProjectsDialogOpen(false);
         setSelectedWeek(null);
         setCurrentLink('');
+        setCurrentProjects([]);
     };
 
     const SIDEBAR_ITEMS = useMemo(() => {
@@ -158,6 +199,7 @@ export default function CourseOutlines() {
             'Module 6',
             'Module 7',
             'Module 8',
+            'Module 9',
             'Specialization',
             'Team of Ten+',
             'Projects',
@@ -193,6 +235,7 @@ export default function CourseOutlines() {
             case 'Module 6':
             case 'Module 7':
             case 'Module 8':
+            case 'Module 9':    
                 return (
                     <div className="space-y-6">
                         {currentModule.content?.map((item, index) => (
@@ -208,16 +251,15 @@ export default function CourseOutlines() {
                                     </span>
                                 </p>
 
-                                {item.link && (
-                                    <div className="w-full mt-6">
-                                        <Button
-                                            onClick={() => handleVideoDialog(item.link)}
-                                            className="text-white bg-[#363f46] hover:bg-[#e92e3e] w-full py-6 text-lg"
-                                        >
-                                            View Project Demo
-                                        </Button>
-                                    </div>
-                                )}
+                                {/* Updated: Pass the specific week's listOfProjects to the dialog */}
+                               {item.listOfProjects && <div className="w-full mt-6">
+                                    <Button
+                                        onClick={() => handleProjectsDialog(item.listOfProjects)}
+                                        className="text-white bg-[#363f46] hover:bg-[#e92e3e] w-full py-6 text-lg"
+                                    >
+                                        List of Projects
+                                    </Button>
+                                </div>}
                             </div>
                         ))}
                     </div>
@@ -428,6 +470,13 @@ export default function CourseOutlines() {
                 open={videoDialogOpen}
                 onOpenChange={handleDialogClose}
                 currentLink={currentLink}
+            />
+
+            {/* Updated Projects Dialog with dynamic projects list */}
+            <ProjectsDialog
+                open={projectsDialogOpen}
+                onOpenChange={handleDialogClose}
+                projects={currentProjects}
             />
         </div>
     );
