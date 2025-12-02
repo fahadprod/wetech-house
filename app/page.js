@@ -27,7 +27,7 @@ export default function Home() {
     <>
     <CarouselSlider/>
     {/* <CourseDetails/> */}
-    <CourseOutlines/>
+    {/* <CourseOutlines/> */}
     <OurGoals/>
     <CertificationSections/>
     <BlogsCard/>
