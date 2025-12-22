@@ -7,5845 +7,2512 @@ export const CoursesData = {
       color: 'rgba(54, 63, 70, 0.5)',
       navigation: [
         {
-          id: 'detail',
-          title: 'Detail',
+          id: 'lecture1',
+          title: 'Lecture 1',
           content: [
             {
-              week: 1,
-              title: 'Week 1 - Web Development',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 2,
-              title: 'Week 2 - Web Development',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 3,
-              title: 'Week 3 - Web Development',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 4,
-              title: 'Week 4 - Web Development',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 5,
-              title: 'Week 5 - Web Development',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 6,
-              title: 'Week 6 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 7,
-              title: 'Week 7 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 8,
-              title: 'Week 8 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 9,
-              title: 'Week 9 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectet  ur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 10,
-              title: 'Week 10 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 11,
-              title: 'Week 11 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 12,
-              title: 'Week 12 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 13,
-              title: 'Week 13 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 14,
-              title: 'Week 14 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 15,
-              title: 'Week 15 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 16,
-              title: 'Week 16 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 17,
-              title: 'Week 17 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 18,
-              title: 'Week 18 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 19,
-              title: 'Week 19 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 20,
-              title: 'Week 20 - Web Development',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 21,
-              title: 'Week 21 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 22,
-              title: 'Week 22 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 23,
-              title: 'Week 23 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 24,
-              title: 'Week 24 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 25,
-              title: 'Week 25 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-            {
-              week: 26,
-              title: 'Week 26 - Web Development',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-              days: [
-                {
-                  day: 1,
-                  title: 'Day 1 - HTML Basics',
-                  content: 'Introduction to HTML structure and basic tags...',
-                  link: 'www.google.com/day1',
-                },
-                {
-                  day: 2,
-                  title: 'Day 2 - CSS Fundamentals',
-                  content: 'Learning about selectors, properties, and basic styling...',
-                  link: 'www.google.com/day2',
-                },
-                {
-                  day: 3,
-                  title: 'Day 3 - JavaScript Intro',
-                  content: 'Variables, data types, and basic operations...',
-                  link: 'www.google.com/day3',
-                },
-                {
-                  day: 4,
-                  title: 'Day 4 - DOM Manipulation',
-                  content: 'Selecting and modifying page elements with JavaScript...',
-                  link: 'www.google.com/day4',
-                },
-                {
-                  day: 5,
-                  title: 'Day 5 - Project Setup',
-                  content: 'Setting up your first web development project...',
-                  link: 'www.google.com/day5',
-                },
-              ],
-            },
-          ],
+              title: 'HTML',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Introduction</li>
+      <li>Html Basics</li>
+      <li>Paragraph</li>
+      <li>Headings</li>
+      <li>Images</li>
+      <li>Lists</li>
+      <li>Forms</li>
+      <li>Tables</li>
+      <li>Div Elements</li>
+      <li>Block Elements</li>
+      <li>Inline Elements</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
         },
         {
-          id: 'earning-potential',
-          title: 'Earning',
+          id: 'lecture2',
+          title: 'Lecture 2',
           content: [
             {
-              week: 1,
-              title: 'Wordpress',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-            },
-            {
-              week: 2,
-              title: 'Shopify',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-            },
-            {
-              week: 3,
-              title: 'Wix Velo',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-            },
-            {
-              week: 4,
-              title: 'Magento',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-            },
-            {
-              week: 5,
-              title: 'Web Flow',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-            },
-            {
-              week: 6,
-              title: 'BigCommerce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            },
-            {
-              week: 7,
-              title: 'PrestaShop',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            },
-            {
-              week: 8,
-              title: 'OpenCart',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            },
-            {
-              week: 9,
-              title: 'Squarespace',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            },
-            {
-              week: 10,
-              title: 'Ecwid',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            },
-            {
-              week: 11,
-              title: 'Zyro',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            },
-            {
-              week: 12,
-              title: 'Weebly',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            },
-            {
-              week: 13,
-              title: 'Shift4Shop',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            },
-            {
-              week: 14,
-              title: 'Volusion',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            },
-            {
-              week: 15,
-              title: 'Big Cartel',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            },
-            {
-              week: 16,
-              title: 'Snipcart',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            },
-            {
-              week: 17,
-              title: 'Saleor',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            },
-            {
-              week: 18,
-              title: 'Vendure',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            },
-            {
-              week: 19,
-              title: 'Shopware',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            },
-            {
-              week: 20,
-              title: 'Medusa.js',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-            },
-          ],
+              title: 'CSS (Cascading Style Sheet)',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Introduction Css3</li>
+      <li>Css3 Colors</li>
+      <li>Css3 Backgrounds</li>
+      <li>Css3 Borders</li>
+      <li>Css3 Padding</li>
+      <li>Css3 Margin</li>
+      <li>Css3 Fonts</li>
+      <li>Css3 Text</li>
+      <li>Css3 Shadow</li>
+      <li>Css3 Links</li>
+      <li>Css3 Lists</li>
+      <li>Css3 Box Model</li>
+      <li>Css3 Positions</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
         },
         {
-          id: 'profile',
-          title: 'Profile',
+          id: 'lecture3',
+          title: 'Lecture 3',
           content: [
             {
-              title: 'WeTechHouse: Omni Food Website Feature List',
+              title: 'BOOTSTRAP',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Introduction To Bootstrap</li>
+      <li>Bootstrap Basics</li>
+      <li>Bootstrap Grids</li>
+      <li>Bootstrap Breakpoints</li>
+      <li>Bootstrap Margin</li>
+      <li>Bootstrap Paddings</li>
+      <li>Bootstrap Colors</li>
+      <li>Bootstrap Css</li>
+      <li>Bootstrap Javascript</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture4',
+          title: 'Lecture 4',
+          content: [
+            {
+              title: 'Tailwind CSS',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Intro & Setup</li>
+      <li>Html Template</li>
+      <li>Fonts & Colors</li>
+      <li>Margin, Padding & Borders</li>
+      <li>Tailwind Config</li>
+      <li>Custom Fonts</li>
+      <li>Using Flexbox</li>
+      <li>Responsive Classes</li>
+      <li>Cards</li>
+      <li>Badges</li>
+      <li>Apply Directive</li>
+      <li>Grids</li>
+      <li>Buttons</li>
+      <li>Icons</li>
+      <li>Hover Effects</li>
+      <li>Responsive Nav (Part 1)</li>
+      <li>Responsive Nav (Part 2)</li>
+      <li>Wrapup</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture5',
+          title: 'Lecture 5',
+          content: [
+            {
+              title: 'Javascript Programming',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Fundamentals Of Javascript Programing From The Ground</li>
+      <li>Variables, Conditional Logic (If-Else), Arrays, Objects, And Loops</li>
+      <li>Newest Es6 And Es7 Features, Including Arrow Functions, Let, And Const</li>
+      <li>Functions, Parameters-Arguments, And Return Values</li>
+      <li>Higher Level Functions And Callbacks</li>
+      <li>Array And String Methods</li>
+      <li>Asynchronous Javascript With Promises And Async</li>
+      <li>Apis (Application Programming Interfaces)</li>
+      <li>Parsing And Working With JSON(Javascript Object N</li>
+      <li>Coding Interview Challenge Prep Projects And Portfolio Development</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture6',
+          title: 'Lecture 6',
+          content: [
+            {
+              title: 'Jquery',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Jquery Syntax</li>
+      <li>Jquery Selectors</li>
+      <li>Jquery Events</li>
+      <li>Jquery Effects</li>
+      <li>Jquery Html</li>
+      <li>Jquery Traversing</li>
+      <li>Jquery Ajax & Misc Oops</li>
+      <li>Design Patterns Object-Oriented design</li>
+      <li>JSON</li>
+      <li>Dom</li>
+      <li>Ajax</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture7',
+          title: 'Lecture 7',
+          content: [
+            {
+              title: 'Storing And Retrieving Data',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Opening A File</li>
+      <li>Writing A File</li>
+      <li>Closing A File</li>
+      <li>Reading From A File</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture8',
+          title: 'Lecture 8',
+          content: [
+            {
+              title: 'Using Arrays',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Numerically Indexed</li>
+      <li>Array Associative</li>
+      <li>Arrays Sorting</li>
+      <li>Recording Arrays</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture9',
+          title: 'Lecture 9',
+          content: [
+            {
+              title: 'String Manipulation And Regular Expressions',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Formatting Strings</li>
+      <li>Joining And Splitting Strings With String Functions</li>
+      <li>Comparing Strings</li>
+      <li>Matching And Replacing Substrings With String Functions</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture10',
+          title: 'Lecture 10',
+          content: [
+            {
+              title: 'Functions',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Reusing Code And Writing Functions</li>
+      <li>Using Required And Include</li>
+      <li>Using Functions</li>
+      <li>Parameters</li>
+      <li>Recursion</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture11',
+          title: 'Lecture 11',
+          content: [
+            {
+              title: 'Object-Oriented PHP',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Object-Oriented Concepts & Creating Classes, And Attributes.</li>
+      <li>Operations In PHP Implementing Inheritance In PHP & Signing Classes</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture12',
+          title: 'Lecture 12',
+          content: [
+            {
+              title: 'MVC With Laravel',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Laravel Installation Working With Forms Working With Controller</li>
+      <li>Laravel Blade Template With Bootstrap Responses With Html</li>
+      <li>Laravel Migration</li>
+      <li>Laravel Requests, Models</li>
+      <li>Laravel Eloquent ORM</li>
+      <li>Build A Complete App In Laravel</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture13',
+          title: 'Lecture 13',
+          content: [
+            {
+              title: 'Creating Your Web Database',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Creating Databases And Users Introduction To Mysql Privilege</li>
+      <li>System Setting Up A User For The Web Creating Database Table</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture14',
+          title: 'Lecture 14',
+          content: [
+            {
+              title: 'Accessing Your Mysql Database',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Accessing Mysql Database From The Web With PHP</li>
+      <li>How Web Database develop</li>
+      <li>Checking And Filtering Input Data</li>
+      <li>Setting Up A Connection & Querying The Database</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture15',
+          title: 'Lecture 15',
+          content: [
+            {
+              title: 'Modern JavaScript / Es6',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Let, Var, Const</li>
+      <li>Functions Vs. Arrow Functions</li>
+      <li>Default Parameter Functions</li>
+      <li>Spread Operators</li>
+      <li>Rest Operates</li>
+      <li>Object Literals</li>
+      <li>Template / String Literals</li>
+      <li>DE structuring O Array</li>
+      <li>Object</li>
+      <li>Map</li>
+      <li>Filter</li>
+      <li>Set</li>
+      <li>Array</li>
+      <li>Arrays Methods</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture16',
+          title: 'Lecture 16',
+          content: [
+            {
+              title: 'React Js (Modern Web Library)',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Introduction To React.js</li>
+      <li>Understand React.js Library & Directory</li>
+      <li>React Components</li>
+      <li>Types Of Components</li>
+      <li>Build A Simple React Component</li>
+      <li>Component Composition</li>
+      <li>Component Styling</li>
+      <li>Add Styles To Your Components</li>
+      <li>Component Inter-communication</li>
+      <li>How To Pass Data From One Component To Another</li>
+      <li>Routing</li>
+      <li>Using Routing To Create Single Page App</li>
+      <li>Hooks</li>
+      <li>States</li>
+      <li>Hooks Vs States</li>
+      <li>Types Of Hooks</li>
+      <li>Using Redux As State Container For React Apps</li>
+      <li>React Bootstrap</li>
+      <li>How To Deploy React.js App</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture17',
+          title: 'Lecture 17',
+          content: [
+            {
+              title: 'NextJs (Modern Framework Of ReactJs)',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>NextJs Basics or NextJs Introduction</li>
+      <li>NextJs Installation</li>
+      <li>How To Start The NextJs Server?</li>
+      <li>NextJs Pages</li>
+      <li>What Is The Page In The NextJs?</li>
+      <li>What Is A Link Component In NextJs</li>
+      <li>Linking Between Pages In NextJs</li>
+      <li>Serving Static Files</li>
+      <li>Serving Dynamic Files</li>
+      <li>NextJs CSS / Styling</li>
+      <li>How To Add Layout In NextJs</li>
+      <li>NextJs Image Optimization</li>
+      <li>How To Add Custom Local Fonts In NextJs</li>
+      <li>Different Forms Of Pre-Rendering In NextJs</li>
+      <li>NextJs Data Fetching Methods</li>
+      <li>What Is Ssr In NextJs</li>
+      <li>NextJs - Dynamic Routes Segments</li>
+      <li>NextJs - Dynamic Import</li>
+      <li>NextJs Nested Routing</li>
+      <li>NextJs Injecting The Router</li>
+      <li>How To Catch All Routes In NextJs</li>
+      <li>NextJs Custom</li>
+      <li>NextJs Custom Server</li>
+      <li>NextJs Custom Document</li>
+      <li>NextJs Custom Error Page</li>
+      <li>NextJs Environment Variables</li>
+      <li>How To Deploy NextJs Application To Vercel</li>
+      <li>Project In NextJs</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture18',
+          title: 'Lecture 18',
+          content: [
+            {
+              title: 'Node JS',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Introduction To Nodejs</li>
+      <li>Development of Nodejs</li>
+      <li>Application Synchronous And Asynchronous Programming</li>
+      <li>Call Back Function In Nodejs</li>
+      <li>Promises In Nodejs</li>
+      <li>Mongodb With Nodejs</li>
+      <li>Design The Schema In Nodejs</li>
+      <li>Design The Rest API's</li>
+      <li>Cet Method</li>
+      <li>Post Method O Put Method</li>
+      <li>Delete Method</li>
+      <li>JSON Web Token Authentication In Nodejs</li>
+      <li>Reate The Auth App In Nodejs</li>
+      <li>Create The E-Commerce Backend</li>
+      <li>Integrated Payment Gateway</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture19',
+          title: 'Lecture 19',
+          content: [
+            {
+              title: 'Express JS',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Restful Services</li>
+      <li>Introducing Express</li>
+      <li>Building Your First Web Server</li>
+      <li>Nodemon</li>
+      <li>Environment Variables</li>
+      <li>Route Parameters</li>
+      <li>Handling HTTP Get Request</li>
+      <li>Handling HTTP Post Request</li>
+      <li>Calling Endpoints Using Postman</li>
+      <li>Input Validations</li>
+      <li>Handling HTTP Put Request</li>
+      <li>Handling HTTP Delete Request</li>
+      <li>Project- Build The Genres Api</li>
+      <li>Express- Advanced Topics</li>
+      <li>Middleware</li>
+      <li>Creating A Custom Middleware</li>
+      <li>Built-In Middleware</li>
+      <li>Environments</li>
+      <li>Configuration</li>
+      <li>Debugging</li>
+      <li>Templating Engine</li>
+      <li>Database Engines</li>
+      <li>Database Integration</li>
+      <li>Authentication</li>
+      <li>Structuring Express Applications</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture20',
+          title: 'Lecture 20',
+          content: [
+            {
+              title: 'Mongo DB',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Introduction To Mongo DB (No-SQL)</li>
+      <li>Collections In Mongo DB</li>
+      <li>Documents In Mongo DB</li>
+      <li>Difference Between MySQL And NoSQL</li>
+      <li>Inserting Data Into The Database</li>
+      <li>Filter Queries In The Mongo DB Database</li>
+      <li>Schema Validation In The Mongo DB Database</li>
+      <li>Indexing In Collections</li>
+      <li>Aggregation In Mongo DB</li>
+      <li>Embedded Document In Mongo DB</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        }
+      ],
+    },
+    {
+      id: 'Graphic design',
+      title: 'Graphic Design',
+      content: 'Graphic design course content.',
+      color: 'rgba(54, 63, 70, 0.5)',
+      navigation: [
+        {
+          id: 'lecture1',
+          title: 'Lecture 1',
+          content: [
+            {
+              title: 'Introduction to Social Media Marketing on Facebook & Instagram',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Understanding the Facebook and Instagram ecosystems</li>
+      <li>Key differences between the platforms</li>
+      <li>Setting up business profiles</li>
+      <li>Content strategies for organic growth</li>
+      <li>Best practices for engagement (likes, comments, shares, saves).</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture2',
+          title: 'Lecture 2',
+          content: [
+            {
+              title: 'Content Creation and Content Calendar',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Types of content: Posts, Stories, Reels, and Videos</li>
+      <li>How to create shareable and engaging content</li>
+      <li>Creating a content calendar</li>
+      <li>Tools for planning content (e.g., Canva, Later, Buffer)</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture3',
+          title: 'Lecture 3',
+          content: [
+            {
+              title: 'Understanding Hashtags and SEO on Instagram & Facebook',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>The role of hashtags in organic reach</li>
+      <li>Researching effective hashtags</li>
+      <li>SEO for Instagram and Facebook: Captions and Alt text</li>
+      <li>Best times to post based on your audience</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture4',
+          title: 'Lecture 4',
+          content: [
+            {
+              title: 'Engaging Your Audience and Building a Community',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>How to engage your audience authentically</li>
+      <li>Using polls, quizzes, and Stories to interact</li>
+      <li>Building relationships through DM and comments</li>
+      <li>Fostering user-generated content</li>
+      <li>Creating highlights in instagram</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture5',
+          title: 'Lecture 5',
+          content: [
+            {
+              title: 'Analytics and Insights for Organic Growth',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Navigating Facebook Insights & Instagram Analytics</li>
+      <li>Key metrics to track: Reach, Engagement, Impressions</li>
+      <li>Using data to optimize future posts and strategies</li>
+      <li>How to adjust your content based on analytics</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture6',
+          title: 'Lecture 6',
+          content: [
+            {
+              title: 'Introduction to Facebook & Instagram Ads',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Overview of Facebook Ads Manager</li>
+      <li>How Facebook & Instagram Ads work (placement, targeting)</li>
+      <li>Differences between organic reach vs. paid reach</li>
+      <li>Facebook & Instagram Ads objectives and KPIs</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture7',
+          title: 'Lecture 7',
+          content: [
+            {
+              title: 'Audience Targeting & Segmentation',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Understanding audience targeting (demographics, interests, behaviors)</li>
+      <li>Custom Audiences and Lookalike Audiences</li>
+      <li>Using Facebook Pixel for retargeting</li>
+      <li>A/B Testing ads</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture8',
+          title: 'Lecture 8',
+          content: [
+            {
+              title: 'Creating High-Converting Ads',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Creating compelling ad copy and visuals</li>
+      <li>Best practices for ad design (images, videos, carousels)</li>
+      <li>Choosing the right ad format for your campaign</li>
+      <li>Writing calls-to-action (CTA)</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture9',
+          title: 'Lecture 9',
+          content: [
+            {
+              title: 'Facebook & Instagram Ad Campaign Management',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Setting up an ad campaign from scratch</li>
+      <li>Understanding campaign structure: Campaign, Ad Set, and Ads</li>
+      <li>Budgeting and bidding strategies (Daily vs. Lifetime)</li>
+      <li>Monitoring and adjusting ad performance</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture10',
+          title: 'Lecture 10',
+          content: [
+            {
+              title: 'Analyzing and Optimizing Ad Campaigns',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Key metrics for measuring ad success: ROI, CTR, CPC</li>
+      <li>Using Facebook Ads Manager for detailed analytics</li>
+      <li>How to optimize underperforming ads</li>
+      <li>Troubleshooting common ad issues</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture11',
+          title: 'Lecture 11',
+          content: [
+            {
+              title: 'TikTok Ads – Boosting Your Content',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Introduction to TikTok</li>
+      <li>Tik Tok boost ads</li>
+      <li>Organic vs. paid promotion on TikTok</li>
+      <li>Best ad formats: In-Feed Ads, Branded Hashtag Challenges, TopView Ads</li>
+      <li>Optimizing for TikTok's unique algorithm</li>
+      <li>Budgeting and targeting for TikTok Ads</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture12',
+          title: 'Lecture 12',
+          content: [
+            {
+              title: 'LinkedIn',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Overview of LinkedIn as a professional platform</li>
+      <li>LinkedIn Jobs: Posting job openings and applying</li>
+      <li>Introduction to LinkedIn Recruiter: Finding talent and hiring</li>
+      <li>LinkedIn Marketplace: How to sell services/products effectively</li>
+      <li>Building a professional network on LinkedIn</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture13',
+          title: 'Lecture 13',
+          content: [
+            {
+              title: 'LinkedIn (2 Lecture)',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Types of LinkedIn Ads: Sponsored Content, Sponsored InMail, Text Ads</li>
+      <li>Targeting the right audience on LinkedIn</li>
+      <li>Budgeting and bidding for LinkedIn Ads</li>
+      <li>Best practices for ad creative and copy on LinkedIn</li>
+      <li>Measuring and optimizing LinkedIn Ads performance</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture14',
+          title: 'Lecture 14',
+          content: [
+            {
+              title: 'YouTube: YouTube Channel Setup and Optimization (1 Lecture)',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Setting up a YouTube channel for business or brand</li>
+      <li>Optimizing channel art, description, and playlist creation</li>
+      <li>Understanding YouTube SEO: Keywords, Titles, Tags, Descriptions</li>
+      <li>Best practices for creating engaging video content</li>
+      <li>Using YouTube Studio for video management</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture15',
+          title: 'Lecture 15',
+          content: [
+            {
+              title: 'YouTube: YouTube Ads – Formats and Targeting (2 Lecture)',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Overview of YouTube Ads: Display Ads, Skippable Video Ads, Bumper Ads</li>
+      <li>Targeting options on YouTube: Demographics, Interests, Keywords</li>
+      <li>Creating effective YouTube ads</li>
+      <li>Budgeting and tracking YouTube ad performance</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture16',
+          title: 'Lecture 16',
+          content: [
+            {
+              title: 'Whatsapp business & Ads Strategy',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>What is Whatsapp Business ?</li>
+      <li>Setting up greeting and Away business</li>
+      <li>What is lablels and how to use it for business</li>
+      <li>How to setup whatsapp businesss profile</li>
+      <li>How to connect Whatsapp with Facebook & Instagram</li>
+      <li>How to create broad casting messaging</li>
+      <li>How to create whatsapp channel</li>
+      <li>How to run whatsapp automation ads</li>
+      <li>What is Marketing messages in whatsapp business</li>
+      <li>Optimizing Pins and Boards for organic visibility</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture17',
+          title: 'Lecture 17',
+          content: [
+            {
+              title: 'Introduction to Local SEO and GMB',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Importance of GMB for local businesses</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Benefits of a verified GMB listing</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Creating a GMB Account</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Step-by-step guide to creating a Google My Business account</li>
+      <li>Verifying your business with Google</li>
+      <li>Filling out business information (name, address, phone number)</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Setting up GMB Profile</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Adding business hours, contact info, and location on Google Maps</li>
+      <li>Uploading business logo and cover photos</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture18',
+          title: 'Lecture 18',
+          content: [
+            {
+              title: 'Photos and Visual Content Optimization',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Uploading and optimizing images (e.g., logo, exterior, interior, products)</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Best practices for photo quality and SEO</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Adding Products and Services</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>How to list your products and services on GMB</li>
+      <li>Descriptions and pricing strategies for local businesses</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Getting and Managing Reviews</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Importance of customer reviews for SEO</li>
+      <li>Best practices for collecting and responding to reviews</li>
+      <li>How to handle negative reviews effectively</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Adding Updates (Events, Offers, News)</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>How to add posts, special offers, events, and updates</li>
+      <li>Best times to post for maximum visibility</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture19',
+          title: 'Lecture 19',
+          content: [
+            {
+              title: 'GMB Citations – Building and Managing',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Importance of citations for local SEO</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>How to get consistent business listings on other platforms (e.g., Yelp, Yellow Pages)</li>
+      <li>Tools to manage and track citations (e.g., Moz Local)</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Using Local Guides for Local SEO</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Role of Google Local Guides in Business Visibility</li>
+      <li>How to encourage reviews and engagement from Local Guides</li>
+    </ul>
+  </li>
+  <li>
+    <strong>GMB Smart Ads</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Introduction to Google My Business Smart Ads</li>
+      <li>How to create and manage Smart Ads</li>
+      <li>Best practices for targeting local customers with GMB Smart Ads</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture20',
+          title: 'Lecture 20',
+          content: [
+            {
+              title: 'Local SEO Signals for GMB Ranking',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Understanding NAP consistency (Name, Address, Phone Number)</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>The importance of local backlinks</li>
+      <li>Local content creation strategies</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Leveraging Local SEO Tools</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Using Google Search Console for local search insights</li>
+      <li>Tools like BrightLocal, GMB Everywhere, Semrush, Whitespark for tracking local SEO performance</li>
+    </ul>
+  </li>
+  <li>
+    <strong>Advanced Local SEO Strategies</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Getting featured in the Local Pack</li>
+      <li>Optimizing your website for local keywords</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        }
+      ],
+    },
+    {
+      id: 'Digital marketing',
+      title: 'Digital Marketing',
+      content: 'Digital marketing course content.',
+      color: 'rgba(54, 63, 70, 0.5)',
+      navigation: [
+        {
+          id: 'lecture1',
+          title: 'Lecture 1',
+          content: [
+            {
+              title: 'Introduction to Social Media Marketing & AI in SMM',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Understanding Social Media & AI in Marketing</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Importance of social media for businesses</li>
+      <li>AI’s role in social media (Content creation, Ads, Analytics)</li>
+      <li>Overview of key platforms</li>
+      <li>Tools: ChatGPT, Google Trends, BuzzSumo</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture2',
+          title: 'Lecture 2',
+          content: [
+            {
+              title: 'Developing a Social Media Strategy with AI',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Setting goals (Brand awareness, Engagement, Conversions)</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>AI-powered audience research</li>
+      <li>Competitor analysis with AI</li>
+      <li>Tools: Semrush, SparkToro, Brandwatch</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture3',
+          title: 'Lecture 3',
+          content: [
+            {
+              title: 'Facebook Marketing & AI Tools',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Facebook Business Page Optimization & Content</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Facebook Page setup & AI-generated content ideas</li>
+      <li>Automated scheduling & best posting practices</li>
+      <li>Facebook Groups for engagement</li>
+      <li>Tools: Meta Business Suite, Canva (AI Magic Resize), Publer</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture4',
+          title: 'Lecture 4',
+          content: [
+            {
+              title: 'Facebook Ads & AI-Powered Insights',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>AI-driven audience targeting & lookalike audiences</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Facebook Ads Manager & automated campaigns</li>
+      <li>AI-based ad creatives & performance tracking</li>
+      <li>Tools: Meta Ads Manager, AdCreative.ai, Revealbot</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture5',
+          title: 'Lecture 5',
+          content: [
+            {
+              title: 'Instagram Marketing & AI Tools',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Instagram Profile Optimization & AI Content Creation</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Instagram Business Profile setup</li>
+      <li>AI-generated captions, hashtags & reels</li>
+      <li>AI-powered analytics & engagement strategies</li>
+      <li>Tools: Flick.tech (Hashtag AI), Lumen5 (Video AI), Canva Magic Write</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture6',
+          title: 'Lecture 6',
+          content: [
+            {
+              title: 'Instagram Ads & Automation',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>AI-driven ad creation for Instagram</li>
+      <li>Best times to post (AI-based insights)</li>
+      <li>Automated influencer outreach</li>
+      <li>Tools: Instapromote, Jasper AI, Metricool</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture7',
+          title: 'Lecture 7',
+          content: [
+            {
+              title: 'YouTube Marketing & AI Video Tools',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>YouTube Channel Setup & AI Video Editing</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>YouTube branding & AI-generated thumbnails</li>
+      <li>SEO optimization with AI tools</li>
+      <li>AI-assisted scriptwriting & voiceovers</li>
+      <li>Tools: TubeBuddy, VidIQ, Pictory.ai</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture8',
+          title: 'Lecture 8',
+          content: [
+            {
+              title: 'YouTube Ads & AI-Powered Video Growth',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>AI in YouTube monetization strategies</li>
+      <li>Running AI-optimized ads</li>
+      <li>AI-generated video summaries & subtitles</li>
+      <li>Tools: YouTube Ads Manager, Descript (AI Video Editing), OpusClip</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture9',
+          title: 'Lecture 9',
+          content: [
+            {
+              title: 'TikTok Marketing & AI Tools',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>TikTok Content Creation & AI-Driven Trends</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Understanding TikTok’s AI-based algorithm</li>
+      <li>Creating viral content using AI tools</li>
+      <li>AI-powered trend analysis & prediction</li>
+      <li>Tools: TikTok Creative Center, CapCut (AI Video Editing), TrendTok</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture10',
+          title: 'Lecture 10',
+          content: [
+            {
+              title: 'TikTok Ads & AI-Powered Marketing',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>AI-powered ad creatives for TikTok</li>
+      <li>Spark Ads & influencer partnerships</li>
+      <li>AI-driven analytics for better engagement</li>
+      <li>Tools: TikTok Ads Manager, InVideo AI, Synthesia</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture11',
+          title: 'Lecture 11',
+          content: [
+            {
+              title: 'LinkedIn Marketing & AI for B2B Growth',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>LinkedIn Profile Optimization & AI Engagement</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>AI-powered LinkedIn profile writing</li>
+      <li>Content strategy with AI-generated posts</li>
+      <li>AI-based LinkedIn lead generation</li>
+      <li>Tools: Taplio, Shield Analytics, LinkedIn Sales Navigator</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture12',
+          title: 'Lecture 12',
+          content: [
+            {
+              title: 'LinkedIn Ads & AI for Networking',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Running LinkedIn Ads with AI insights</li>
+      <li>AI-powered personalized messaging & outreach</li>
+      <li>Automation for LinkedIn networking</li>
+      <li>Tools: LinkedIn Campaign Manager, Crystal Knows, Zopto</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture13',
+          title: 'Lecture 13',
+          content: [
+            {
+              title: 'AI-Powered Content Planning & Social Media Automation',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Creating a Social Media Content Calendar with AI</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>AI-powered content ideas & scheduling</li>
+      <li>AI-driven competitor analysis</li>
+      <li>AI for engagement & automation</li>
+      <li>Tools: Trello, Planable, ContentStudio AI</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture14',
+          title: 'Lecture 14',
+          content: [
+            {
+              title: 'Social Media Automation & AI Tools',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>AI chatbots for social media engagement</li>
+      <li>Automating responses & community management</li>
+      <li>AI-driven email & DM marketing</li>
+      <li>Tools: ManyChat, MobileMonkey, ChatGPT API</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture15',
+          title: 'Lecture 15',
+          content: [
+            {
+              title: 'Advanced AI Strategies & Final Project',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>AI-Driven Social Media Growth & Future Trends</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Retargeting strategies using AI</li>
+      <li>AI for audience behavior prediction</li>
+      <li>Emerging trends in AI-powered marketing</li>
+      <li>Tools: Jasper AI, HubSpot AI, Persado</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture16',
+          title: 'Lecture 16',
+          content: [
+            {
+              title: 'Final Project & Certification',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Creating a full AI-powered social media marketing plan</li>
+      <li>Hands-on implementation using AI tools</li>
+      <li>Q&A session & certification</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+      ],
+    },
+    {
+      id: 'Freelancing',
+      title: 'Freelancing',
+      content: 'Freelancing course content.',
+      color: 'rgba(54, 63, 70, 0.5)',
+      navigation: [
+        {
+          id: 'lecture1',
+          title: 'Lecture 1',
+          content: [
+            {
+              title: 'Introduction to Freelancing in the AI Era on Key Platforms',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Defining freelancing and its evolution on Upwork, Fiverr, and LinkedIn</li>
+      <li>Understanding the impact of AI on the gig economy within these platforms</li>
+      <li>Identifying high-demand freelancing niches and AI's influence on them</li>
+      <li>Ethical considerations of using AI in freelancing on Upwork, Fiverr, and LinkedIn</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture2',
+          title: 'Lecture 2',
+          content: [
+            {
+              title: 'Optimizing Your Freelancer Profile with AI',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Creating compelling profiles on Upwork and Fiverr optimized for AI-driven search</li>
+      <li>Leveraging AI tools for profile enhancement and visibility on Upwork and Fiverr.</li>
+      <li>Gig creation and optimisation in Fiverr</li>
+      <li>Crafting a professional LinkedIn profile to attract clients and build authority</li>
+      <li>Using AI to analyze successful profiles and identify optimization opportunities</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture3',
+          title: 'Lecture 3',
+          content: [
+            {
+              title: 'Mastering Project Proposals with AI',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Understanding the key components of winning proposals on Upwork.</li>
+      <li>Tailoring proposals to specific clients and projects using AI tools</li>
+      <li>Analyzing project requirements and client needs</li>
+      <li>Crafting compelling proposals that highlight AI proficiency and value proposition</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture4',
+          title: 'Lecture 4',
+          content: [
+            {
+              title: 'Effective Communication and Client Management with AI',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Communicating project updates, inquiries, and deliverables effectively using AI writing assistants</li>
+      <li>Managing client expectations, feedback, and revisions in an AI-enhanced workflow</li>
+      <li>Utilizing Upwork AI tools for client communication, scheduling, and basic project management tasks</li>
+      <li>Building strong client relationships on Upwork, Fiverr, and LinkedIn</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture5',
+          title: 'Lecture 5',
+          content: [
+            {
+              title: 'LinkedIn for Freelancers: Building Your Brand',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Leveraging LinkedIn for freelancing opportunities and client acquisition</li>
+      <li>Creating content that showcases your expertise and attracts potential clients</li>
+      <li>Networking and building connections with clients and industry professionals on LinkedIn</li>
+      <li>Using AI to optimize your LinkedIn strategy and content creation</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture6',
+          title: 'Lecture 6',
+          content: [
+            {
+              title: 'Advanced Platform Strategies and AI Tools',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Utilizing AI for market research and trend analysis on Upwork and Fiverr</li>
+      <li>Developing advanced search and filtering strategies to find relevant, high-paying projects</li>
+      <li>Exploring AI tools for Upwork, Fiverr, and LinkedIn automation and efficiency</li>
+      <li>Analyzing data and performance metrics with AI to optimize your freelancing strategy</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture7',
+          title: 'Lecture 7',
+          content: [
+            {
+              title: 'Portfolio Development and profile creation',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Curating a professional portfolio on Upwork, Fiverr, and LinkedIn</li>
+      <li>Leveraging AI to create portfolio websites, case studies, and client testimonials</li>
+      <li>Optimizing your portfolio for search engines and client visibility</li>
+      <li>Showcasing AI skills and expertise in your portfolio</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture8',
+          title: 'Lecture 8',
+          content: [
+            {
+              title: 'The Future of Freelancing on Upwork, Fiverr, and LinkedIn',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Analyzing emerging trends on Upwork, Fiverr, and LinkedIn and the impact of AI</li>
+      <li>Key Changes and AI Integration: Platform Focus: The outline is now strictly focused on Upwork, Fiverr, and LinkedIn.</li>
+      <li>LinkedIn Emphasis: More emphasis is placed on LinkedIn for client acquisition, networking, and personal branding.</li>
+      <li>Practical AI Applications: The outline focuses on practical AI tools and strategies that can be immediately implemented on these platforms.</li>
+    </ul>
+  </li>
+</ul>`
+            }
+          ]
+        },
+
+      ],
+    },
+    {
+      id: 'WordPress & CMS Development',
+      title: 'WordPress & CMS Development',
+      content: 'WordPress & CMS Development course content.',
+      color: 'rgba(54, 63, 70, 0.5)',
+      navigation: [
+        {
+  id: 'lecture1',
+  title: 'Lecture 1',
+  content: [
+    {
+      title: 'Setup and Configure WordPress',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Difference between wordpress.com and wordpress.org</li>
+      <li>Understanding the WordPress.org Downloads Website</li>
+      <li>Installing WordPress on live server</li>
+      <li>Installing WordPress on local server</li>
+      <li>Logging into Your Dashboard</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture2',
+  title: 'Lecture 2',
+  content: [
+    {
+      title: 'Administering WordPress, Theme and Plugin Updates',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Understanding the WordPress Dashboard — Updates Screen</li>
+      <li>Understanding Version, Release and Modification Updates</li>
+      <li>Updating Based on WordPress, Theme and Plugin Compatibility</li>
+      <li>Upgrading to the Latest WordPress Release</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture3',
+  title: 'Lecture 3',
+  content: [
+    {
+      title: 'Creating and Administering Posts',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Setting Up Categories and Tags</li>
+      <li>Understanding Title and Content Areas</li>
+      <li>Configuring the Publish Area</li>
+      <li>Setting the Feature Image</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture4',
+  title: 'Lecture 4',
+  content: [
+    {
+      title: 'Creating and Administering Pages',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Differences between Pages and Posts</li>
+      <li>Creating Your Basic Website Pages</li>
+      <li>Creating Parent Pages</li>
+      <li>Difference between Visual and Text Editor</li>
+      <li>Using HTML to Extend Page Content</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture5',
+  title: 'Lecture 5',
+  content: [
+    {
+      title: 'Creating and Administering Menus',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Creating Your First Menu</li>
+      <li>Adding Pages, Post and Categories to Your Menu</li>
+      <li>Re-Arranging the Menu Items</li>
+      <li>Removing the Menu Item</li>
+      <li>Adding Custom Links to Your Menu</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture6',
+  title: 'Lecture 6',
+  content: [
+    {
+      title: 'Inserting Hyperlinks',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Inserting hyperlink to download file</li>
+      <li>Inserting Hyperlinks to an Internal Page</li>
+      <li>Inserting an E-mail Address</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture7',
+  title: 'Lecture 7',
+  content: [
+    {
+      title: 'About Shortcodes',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>What is Shortcode</li>
+      <li>How to use Shortcode</li>
+      <li>Shortcode Example</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture8',
+  title: 'Lecture 8',
+  content: [
+    {
+      title: 'Configuring Website Settings',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Configuring General Settings</li>
+      <li>Configuring Reading Settings</li>
+      <li>Configuring Permalinks</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture9',
+  title: 'Lecture 9',
+  content: [
+    {
+      title: 'Media Library',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Understanding the Default Width and Height Settings</li>
+      <li>Understanding WordPress Image File Creation</li>
+      <li>Understanding the Default Month Year Folder Structure</li>
+      <li>Uploading and Managing Media Files</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture10',
+  title: 'Lecture 10',
+  content: [
+    {
+      title: 'Themes and Plugins',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>What is a Plugin</li>
+      <li>How to download plugin</li>
+      <li>Installing, Updating, and deleting the plugin</li>
+      <li>Choosing a Theme - Installing and Configuring a Theme</li>
+      <li>Switching Between Themes</li>
+      <li>Adding Menu, Media and Content to a Theme</li>
+      <li>Administering, Upgrading and Maintaining Plugins</li>
+      <li>Example of how to use Plugins</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture11',
+  title: 'Lecture 11',
+  content: [
+    {
+      title: 'Widgets and Sidebars',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>What is Widget</li>
+      <li>What is Sidebar</li>
+      <li>Adding/Removing Widgets</li>
+      <li>Adding Text, Post, Image and other types of widgets</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture12',
+  title: 'Lecture 12',
+  content: [
+    {
+      title: 'Adding a Slideshow',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Uploading Images for Slideshow</li>
+      <li>Using the Theme's Built-in Slideshow Feature</li>
+      <li>Installing a Slideshow Plugin</li>
+      <li>Creating a Slideshow</li>
+      <li>Adding the Slideshow to a Page</li>
+      <li>Adding a Slideshow to a Sidebar</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture13',
+  title: 'Lecture 13',
+  content: [
+    {
+      title: 'Adding Social Media Buttons',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Using a Plugin to Add Social Media Buttons</li>
+      <li>Adding Social Media Buttons to a Widget</li>
+      <li>Using the Theme's Option to Add Social Media Button</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture14',
+  title: 'Lecture 14',
+  content: [
+    {
+      title: 'Inserting Google Map',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Installing a Plugin</li>
+      <li>Creating a Backup</li>
+      <li>Locating the Backup</li>
+      <li>Downloading the Backup</li>
+    </ul>
+  </li>
+</ul>`
+    },
+    {
+      title: 'WordPress Web Security',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Installing & Activating the Plugin</li>
+      <li>Scanning Your Website for Vulnerabilities</li>
+      <li>Using Strong Passwords</li>
+      <li>Changing the Admin User</li>
+      <li>Keeping WordPress & Plugins & Themes up to Date</li>
+      <li>Avoiding Free Themes</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture15',
+  title: 'Lecture 15',
+  content: [
+    {
+      title: 'Redirecting Pages',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Installing a Plugin</li>
+      <li>Configuring the Plugin</li>
+      <li>Adding a Redirect</li>
+    </ul>
+  </li>
+</ul>`
+    },
+    {
+      title: 'Website Speed Optimization',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Installing & Activating the required Plugins</li>
+      <li>Check website speed on GtMatric and other Websites</li>
+      <li>Optimize website with cache, images and js optimizer plugins</li>
+      <li>Integrate free or paid SSL</li>
+      <li>Increase website speed according to google needs</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+
+{
+  id: 'lecture16',
+  title: 'Lecture 16',
+  content: [
+    {
+      title: 'Backing up the Website',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Installing a Plugin</li>
+      <li>Creating a Backup</li>
+      <li>Locating the Backup</li>
+      <li>Downloading the Backup</li>
+    </ul>
+  </li>
+</ul>`
+    },
+    {
+      title: 'Basic On-Page SEO',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Installing & Activating the Plugin</li>
+      <li>Set title, description and focus keyword for page</li>
+      <li>Check page status, page readability status with anyone of these plugins Yoast Seo, Math Rank or All in One Seo</li>
+      <li>Submit website in google search console</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture17',
+  title: 'Lecture 17',
+  content: [
+    {
+      title: 'WordPress Themes and Their Page Builders',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>How to install Themes</li>
+      <li>How to use different components of Themes</li>
+      <li>Full customizations of Themes</li>
+    </ul>
+  </li>
+</ul>`
+    },
+    {
+      title: 'Elementor Page Builder, Wp bakery, Divi Builder & Avada Builder',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>How to install these page builders</li>
+      <li>How to use different elements of these Builders</li>
+      <li>How to make custom header and footer in these Builders</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture18',
+  title: 'Lecture 18',
+  content: [
+    {
+      title: 'Making Complete Website in WordPress',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Making E-commerce website</li>
+      <li>Making a Complete Landing Page</li>
+      <li>Making a complete Blogging Website</li>
+      <li>Making a complete Business Portfolio</li>
+    </ul>
+  </li>
+</ul>`
+    },
+    {
+      title: 'Customizing the Theme Using Code',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Understanding of HTML</li>
+      <li>Understanding of CSS3</li>
+      <li>How to change the appearance of the website using HTML and CSS code</li>
+      <li>Adding an additional CSS into your Theme code</li>
+      <li>Changing the position of the Theme components using CSS code</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+},
+{
+  id: 'lecture19',
+  title: 'Lecture 19',
+  content: [
+    {
+      title: 'One Bonus Website in Each Batch',
+      description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Key Topics:</strong>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>Making a complete Multi Vendor Website</li>
+      <li>Making a complete LMS Website</li>
+      <li>Making a complete Order Taking & Table Reservation System Website</li>
+      <li>Making a complete Ad's Listing Website</li>
+      <li>Making a complete Website for Real Estate Industry</li>
+      <li>Making a complete Social Media Platform Website</li>
+      <li>Making a complete Affiliated Blog Website</li>
+      <li>Making a Website with any custom theme</li>
+    </ul>
+  </li>
+</ul>`
+    }
+  ]
+}
+
+      ],
+    },
+    {
+      id: 'One year diploma',
+      title: 'One year diploma',
+      content: 'One year diploma course content.',
+      color: 'rgba(54, 63, 70, 0.5)', navigation: [
+        {
+          id: 'lecture1',
+          title: 'Lecture 1',
+          content: [
+            {
+              title: 'HTML',
 
               description: `<ul class="list-decimal pl-4 space-y-4">
   <li>
-    <strong>Different Meals Section with Category Tabs</strong>
+    <strong>Key Topics:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Display meals grouped into categories like Vegetarian, Vegan, Keto, High Protein.</li>
-      <li>Tabs allow instant switching between categories using DOM updates.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Food Add to Cart Functionality</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Add food items to the cart with a single click.</li>
-      <li>Dynamic cart update without page reload using JavaScript DOM manipulation.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Food Added in Cart and Stored in LocalStorage</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Cart items persist even after page refresh using localStorage.</li>
-      <li>Store product ID, name, price, and quantity.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Flycart Section with Items from LocalStorage</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Floating cart visible on all pages.</li>
-      <li>Retrieves and displays items from localStorage in real-time.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Add, Remove, and Total Price Calculation in Cart</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Users can increment/decrement quantities, remove items.</li>
-      <li>Automatically calculates total price dynamically using DOM.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Sticky 'Order Now' Bar Linked to Cart</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>A sticky bar that stays visible during scrolling.</li>
-      <li>Clicking redirects user to checkout page with cart details.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Recommended Food Section with Swiper Carousel</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>A swiper slider showing recommended meals.</li>
-      <li>Auto-play and swipe gesture support for better UX.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>How It Works Section</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Visual representation of ordering process in steps:</li>
-      <ul class="list-disc pl-6 space-y-1">
-        <li>Choose meal</li>
-        <li>Customize</li>
-        <li>Checkout & Track</li>
-      </ul>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Dietary Preferences and Allergies Section (DOM-Based)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Users can filter meals based on dietary needs like Gluten-Free, Dairy-Free.</li>
-      <li>Filters update menu dynamically without reload.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Food Nutrition Modal (DOM Update)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Clicking on a meal shows its nutrition facts (calories, protein, fat).</li>
-      <li>Modal created and updated dynamically using DOM.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Custom Pizza Builder Section</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Build your own pizza with topping selection, crust type, and size options.</li>
-      <li>Price updates in real-time as user customizes pizza.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Frequently Bought Together Section</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Suggests combo meals related to the selected dish.</li>
-      <li>DOM dynamically adds suggested meals with quick add-to-cart option.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Order Preparing Status Section (DOM)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Real-time order status updates (Preparing → On the way → Delivered).</li>
-      <li>Progress bar updates using DOM manipulation.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Today’s Special Deal with Timer Counter</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Countdown timer for limited-time deals.</li>
-      <li>Timer updates live using JavaScript interval.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Delivery Estimate Time with Geo Location</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Detect user’s location and show estimated delivery time dynamically.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Customer Review & Rating Section (Live Updates)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Users can submit reviews instantly, and they appear without a page reload.</li>
-      <li>Average rating calculated dynamically.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Customer Testimonial Section</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Carousel or grid display for real customer feedback with ratings.</li>
-    </ul>
-  </li>
-
-  <li>
-    <strong>Pricing Card Section with Animation</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Different meal plan pricing cards (Basic, Premium, Family Pack).</li>
-      <li>Includes hover animations and buy now buttons.</li>
+      <li>Introduction to HTML</li>
+       <li>HTML Elements & Attributes</li>
+  <li>Lists & Tables</li>
+  <li>Forms and User Input</li>
+  <li>Semantic HTML</li>
+  <li>Non Semantic HTML</li>
+  <li>Media in HTML</li>
+  <li>HTML5 Features</li>
+  <li>Accessibility in HTML</li>
+  <li>Advanced HTML Concepts</li>
     </ul>
   </li>
 </ul>
 
 `,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink:
-                'https://www.youtube.com/embed/xOajkej5vZo?si=LkCW6xn4WOKtq5HD',
-              link: 'https://vveba-omni-food.vercel.app/',
             },
+          ],
+        },
+        {
+          id: 'lecture2',
+          title: 'Lecture 2',
+          content: [
             {
-              title: 'WeTechHouse: Furniture Website Feature List',
+              title: 'CSS',
               description: `<ul class="list-decimal pl-4 space-y-4">
-  <li><strong>Axios Integration</strong>
+  <li>
+    <strong>Key Topics:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Simplifies API requests with cleaner syntax, error handling, and automatic JSON parsing.</li>
-      <li>Speeds up development and improves code maintainability.</li>
-    </ul>
-  </li>
-
-  <li><strong>AJAX (Fetch API)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Fetches data dynamically without reloading the page.</li>
-      <li>Provides faster, smoother user experience.</li>
-    </ul>
-  </li>
-
-  <li><strong>JSON Data API</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Stores and delivers structured product data.</li>
-      <li>Ensures real-time product updates and smooth integration.</li>
-    </ul>
-  </li>
-
-  <li><strong>Sticky Navbar</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Keeps navigation visible at the top of the screen.</li>
-      <li>Allows quick access to sections while scrolling.</li>
-    </ul>
-  </li>
-
-  <li><strong>Product Search from API</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Provides instant search results as users type.</li>
-      <li>Fetches product data directly from the API.</li>
-    </ul>
-  </li>
-
-  <li><strong>Render Products from API</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Dynamically displays furniture items pulled from API.</li>
-      <li>Ensures up-to-date product availability.</li>
-    </ul>
-  </li>
-
-  <li><strong>Add to Cart with LocalStorage</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Saves selected products in the browser storage.</li>
-      <li>Keeps cart data even after page reload.</li>
-    </ul>
-  </li>
-
-  <li><strong>Image Slider (Slick Carousel)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Showcases multiple product images in a slider.</li>
-      <li>Supports smooth swipe and autoplay transitions.</li>
-    </ul>
-  </li>
-
-  <li><strong>Image Magnifying Glass</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Lets users zoom in on product images for detail view.</li>
-      <li>Improves user experience for detailed inspection.</li>
-    </ul>
-  </li>
-
-  <li><strong>Typewriter Effect</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Adds animated typing effect for offers or headlines.</li>
-    </ul>
-  </li>
-
-  <li><strong>FAQs Section with DOM</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays frequently asked questions dynamically.</li>
-      <li>Allows toggling answers using DOM manipulation.</li>
-    </ul>
-  </li>
-
-  <li><strong>Product Category Tabs</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Organizes furniture into categories like chairs, sofas, tables.</li>
-      <li>Tab-based navigation powered by DOM scripting.</li>
-    </ul>
-  </li>
-
-  <li><strong>Cart Management System</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Supports adding, updating, and deleting products in cart.</li>
-      <li>Integrates with localStorage for persistence.</li>
-    </ul>
-  </li>
-
-  <li><strong>Google Maps Integration</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays store or warehouse location on interactive map.</li>
-      <li>Helps customers find nearby physical stores easily.</li>
+      <li>Basics</li>
+      <li>Selectors</li>
+      <li>Box Model</li>
+      <li>Text & Fonts</li>
+      <li>Backgrounds & Borders</li>
+      <li>Layout Basics</li>
+      <li>Flexbox</li>
+      <li>Transitions & Animations</li>
+      <li>Responsive Design</li>
+      <li>Advanced CSS Concepts</li>
+      <li>Pseudo Selectors</li>
     </ul>
   </li>
 </ul>`,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink: 'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-              link: 'https://vveba-furniture.vercel.app/',
             },
+          ],
+        },
+        {
+          id: 'lecture3',
+          title: 'Lecture 3',
+          content: [
             {
-              title: 'WeTechHouse: Portfolio Website Feature List',
+              title: 'Bootstrap',
               description: `<ul class="list-decimal pl-4 space-y-4">
-
-  <li><strong>Dynamic Theme Toggler</strong>
+  <li>
+    <strong>Key Topics:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Switch seamlessly between light and dark themes for better user experience.</li>
+      <li>INTRODUCTION</li>
+      <li>BASIC CONCEРТ</li>
+      <li>GRIDS</li>
+      <li>BREAKPOINTS</li>
+      <li>MARGIN</li>
+      <li>PADDING</li>
+      <li>COLOR</li>
+      <li>NAVIGATION</li>
+      <li>AND MORE</li>
     </ul>
   </li>
-
-  <li><strong>Responsive Navbar Menu</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>A mobile-friendly toggle menu that adapts across devices for smooth navigation.</li>
-    </ul>
-  </li>
-
-  <li><strong>Animated Scroll Progress Bar</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays reading progress with a stylish scroll indicator at the top.</li>
-    </ul>
-  </li>
-
-  <li><strong>Modal Popup</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Showcases projects, images, or messages inside interactive modal windows.</li>
-    </ul>
-  </li>
-
-  <li><strong>Form Input Validation</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Ensures correct data entry with real-time validation for all form fields.</li>
-    </ul>
-  </li>
-
-  <li><strong>Download PDF Functionality</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Allows visitors to download your resume or documents directly in PDF format.</li>
-    </ul>
-  </li>
-
-  <li><strong>Copy to Clipboard</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>One-click functionality to copy text, email, or links instantly.</li>
-    </ul>
-  </li>
-
-  <li><strong>Dynamic Skill Bar Animation</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Animates skill levels with progress bars for engaging portfolio presentation.</li>
-    </ul>
-  </li>
-
-  <li><strong>Dynamic Tooltip</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays helpful tooltips on hover for better usability and guidance.</li>
-    </ul>
-  </li>
-
-  <li><strong>Fetch Skills with AJAX</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Loads skill data dynamically from a JSON source without reloading the page.</li>
-    </ul>
-  </li>
-
-  <li><strong>Skill Management (CRUD with Node JSON Server)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Add, update, or delete skills dynamically using a mock backend.</li>
-    </ul>
-  </li>
-
-  <li><strong>Contact Form without Page Reload</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Submits form data smoothly via AJAX for a modern experience.</li>
-    </ul>
-  </li>
-
-  <li><strong>Google Apps Script Integration</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Automates form handling and connects with Google services in the backend.</li>
-    </ul>
-  </li>
-
-  <li><strong>Email Notifications</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Sends automatic emails to you (or the user) after contact form submission.</li>
-    </ul>
-  </li>
-
-  <li><strong>Google Sheets Data Storage</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Saves submitted form entries directly into a connected Google Sheet.</li>
-    </ul>
-  </li>
-
-  <li><strong>Dynamic Blog Posts</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Fetches and displays blog posts in real-time from the Dev.io API.</li>
-    </ul>
-  </li>
-
-  <li><strong>Dynamic Pagination</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Loads blog posts with interactive pagination for faster browsing and better performance.</li>
-    </ul>
-  </li>
-
-</ul>`,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink: 'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-              link: 'https://vveba-portfolio.vercel.app/',
-            },
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture4',
+          title: 'Lecture 4',
+          content: [
             {
-              title: 'WeTechHouse: Architecture Website Features List',
+              title: 'JAVASCRIPT - BASICS',
               description: `<ul class="list-decimal pl-4 space-y-4">
-
-  <li><strong>Animated Full-Screen Navbar</strong>
+  <li>
+    <strong>Key Topics:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>A stylish fullscreen navigation menu with smooth opening and closing animations.</li>
+      <li>Introduction</li>
+      <li>Variables & Data Types</li>
+      <li>Operators</li>
+      <li>Conditional Statement</li>
+      <li>Functions</li>
+      <li>Arrays & Objects</li>
+      <li>DOM Basics</li>
+      <li>Form Handling</li>
+      <li>Basics of ES6+</li>
+      <li>Mini Projects (Basics)</li>
     </ul>
   </li>
-
-  <li><strong>Fixed Header</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Keeps the header visible at the top of the page while scrolling for easy access.</li>
-    </ul>
-  </li>
-
-  <li><strong>Swiper Slider</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Showcases architectural designs and projects using an interactive swipeable image slider.</li>
-    </ul>
-  </li>
-
-  <li><strong>Building Cost Calculator</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Lets users estimate construction costs with a smart and interactive calculator.</li>
-    </ul>
-  </li>
-
-  <li><strong>360° Panorama View</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Provides an immersive virtual tour experience with panoramic building views.</li>
-    </ul>
-  </li>
-
-  <li><strong>Building Material Selection</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Allows users to explore and choose different building materials dynamically.</li>
-    </ul>
-  </li>
-
-  <li><strong>Animated Tabs with DOM</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Organizes content into interactive tab sections with engaging animations.</li>
-    </ul>
-  </li>
-
-  <li><strong>Before & After Slider</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays architectural transformations by comparing images with a draggable slider.</li>
-    </ul>
-  </li>
-
-  <li><strong>Third-Party Property API</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Integrates external property listings for real-time project and availability updates.</li>
-    </ul>
-  </li>
-
-  <li><strong>Fetch Data with Axios</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Retrieves architectural project details dynamically from APIs using Axios.</li>
-    </ul>
-  </li>
-
-  <li><strong>Customer Reviews API (AJAX)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Loads and displays client reviews dynamically without page reload.</li>
-    </ul>
-  </li>
-
-  <li><strong>Project Timeline (React-Chrono)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Visualizes architectural project milestones with an interactive timeline.</li>
-    </ul>
-  </li>
-
-  <li><strong>Customer Reviews with Pagination</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Organizes multiple reviews with pagination for smooth browsing.</li>
-    </ul>
-  </li>
-
-  <li><strong>Animated Contact Form</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Features a modern, interactive contact form with smooth animations for better engagement.</li>
-    </ul>
-  </li>
-
-</ul>`,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink: 'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-              link: 'https://vveba-architectural.vercel.app/',
-            },
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture5',
+          title: 'Lecture 5',
+          content: [
             {
-              title: 'WeTechHouse: Coffee Shop Website Features',
+              title: 'JAVASCRIPT - ADVANCE',
               description: `<ul class="list-decimal pl-4 space-y-4">
-
-  <li><strong>Animated Fade Effect Menu Bar</strong>
+  <li>
+    <strong>Key Topics:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>A sleek navigation bar with smooth fade-in and fade-out animations.</li>
+      <li>Advanced Functions</li>
+      <li>Object-Oriented JS</li>
+      <li>Advanced Arrays & Objects</li>
+      <li>Asynchronous JavaScript</li>
+      <li>Error Handling</li>
+      <li>JavaScript in Browser</li>
+      <li>Advanced Concepts</li>
+      <li>Mini Projects (Advanced)</li>
     </ul>
   </li>
-
-  <li><strong>Background Image Slider</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Rotates coffee shop images with a soft fade transition for an elegant look.</li>
-    </ul>
-  </li>
-
-  <li><strong>Animated Coffee Menu List</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Showcases coffee items with engaging animations for better presentation.</li>
-    </ul>
-  </li>
-
-  <li><strong>Third-Party Coffee Menu API</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Fetches live coffee menu data from an external API for real-time updates.</li>
-    </ul>
-  </li>
-
-  <li><strong>Axios API Integration</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Handles data fetching and API requests efficiently with Axios.</li>
-    </ul>
-  </li>
-
-  <li><strong>Dynamic Counters on Load</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays live counts of customers, branches, and awards using DOM scripting.</li>
-    </ul>
-  </li>
-
-  <li><strong>Customer Testimonials API</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Fetches and displays real customer reviews from a third-party API.</li>
-    </ul>
-  </li>
-
-  <li><strong>Book Appointment Form</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Lets users reserve tables or book visits through an interactive form.</li>
-    </ul>
-  </li>
-
-  <li><strong>Add to Cart (LocalStorage)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Saves selected coffee products to cart with persistence in localStorage.</li>
-    </ul>
-  </li>
-
-  <li><strong>Cart Update & Remove</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Allows users to edit, update, or remove products from their shopping cart.</li>
-    </ul>
-  </li>
-
-  <li><strong>Order Summary (LocalStorage)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Generates a summary of selected products directly from stored cart data.</li>
-    </ul>
-  </li>
-
-  <li><strong>Proceed to Checkout Page</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Guides customers smoothly to checkout with their saved cart details.</li>
-    </ul>
-  </li>
-
-  <li><strong>Billing & Shipping Form Validation</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Ensures correct and complete details before processing orders.</li>
-    </ul>
-  </li>
-
-  <li><strong>Total Price Calculation</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Calculates the total cost of all selected coffee items automatically.</li>
-    </ul>
-  </li>
-
-  <li><strong>Order Completion Cleanup</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Clears cart items from localStorage once the order is placed successfully.</li>
-    </ul>
-  </li>
-
-</ul>`,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink: 'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-              link: 'https://vveba-coffee-shop.vercel.app/',
-            },
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture6',
+          title: 'Lecture 6',
+          content: [
             {
-              title: 'WeTechHouse: Interior Design Website Features',
+              title: 'REACTJS (MODERN WEB LIBRARY)',
               description: `<ul class="list-decimal pl-4 space-y-4">
-
-  <li><strong>Full-Screen Loader</strong>
+  <li>
+    <strong>Key Topics:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Displays an animated loading screen using DOM manipulation before content loads.</li>
+      <li>INTRODUCTION REACTJS</li>
+      <li>UNDERSTAND REACTJS FLOW</li>
+      <li>FOLDER STRUCTURE</li>
+      <li>REACT JSX</li>
+      <li>REACT COMPONENTS</li>
+      <li>BUILD SIMPLE REACT COMPONENT</li>
+      <li>COMPONENT STYLING</li>
+      <li>IMPLEMENT STYLE</li>
+      <li>PASS DATA ONE TO SECOND COMPOMENT</li>
+      <li>STATE VS PROP</li>
+      <li>HOOK</li>
+      <li>REACT ROUTING</li>
+      <li>REACT FORM</li>
+      <li>REACT WITH BOOTSTRAP</li>
+      <li>AXIOS API INTEGRATION</li>
     </ul>
   </li>
-
-  <li><strong>Parallax Scrolling Effect</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Adds depth to the page with layered background animations during scroll.</li>
-    </ul>
-  </li>
-
-  <li><strong>Animated Sidebar Menu</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>A smooth, collapsible sidebar with engaging animations for navigation.</li>
-    </ul>
-  </li>
-
-  <li><strong>Material Selection with DOM</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Allows users to pick materials dynamically for their design projects.</li>
-    </ul>
-  </li>
-
-  <li><strong>Real-Time Calculation</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Calculates costs or design metrics instantly using live DOM updates.</li>
-    </ul>
-  </li>
-
-  <li><strong>Visual Charts with DOM</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays data insights through dynamic, interactive charts.</li>
-    </ul>
-  </li>
-
-  <li><strong>Trending Carousel (Swiper.js)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Showcases trending interior designs using a smooth, swipeable slider.</li>
-    </ul>
-  </li>
-
-  <li><strong>Vanilla Tilt Effect</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Adds interactive 3D tilt animations to images or cards for a modern look.</li>
-    </ul>
-  </li>
-
-  <li><strong>Animated Progress Bars</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays real-time progress updates with percentage-based animations.</li>
-    </ul>
-  </li>
-
-  <li><strong>Voting Design System</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Allows users to vote on designs with live count and DOM-based updates.</li>
-    </ul>
-  </li>
-
-  <li><strong>AR Preview with HTML5 Canvas</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Provides an augmented reality preview for furniture placement.</li>
-    </ul>
-  </li>
-
-  <li><strong>3D Furniture with Scale Control</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Enables scale adjustments and multiple furniture models with preserved geometry.</li>
-    </ul>
-  </li>
-
-  <li><strong>Advanced Product Filtering</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Filters furniture by price, style, color, and more for a personalized experience.</li>
-    </ul>
-  </li>
-
-  <li><strong>Live Product Count Update</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Updates the number of products displayed instantly after applying filters.</li>
-    </ul>
-  </li>
-
-  <li><strong>Design Style Quiz</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Engages users with a quiz, saving results, allowing restarts, and tracking progress.</li>
-    </ul>
-  </li>
-
-  <li><strong>Color Palette Generator</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Generates matching color palettes based on user-selected colors.</li>
-    </ul>
-  </li>
-
-  <li><strong>Palette Management (LocalStorage)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Saves, deletes, and renames custom color palettes with persistence.</li>
-    </ul>
-  </li>
-
-  <li><strong>Color Copy Feature</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Copies selected colors to clipboard instantly for design use.</li>
-    </ul>
-  </li>
-
-  <li><strong>Interactive Mood Board</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Lets users add images, upload files, insert text, edit elements, and manage colors dynamically.</li>
-    </ul>
-  </li>
-
-</ul>`,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink: 'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-              link: 'https://vveba-interior-design.vercel.app/',
-            },
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture7',
+          title: 'Lecture 7',
+          content: [
             {
-              title: 'WeTechHouse: Tours Website Features',
+              title: 'TAILWIND CSS (BASIC)',
               description: `<ul class="list-decimal pl-4 space-y-4">
-
-  <li><strong>Full-Screen Animated Menu</strong>
+  <li>
+    <strong>Key Topics:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>A stylish navigation menu with smooth animations for better UX.</li>
+      <li>INTRODUCTION</li>
+      <li>HTML TEMPLATE</li>
+      <li>FONTS & COLORS</li>
+      <li>MARGIN, PADDING & BORDERS</li>
+      <li>TAILWIND CONFIG</li>
+      <li>CUSTOM</li>
+      <li>RESPONSIVE CLASSES</li>
+      <li>CARD</li>
+      <li>BADGES</li>
+      <li>GRIDS</li>
+      <li>BUTTONS</li>
+      <li>RESPONSIVE NAV</li>
+      <li>DISPLAY</li>
+      <li>POSITION</li>
+      <li>FLEX PROPERTY</li>
     </ul>
   </li>
-
-  <li><strong>Animated Logo</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Adds dynamic animations to the logo for an engaging visual effect.</li>
-    </ul>
-  </li>
-
-  <li><strong>Custom Header Slider</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>A fully animated header slider to showcase top destinations or offers.</li>
-    </ul>
-  </li>
-
-  <li><strong>Tours Cards with Pagination</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays tours in organized cards with pagination for easy navigation.</li>
-    </ul>
-  </li>
-
-  <li><strong>Wishlist Functionality (LocalStorage)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Lets users add tours to a wishlist and store them locally.</li>
-    </ul>
-  </li>
-
-  <li><strong>Wishlist Dropdown</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays all saved tours in a dropdown menu fetched from localStorage.</li>
-    </ul>
-  </li>
-
-  <li><strong>Animated Tours Section with Filters</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Shows all tours with animations and advanced filtering options.</li>
-    </ul>
-  </li>
-
-  <li><strong>Destination Filter</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Filters tours by selected destinations for quick searching.</li>
-    </ul>
-  </li>
-
-  <li><strong>Activity Filter</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Allows users to find tours based on specific activities.</li>
-    </ul>
-  </li>
-
-  <li><strong>Advanced Filters (Price, Difficulty, More)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Includes price range, difficulty level, and toggleable filters for better customization.</li>
-    </ul>
-  </li>
-
-  <li><strong>Background Video with Parallax Effect</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Enhances visuals using parallax scrolling and background videos.</li>
-    </ul>
-  </li>
-
-  <li><strong>Tours Gallery (React Photoswipe Gallery)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays a responsive, interactive image gallery for tours.</li>
-    </ul>
-  </li>
-
-  <li><strong>Tour Booking Card</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Allows users to select and review any tour before booking.</li>
-    </ul>
-  </li>
-
-  <li><strong>Date & Price Picker</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Lets users pick available dates and view pricing details in real time.</li>
-    </ul>
-  </li>
-
-  <li><strong>Contact Form with Validation</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>A secure and user-friendly contact form with real-time validation.</li>
-    </ul>
-  </li>
-
-</ul>`,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink: 'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-              link: 'https://vveba-road.vercel.app/',
-            },
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture8',
+          title: 'Lecture 8',
+          content: [
             {
-              title: 'Business Agency Website Features',
+              title: 'MONGO DB',
               description: `<ul class="list-decimal pl-4 space-y-4">
-
-  <li><strong>Animated Hero Section</strong>
+  <li>
+    <strong>Key Topics:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Features an eye-catching hero with a text slider animation for strong first impressions.</li>
+      <li>INTRO MONGODB</li>
+      <li>CREATE DB</li>
+      <li>CONNECT TO NODEJS</li>
+      <li>CREATE SCHEMА</li>
+      <li>ADD COLLECTION</li>
+      <li>API QUERYS</li>
+      <li>INSERT</li>
+      <li>FIND</li>
+      <li>UPDATЕ</li>
+      <li>DELETЕ</li>
+      <li>DB VALIDATION</li>
+      <li>QUERY OPERATORS</li>
     </ul>
   </li>
-
-  <li><strong>Interactive 3D Service Cards</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Service cards rotate dynamically on hover or slide for an engaging experience.</li>
-    </ul>
-  </li>
-
-  <li><strong>Testimonial Carousel (AJAX)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays client testimonials by fetching real user data via AJAX.</li>
-    </ul>
-  </li>
-
-  <li><strong>Validated Contact Form</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>A DOM-based form with real-time validation for accurate submissions.</li>
-    </ul>
-  </li>
-
-  <li><strong>Dynamic Navigation Bar</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Responsive and interactive navigation that adapts to user interactions.</li>
-    </ul>
-  </li>
-
-  <li><strong>Interactive Statistics Counter</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Animates business stats and achievements with smooth counting effects.</li>
-    </ul>
-  </li>
-
-  <li><strong>Portfolio Filter Grid</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays projects in a grid with category-based filtering options.</li>
-    </ul>
-  </li>
-
-  <li><strong>FAQ Accordion (shadcn)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Expands and collapses FAQs using stylish accordion components.</li>
-    </ul>
-  </li>
-
-  <li><strong>Pricing Cards Carousel</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Showcases pricing plans in a draggable animated carousel for easy comparison.</li>
-    </ul>
-  </li>
-
-  <li><strong>Client Logo Slider (Swiper)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays partner or client logos in an interactive slider format.</li>
-    </ul>
-  </li>
-
-  <li><strong>Animated Call-to-Action</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Engaging CTAs with animations for appointment scheduling or inquiries.</li>
-    </ul>
-  </li>
-
-  <li><strong>Breadcrumb Navigation</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Guides users with a structured navigation trail for better UX.</li>
-    </ul>
-  </li>
-
-  <li><strong>Modal Popup</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays content or forms in a sleek, animated modal overlay.</li>
-    </ul>
-  </li>
-
-  <li><strong>Tabbed Content (shadcn)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Organizes information into easy-to-navigate tabs with smooth transitions.</li>
-    </ul>
-  </li>
-
-  <li><strong>Back to Top Button</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Provides quick navigation back to the top of the page with a single click.</li>
-    </ul>
-  </li>
-
-  <li><strong>Cookie Consent Banner</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays a compliance banner for cookie usage with customizable options.</li>
-    </ul>
-  </li>
-
-  <li><strong>API Route for Contact Form</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Handles form submissions using API routes with Promise-based logic.</li>
-    </ul>
-  </li>
-
-  <li><strong>Data Fetching with SWR</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Implements SWR for efficient, real-time data fetching and caching.</li>
-    </ul>
-  </li>
-
-</ul>`,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink: 'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-              link: 'https://vveba-business-agency.vercel.app/',
-            },
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture9',
+          title: 'Lecture 9',
+          content: [
             {
-              title: 'WeTechHouse: Classic Cars Website Features',
+              title: 'EXPRESS JS',
               description: `<ul class="list-decimal pl-4 space-y-4">
-
-  <li><strong>Animated Rotating Side Menu</strong>
+  <li>
+    <strong>Key Topics:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>A stylish rotating sidebar navigation that animates for a premium experience.</li>
+      <li>INTRO EXPRESSJS</li>
+      <li>INTRO MVC</li>
+      <li>CREATE SERVER WITH EXPRESS</li>
+      <li>CREATE FOLDER STRUCTURE</li>
+      <li>ROUTING</li>
+      <li>API METHOD</li>
+      <li>ENVIRONMENT VARIABLE</li>
+      <li>NODEMON</li>
+      <li>HANDLE JSON</li>
+      <li>POSTMAN</li>
+      <li>BUILD RESTFULL API</li>
+      <li>ADV MIDDLEWARE</li>
+      <li>HANDLE JWT TOKEN</li>
+      <li>CONFIGURATION</li>
+      <li>DEBUGGING</li>
+      <li>AUTHENTICATION</li>
+      <li>CRUD PROJECТ</li>
     </ul>
   </li>
-
-  <li><strong>Car Filter Component</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Filters cars based on model, year, price, and other criteria for quick search.</li>
-    </ul>
-  </li>
-
-  <li><strong>Car Card Component</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays detailed car information in an elegant, responsive card layout.</li>
-    </ul>
-  </li>
-
-  <li><strong>Search Bar with Autocomplete</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Suggests car names or models as users type for faster searching.</li>
-    </ul>
-  </li>
-
-  <li><strong>Date Picker for Rentals</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Allows users to select rental start and end dates with an interactive calendar.</li>
-    </ul>
-  </li>
-
-  <li><strong>Image & Video Gallery</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Showcases cars through a dynamic gallery of images and videos.</li>
-    </ul>
-  </li>
-
-  <li><strong>Booking Form with Validation</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Secure and validated form for booking classic car rentals.</li>
-    </ul>
-  </li>
-
-  <li><strong>Price Calculator</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Automatically calculates rental cost based on duration and selected options.</li>
-    </ul>
-  </li>
-
-  <li><strong>Availability Checker</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Checks real-time availability of cars for selected dates.</li>
-    </ul>
-  </li>
-
-  <li><strong>Comparison Tool</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Lets users compare multiple cars side-by-side for better decision-making.</li>
-    </ul>
-  </li>
-
-  <li><strong>Interactive Timeline of Classic Cars</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays the history and evolution of classic cars visually.</li>
-    </ul>
-  </li>
-
-  <li><strong>Location Finder with Map</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Helps users locate nearby rental locations using an interactive map.</li>
-    </ul>
-  </li>
-
-  <li><strong>Maintenance History Viewer</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Shows the complete maintenance history of each classic car.</li>
-    </ul>
-  </li>
-
-  <li><strong>Rental Conditions Accordion</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays rental policies and terms in a collapsible accordion format.</li>
-    </ul>
-  </li>
-
-  <li><strong>Interactive 360° Viewer</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Provides a 360-degree interactive view of classic car interiors and exteriors.</li>
-    </ul>
-  </li>
-
-  <li><strong>Review & Rating System</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Allows users to leave ratings and reviews for cars they've rented.</li>
-    </ul>
-  </li>
-
-  <li><strong>Special Offers Banner</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Highlights discounts and offers with an eye-catching animated banner.</li>
-    </ul>
-  </li>
-
-  <li><strong>Booking Progress Tracker</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Guides users through each booking step with a visual progress tracker.</li>
-    </ul>
-  </li>
-
-</ul>`,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink: 'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-              link: 'https://vveba-classic-cars.vercel.app/',
-            },
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture10',
+          title: 'Lecture 10',
+          content: [
             {
-              title: 'WeTechHouse: Apple E-Commerce Website Features',
+              title: 'REACT JS',
               description: `<ul class="list-decimal pl-4 space-y-4">
-
-  <li><strong>Background Image Slider (Fade Effect)</strong>
+  <li>
+    <strong>Key Topics:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Displays stunning Apple product images with smooth fade transitions.</li>
+      <li>JAVASCRIPT LIBRARY</li>
+      <li>COMPONENT-BASED</li>
+      <li>VIRTUAL DOM</li>
+      <li>ONE-WAY DATA BINDING</li>
+      <li>JSX SYNTAX</li>
+      <li>HIGH PERFORMANCE</li>
+      <li>RICH ECOSYSTEM</li>
+      <li>CROSS-PLATFORM (REACT NATIVE)</li>
+      <li>STRONG COMMUNITY</li>
+      <li>SEO FRIENDLY</li>
     </ul>
   </li>
-
-  <li><strong>3D Image Rotation with Controls</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Allows users to rotate products in 3D for a detailed viewing experience.</li>
-    </ul>
-  </li>
-
-  <li><strong>Animated Button Effects</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Engaging hover and click animations for buttons to enhance interactivity.</li>
-    </ul>
-  </li>
-
-  <li><strong>Front Image Slider (Fade Effect)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Highlights featured Apple products with a stylish front-page image slider.</li>
-    </ul>
-  </li>
-
-  <li><strong>Animated Feature Section</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Dynamically renders Apple product features with engaging animations using DOM.</li>
-    </ul>
-  </li>
-
-  <li><strong>Continuous Text Scrolling Slider</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays promotional text in a smooth scrolling slider for announcements or offers.</li>
-    </ul>
-  </li>
-
-  <li><strong>Featured Products Section</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Dynamically loads and displays Apple's featured products with DOM manipulation.</li>
-    </ul>
-  </li>
-
-  <li><strong>Animated Product Cards</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Product cards with interactive hover effects for a modern shopping experience.</li>
-    </ul>
-  </li>
-
-  <li><strong>Dynamic Counter</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays real-time stats like sales or product availability with DOM-based animation.</li>
-    </ul>
-  </li>
-
-  <li><strong>Product Configurator</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Lets users customize products by selecting color, storage, and calculates total price instantly.</li>
-    </ul>
-  </li>
-
-  <li><strong>Laptop Opening Animation</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>A unique animation that simulates a laptop opening and loading the first screen dynamically.</li>
-    </ul>
-  </li>
-
-  <li><strong>Vertical Watch Slider</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays Apple Watches in a vertical carousel for easy browsing.</li>
-    </ul>
-  </li>
-
-  <li><strong>Horizontal Watch Slider</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Offers a horizontal sliding view for watch models for user-friendly navigation.</li>
-    </ul>
-  </li>
-
-  <li><strong>Product Gallery with Zoom Effect</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Provides zoom-in functionality for detailed product viewing across different tabs.</li>
-    </ul>
-  </li>
-
-  <li><strong>Product Comparison Table</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Compares multiple Apple products dynamically using DOM rendering.</li>
-    </ul>
-  </li>
-
-  <li><strong>iPhone Evolution Timeline</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Showcases the evolution of iPhones through an interactive timeline.</li>
-    </ul>
-  </li>
-
-  <li><strong>Newsletter Subscription Form</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Validates and processes user subscriptions dynamically using DOM scripting.</li>
-    </ul>
-  </li>
-
-</ul>`,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink: 'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-              link: 'https://vveba-apple-ecommerce.vercel.app/',
-            },
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture11',
+          title: 'Lecture 11',
+          content: [
             {
-              title: 'WeTechHouse: Food Website Features List',
+              title: 'NODE JS',
               description: `<ul class="list-decimal pl-4 space-y-4">
-
-  <li><strong>Animated Sticky Navigation</strong>
+  <li>
+    <strong>Key Topics:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>A stylish sticky navbar that stays visible with smooth animations while scrolling.</li>
+      <li>INTRO NODEJS</li>
+      <li>ARCHITECTURE OF NODEJS</li>
+      <li>ASYN AWAIT</li>
+      <li>HTTP</li>
+      <li>CREATE SERVER</li>
+      <li>DESIGN API'S</li>
+      <li>GET METHOD</li>
+      <li>FILE SYSTEM</li>
     </ul>
   </li>
-
-  <li><strong>Hero Header Zoom Effect Slider</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays featured meals with a dynamic zooming slider for an eye-catching look.</li>
-    </ul>
-  </li>
-
-  <li><strong>Popular Meals with Add to Cart</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Animated meal cards with an integrated add-to-cart feature for quick ordering.</li>
-    </ul>
-  </li>
-
-  <li><strong>Food Stock & Inventory Indicator</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Shows real-time stock availability with DOM-based inventory tracking.</li>
-    </ul>
-  </li>
-
-  <li><strong>Special Deals with Countdown Timer</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Highlights limited-time offers with a live countdown for urgency.</li>
-    </ul>
-  </li>
-
-  <li><strong>Menu Section with Category Tabs</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Organizes menu items into tabs for easy navigation using DOM scripting.</li>
-    </ul>
-  </li>
-
-  <li><strong>Pizza Customization Feature</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Allows users to customize pizzas with options like size, crust, and toppings.</li>
-    </ul>
-  </li>
-
-  <li><strong>Dynamic Price Calculator for Pizza</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Calculates total cost in real time based on selected size and toppings.</li>
-    </ul>
-  </li>
-
-  <li><strong>Animated 3D Food Gallery</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Showcases food items in a visually appealing 3D gallery with hover animations.</li>
-    </ul>
-  </li>
-
-  <li><strong>Combo Deals & Discounts</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Offers dynamic meal deals, like discounted drinks when ordering a pizza.</li>
-    </ul>
-  </li>
-
-  <li><strong>How It Works Section (Auto-Sliding)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Explains the ordering process through auto-sliding step-by-step visuals.</li>
-    </ul>
-  </li>
-
-  <li><strong>Special Recipe Section</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays exclusive recipes with a "Read More" option and add-to-cart functionality.</li>
-    </ul>
-  </li>
-
-  <li><strong>Nutrition Information Viewer</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Shows detailed nutritional values for each food item using DOM rendering.</li>
-    </ul>
-  </li>
-
-  <li><strong>Real-Time Customer Reviews</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Allows customers to submit and view reviews dynamically without page reload.</li>
-    </ul>
-  </li>
-
-  <li><strong>Delivery Time Estimation with Geo Location</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Calculates estimated delivery time based on the user's location.</li>
-    </ul>
-  </li>
-
-  <li><strong>Sticky Bottom CTA Bar</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>A fixed "Order Now" call-to-action bar that stays visible for quick checkout.</li>
-    </ul>
-  </li>
-
-</ul>`,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink: 'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-              link: 'https://vveba-food-project.vercel.app/',
-            },
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture12',
+          title: 'Lecture 12',
+          content: [
             {
-              title: 'WeTechHouse: Marketing and Design Agency Website – Detailed Feature List',
+              title: 'NEXT JS',
               description: `<ul class="list-decimal pl-4 space-y-4">
-
-  <li><strong>Vertically Animated and Sticky Menu</strong>
+  <li>
+    <strong>Key Topics:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Navigation menu remains visible while scrolling for easy access.</li>
-      <li>Smooth vertical animation effect while transitioning between sections.</li>
+      <li>INTRO NEXTJS</li>
+      <li>UNDERSTAND NEXT FLOW</li>
+      <li>FOLDER STRUCTURE</li>
+      <li>ROUTING</li>
+      <li>DATA FETCHING</li>
+      <li>RENDERING</li>
+      <li>SERVER</li>
+      <li>CLIENT</li>
+      <li>PAGES</li>
+      <li>STYLING</li>
+      <li>TAILWIND CSS</li>
+      <li>BUILD PROJECТ</li>
     </ul>
   </li>
-
-  <li><strong>Animated Hero Header Background</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Dynamic hero section with animated gradients, particle effects, or looping video backgrounds for an engaging first impression.</li>
-    </ul>
-  </li>
-
-  <li><strong>Typewriter Text Effect with DOM</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Headlines in the hero section or call-to-action dynamically display text with a typing animation for better engagement.</li>
-    </ul>
-  </li>
-
-  <li><strong>Services Section with Different Tabs (DOM Controlled)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Categorized service offerings displayed using interactive tabs.</li>
-      <li>Smooth tab switching using DOM manipulation for a seamless UX.</li>
-    </ul>
-  </li>
-
-  <li><strong>Client Section Slider with Swiper.js</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Show off client logos or testimonials in a responsive slider.</li>
-      <li>Swipe functionality for touch devices and autoplay for dynamic display.</li>
-    </ul>
-  </li>
-
-  <li><strong>Client Case Study Section with Dynamic Options</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Interactive case study showcase with filters (industry, project type, results).</li>
-      <li>Expandable panels or modals for detailed information on each case study.</li>
-    </ul>
-  </li>
-
-  <li><strong>ROI Calculator for Price Estimate</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Custom-built Return on Investment calculator allowing potential clients to estimate ROI based on ad spend or marketing strategy.</li>
-      <li>Real-time calculation with input fields for campaign budget, estimated conversion rate, and revenue projection.</li>
-    </ul>
-  </li>
-
-  <li><strong>ROI Calculation for Monthly ROI TOTAL Price</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Additional calculation showing monthly cost vs. estimated monthly revenue.</li>
-      <li>Automatic updates based on input fields using DOM manipulation.</li>
-    </ul>
-  </li>
-
-  <li><strong>Third-Party API for Customer Data (AJAX Integration)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Fetch real-time customer or lead data using APIs (e.g., HubSpot, Salesforce).</li>
-      <li>Asynchronous data loading without refreshing the page.</li>
-    </ul>
-  </li>
-
-  <li><strong>Customer Review Section (API-Based)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Real-time fetching of reviews from platforms like Google Reviews or Trustpilot.</li>
-      <li>Auto-refreshing review list with DOM updates.</li>
-    </ul>
-  </li>
-
-  <li><strong>Implement Pagination for API Data</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Efficient handling of large review or client datasets with paginated navigation.</li>
-      <li>Dynamic page switching using AJAX and DOM manipulation.</li>
-    </ul>
-  </li>
-
-  <li><strong>Impact Numbers Counter with DOM</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Animated number counters for metrics like clients served, projects completed, ROI delivered.</li>
-      <li>Increases engagement and trust.</li>
-    </ul>
-  </li>
-
-  <li><strong>Animated Team Cards with DOM</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Hover effects with 3D tilt animations and dynamic role display.</li>
-      <li>Flip animation to show additional details on the back of the card.</li>
-    </ul>
-  </li>
-
-  <li><strong>Portfolio Section with Filterable Tabs (DOM Controlled)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Filter projects by category (Web Design, Branding, Digital Marketing).</li>
-      <li>Smooth animations for filtering without page reload.</li>
-    </ul>
-  </li>
-
-  <li><strong>Portfolio Project Details Modal</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Clicking on a portfolio item opens a modal with detailed case studies, project images, and videos.</li>
-      <li>DOM-driven modal open/close functionality with animations.</li>
-    </ul>
-  </li>
-
-  <li><strong>Process Timeline (Step-by-Step)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>A visually appealing timeline showing workflow stages (Research → Strategy → Design → Launch).</li>
-      <li>Interactive animations on scroll using DOM.</li>
-    </ul>
-  </li>
-
-  <li><strong>Back to Top Button</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Sticky button visible on scroll for easy navigation back to the top.</li>
-      <li>Smooth scroll animation implemented with DOM scripting.</li>
-    </ul>
-  </li>
-
-  <li><strong>Live Activity Feature</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays real-time updates like "10 users are viewing this page" or "New project completed."</li>
-      <li>Data fetched using real-time APIs or simulated with DOM.</li>
-    </ul>
-  </li>
-
-  <li><strong>Real-Time Live Chat Feature</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Integrated live chat using WebSockets or third-party solutions like Tawk.to.</li>
-      <li>Real-time messaging with DOM updates for incoming and outgoing messages.</li>
-    </ul>
-  </li>
-
-</ul>`,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink: 'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-              link: 'https://vveba-creative.vercel.app/',
-            },
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture13',
+          title: 'Lecture 13',
+          content: [
             {
-              title: 'WeTechHouse: PayPal Clone Website Features List',
+              title: 'PHP LARAVEL',
               description: `<ul class="list-decimal pl-4 space-y-4">
-
-  <li><strong>Mega Menu</strong>
+  <li>
+    <strong>Key Topics:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>A large dropdown menu that organizes multiple navigation links under relevant categories for quick access to all sections of the website.</li>
+      <li>MVC ARCHITECTURE</li>
+      <li>ELEGANT SYNTAX</li>
+      <li>BLADE TEMPLATE ENGINE</li>
+      <li>ELOQUENT ORM</li>
+      <li>BUILT-IN AUTHENTICATION</li>
+      <li>ROUTING SYSTEM</li>
+      <li>ARTISAN CLI</li>
+      <li>DATABASE MIGRATIONS</li>
+      <li>SECURITY FEATURES</li>
+      <li>RESTFUL API SUPPORT</li>
     </ul>
   </li>
-
-  <li><strong>Send Money Quickly Section (with DOM)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Users can send money instantly by selecting a contact or entering an email/phone number.</li>
-      <li>DOM manipulation ensures dynamic updates when users input details or change the amount.</li>
-    </ul>
-  </li>
-
-  <li><strong>Generate Payment Link (with DOM)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Create shareable payment links dynamically.</li>
-      <li>Users can copy and send links to request payments without logging in.</li>
-    </ul>
-  </li>
-
-  <li><strong>Incoming Payment Request (with DOM & User Data)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays real-time incoming payment requests from other users.</li>
-      <li>Includes payer details, amount, and options to approve or reject.</li>
-    </ul>
-  </li>
-
-  <li><strong>Outgoing Payment (with DOM & User Data)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Shows a list of payments sent by the user with statuses (Pending, Completed, Failed).</li>
-      <li>Dynamic UI updates using DOM when transactions are processed.</li>
-    </ul>
-  </li>
-
-  <li><strong>All Transaction History (with Amount, Status, Date)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Comprehensive transaction log showing every transaction with details like:</li>
-      <li>Amount</li>
-      <li>Date & Time</li>
-      <li>Status (Success, Pending, Failed)</li>
-      <li>Payment Method</li>
-    </ul>
-  </li>
-
-  <li><strong>Transaction History Filters (Search, Sorting, Find by Status)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Search transactions by:</li>
-      <li>Name</li>
-      <li>Amount</li>
-      <li>Date range</li>
-      <li>Sort by newest/oldest or highest/lowest amount.</li>
-      <li>Filter transactions by status (Pending, Completed, Failed).</li>
-    </ul>
-  </li>
-
-  <li><strong>Resolution Center or Dispute Center (Chat-Style Interface)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Handles disputes or payment issues with a chat-like conversation system.</li>
-      <li>Supports file uploads for proof.</li>
-    </ul>
-  </li>
-
-  <li><strong>Spending Analysis (with Category & Time Range Filters)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Visual analytics of user spending habits:</li>
-      <li>Graphical charts by category (Food, Bills, Travel, etc.)</li>
-      <li>Time-based filters (Daily, Weekly, Monthly).</li>
-    </ul>
-  </li>
-
-  <li><strong>Currency Converter (with DOM)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Convert amounts between multiple currencies in real time.</li>
-      <li>Uses exchange rate API for live conversion updates.</li>
-    </ul>
-  </li>
-
-  <li><strong>Bill Payment Scheduler (with DOM)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Schedule bill payments for future dates.</li>
-      <li>DOM dynamically updates the schedule and reminders.</li>
-    </ul>
-  </li>
-
-  <li><strong>Total Balance Card (with DOM)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Displays the user's total available balance.</li>
-      <li>Automatically updates after transactions without page reload.</li>
-    </ul>
-  </li>
-
-  <li><strong>Login Page</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Secure login system with username/email & password.</li>
-      <li>Includes basic authentication validation.</li>
-    </ul>
-  </li>
-
-  <li><strong>Signup Page</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>User registration with:</li>
-      <li>Personal account</li>
-      <li>Business account</li>
-    </ul>
-  </li>
-
-  <li><strong>Security Verification (with OTP & Security Questions using DOM)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Multi-factor authentication with:</li>
-      <li>One-Time Password (SMS/Email)</li>
-      <li>Security questions for extra protection</li>
-    </ul>
-  </li>
-
-  <li><strong>Recurring Payment Manager (Active, Paused, Cancelled Tabs using DOM)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Manage subscription payments:</li>
-      <li>View active subscriptions</li>
-      <li>Pause or cancel recurring payments</li>
-      <li>Dynamic tab switching via DOM</li>
-    </ul>
-  </li>
-
-  <li><strong>Edit Recurring Payment (with DOM)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Edit subscription details:</li>
-      <li>Amount</li>
-      <li>Frequency (Weekly, Monthly, Yearly)</li>
-      <li>Start/end date</li>
-    </ul>
-  </li>
-
-  <li><strong>Payment Approval Workflow (with Filters for Priority)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>For business accounts:</li>
-      <li>Manage approval hierarchy for large payments</li>
-      <li>Filter requests by priority level (High, Medium, Low)</li>
-    </ul>
-  </li>
-
-  <li><strong>User Can Approve or Reject Any Payment (with Note)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Approvers can:</li>
-      <li>Accept or reject payment requests</li>
-      <li>Add comments or reasons for the decision</li>
-    </ul>
-  </li>
-
-  <li><strong>Document Upload & Verification (with DOM)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Users can upload identity documents (ID, Passport, Utility Bill).</li>
-      <li>Real-time validation for file type and size.</li>
-      <li>Progress bar for upload status.</li>
-    </ul>
-  </li>
-
-</ul>`,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink: 'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-              link: 'https://vveba-paypal-clone.vercel.app/',
-            },
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture14',
+          title: 'Lecture 14',
+          content: [
             {
-              title: 'WeTechHouse: NA Tours Website Features List',
+              title: 'AI IN WEB DEVELOPMENT',
               description: `<ul class="list-decimal pl-4 space-y-4">
-
-  <li><strong>Full-Screen Animated Menu</strong>
+  <li>
+    <strong>WHAT IS AI?</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>A responsive and animated navigation menu that opens in full-screen view with smooth transitions for a modern UI experience.</li>
+      <li>BASIC UNDERSTANDING OF ARTIFICIAL INTELLIGENCE AND HOW IT INTEGRATES WITH WEB DEVELOPMENT.</li>
     </ul>
   </li>
-
-  <li><strong>Animated Gallery with Hover Effects</strong>
+  <li>
+    <strong>WHY IT MATTERS FOR DEVELOPERS:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Interactive photo gallery showcasing destinations with hover animations like zoom-in, fade, or text overlays.</li>
+      <li>FASTER CODING USING AI PAIR PROGRAMMERS.</li>
+      <li>FEWER BUGS THROUGH AI-BASED ERROR DETECTION.</li>
+      <li>SMARTER DEBUGGING WITH REAL-TIME SUGGESTIONS.</li>
     </ul>
   </li>
-
-  <li><strong>Popular Tours Cards with Rotating Effects</strong>
+  <li>
+    <strong>POPULAR AI TOOLS:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Stylish cards for top tours with 3D rotation or flip effects when hovered, giving an engaging look.</li>
+      <li>CHATGPT, TABNINE, CURSOR IDE, ETC.</li>
     </ul>
   </li>
-
-  <li><strong>Adventure Destinations with Location Finder</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Explore adventure destinations using a map-based search or location finder feature integrated with DOM.</li>
-    </ul>
-  </li>
-
-  <li><strong>Custom Popup Modal for Location Finder (DOM Based)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Dynamic popup modal that allows users to select and search locations interactively without page reload.</li>
-    </ul>
-  </li>
-
-  <li><strong>Discover Destinations Season-Wise</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Filter destinations by different seasons like Winter, Summer, Autumn, Spring for personalized trip planning.</li>
-    </ul>
-  </li>
-
-  <li><strong>Destination Season Slider with Swiper.js</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Smooth and responsive slider to browse destinations based on seasons, powered by Swiper carousel.</li>
-    </ul>
-  </li>
-
-  <li><strong>Special Summer Offer with Live Timer Counter</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Limited-time deals with a live countdown timer encouraging quick bookings.</li>
-    </ul>
-  </li>
-
-  <li><strong>Build Dream Trip (Multi-Step Form)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>A guided trip builder with step-by-step selections like destination, duration, budget, and activities using DOM.</li>
-    </ul>
-  </li>
-
-  <li><strong>Timeline Itinerary Planner with DOM</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Create, edit, and delete trip activities in a timeline view for easy planning of daily itineraries.</li>
-    </ul>
-  </li>
-
-  <li><strong>Packing List Generator</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Auto-generate packing lists based on destination type, weather, season, and trip duration.</li>
-    </ul>
-  </li>
-
-  <li><strong>Real-Time Weather Widget (Current Location)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Show live weather updates for the user's current location on the homepage or trip planner section.</li>
-    </ul>
-  </li>
-
-  <li><strong>Integration with OpenWeather API</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Fetch and display real-time weather data for selected destinations using OpenWeather API.</li>
-    </ul>
-  </li>
-
-  <li><strong>Local Experience Booking (Multi-Step)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Book cultural, food, or adventure experiences locally with multiple steps like activity selection, date, and time.</li>
-    </ul>
-  </li>
-
-  <li><strong>Virtual Tour Experience with Zoom Effect</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>360° virtual tour viewer with zoom, pan, and destination details for immersive exploration.</li>
-    </ul>
-  </li>
-
-  <li><strong>Horizontal and Vertical Slider for Virtual Tours</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Advanced slider allowing both horizontal and vertical navigation for multiple virtual destinations.</li>
-    </ul>
-  </li>
-
-  <li><strong>Tour Quiz for Perfect Destination</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Interactive quiz with multiple steps to help users find their ideal destination based on preferences.</li>
-    </ul>
-  </li>
-
-  <li><strong>Safety Information Tabs with DOM</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Tabbed interface displaying important travel safety info like local laws, emergency numbers, and health tips.</li>
-    </ul>
-  </li>
-
-  <li><strong>Booking Form with Validation</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>A simple yet effective booking form with real-time validation for error-free bookings.</li>
-    </ul>
-  </li>
-
-</ul>`,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink: 'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-              link: 'https://vveba-natour.vercel.app/',
-            },
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture15',
+          title: 'Lecture 15',
+          content: [
             {
-              title: 'Gymantic (GYM) Website Features List',
+              title: 'AI FOR FRONTEND DEVELOPMENT (UI & CODE HELP)',
               description: `<ul class="list-decimal pl-4 space-y-4">
-
-  <li><strong>Animated Navbar with 3D Menu Rotate Effect</strong>
+  <li>
+    <strong>CODE AUTOCOMPLETION & SUGGESTIONS:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>A stylish, animated navigation bar with a 3D rotating menu effect for smooth user interaction.</li>
+      <li>USE TOOLS LIKE COPILOT OR CHATGPT TO SPEED UP HTML/CSS/JAVASCRIPT WRITING.</li>
     </ul>
   </li>
-
-  <li><strong>Theme Toggler (Light & Dark Mode)</strong>
+  <li>
+    <strong>AI DEBUGGING HELPERS:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Toggle between light and dark themes using DOM manipulation for a personalized experience.</li>
+      <li>USE TOOLS LIKE COPILOT OR CHATGPT TO SPEED UP HTML/CSS/JAVASCRIPT WRITING.</li>
     </ul>
   </li>
-
-  <li><strong>Services Section with JSON & Slider</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Fetch gym services dynamically from JSON and display them in an interactive slider.</li>
-    </ul>
-  </li>
-
-  <li><strong>Progress Tracking with Charts</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Track fitness progress visually using charts, updated dynamically with DOM.</li>
-    </ul>
-  </li>
-
-  <li><strong>Add Measurement & Weight Tracking</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Users can input body measurements and see weight gain or loss reflected on the progress chart.</li>
-    </ul>
-  </li>
-
-  <li><strong>Gym Gallery with Animations</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>A visually appealing image gallery with smooth animations for gym photos and events.</li>
-    </ul>
-  </li>
-
-  <li><strong>Expert Trainer Section with Hover Effects</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Showcase trainers with hover effects and animations for engaging interaction.</li>
-    </ul>
-  </li>
-
-  <li><strong>Book Personal Trainer Functionality</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Users can book a personal trainer using DOM-controlled forms.</li>
-    </ul>
-  </li>
-
-  <li><strong>Trainer Booking with Date & Time Slots</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Schedule sessions by selecting available dates and time slots dynamically.</li>
-    </ul>
-  </li>
-
-  <li><strong>Create Your Own Workout Plan</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Build a personalized workout plan from an exercise library with DOM-based customization.</li>
-    </ul>
-  </li>
-
-  <li><strong>Workout Plan Filters & Search</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Apply filters, search exercises, and remove selected filters dynamically using DOM.</li>
-    </ul>
-  </li>
-
-  <li><strong>Fitness Challenges with Progress Bar</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Calculate fitness scores with multiple challenge options and visualize results with progress bars.</li>
-    </ul>
-  </li>
-
-  <li><strong>Testimonials Section with Image Tabs</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Display client testimonials in an image tab format for better user engagement.</li>
-    </ul>
-  </li>
-
-  <li><strong>Live Yoga Class Schedule with Booking</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Book and cancel live yoga classes directly from the schedule section.</li>
-    </ul>
-  </li>
-
-  <li><strong>Yoga Schedule with Tabs for Date/Day/Week/Month</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Switch between different schedule views like day, week, and month using tabs.</li>
-    </ul>
-  </li>
-
-  <li><strong>Workout Timer with DOM</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>A functional workout timer for exercises, controlled through DOM interactions.</li>
-    </ul>
-  </li>
-
-  <li><strong>Workout Timer Settings (Custom Presets)</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Users can set time intervals, number of rounds, and save presets for future sessions.</li>
-    </ul>
-  </li>
-
-  <li><strong>Squat Demonstration with Checklist & Steps</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Detailed squat demonstration with a checklist of steps and form guidelines.</li>
-    </ul>
-  </li>
-
-  <li><strong>Gym Equipment Status with Tabs & Reservation</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Check equipment availability and reserve equipment in advance using DOM features.</li>
-    </ul>
-  </li>
-
-  <li><strong>Multi-Step Contact Form with DOM</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>A dynamic, multi-step contact form for inquiries and membership signups.</li>
-    </ul>
-  </li>
-
-</ul>`,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink: 'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-              link: 'https://vveba-gymatic.vercel.app/',
-            },
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture16',
+          title: 'Lecture 16',
+          content: [
             {
-              title: 'Hospital Website Features List',
+              title: 'AI FOR BACKEND DEVELOPMENT (APIS, LOGIC & DATABASES)',
               description: `<ul class="list-decimal pl-4 space-y-4">
-
-  <li><strong>Emergency Services Near You with Geo-location</strong>
+  <li>
+    <strong>BACKEND CODE GENERATION:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Detect user's location and show nearest emergency centers.</li>
+      <li>GENERATE API ROUTES, CONTROLLERS USING AI (NODE.JS, EXPRESS, PHP, ETC.).</li>
     </ul>
   </li>
-
-  <li><strong>Get Emergency Hospital Data by Location</strong>
+  <li>
+    <strong>DATABASE OPTIMIZATION:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Display hospital list in a modal with call-to-action (Call Now) using DOM.</li>
+      <li>AI TOOLS TO WRITE AND OPTIMIZE SQL QUERIES.</li>
+      <li>SCHEMA DESIGN SUGGESTIONS.</li>
     </ul>
   </li>
-
-  <li><strong>Doctors Section with Profile Details Popup</strong>
+  <li>
+    <strong>SMART TESTING & ERROR FIXING:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Show doctor info, specialties, and availability in a custom modal.</li>
+      <li>USE AI TO GENERATE TEST CASES AND AUTOMATICALLY SUGGEST BUG FIXES.</li>
     </ul>
   </li>
-
-  <li><strong>Book Appointment Section with Step Form</strong>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture17',
+          title: 'Lecture 17',
+          content: [
+            {
+              title: 'ADDING SIMPLE AI FEATURES TO YOUR PROJECTS',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>SMART FORMS:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Multi-step appointment booking with user details, date, and doctor selection using DOM.</li>
+      <li>AUTO-FILL, INPUT VALIDATION, AND ERROR CORRECTION USING AI.</li>
     </ul>
   </li>
-
-  <li><strong>Current Wait Times Tracker</strong>
+  <li>
+    <strong>AI-POWERED SEARCH:</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Real-time wait time estimates for different departments using DOM updates.</li>
+      <li>ADD SEMANTIC SEARCH USING AI TOOLS.</li>
     </ul>
   </li>
-
-  <li><strong>Medication Reminder with Settings Panel</strong>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture18',
+          title: 'Lecture 18',
+          content: [
+            {
+              title: 'PROJECT WORK',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>FINAL PROJECT</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Users can set medication reminders with custom intervals and notifications using DOM.</li>
+      <li>USAGES</li>
+      <li>BASICS OF USING AI APIS (OPENAI).</li>
+      <li>INTRODUCTION TO PROMPT ENGINEERING.</li>
+      <li>CAREER PATH: HOW AI KNOWLEDGE HELPS FRONTEND/BACKEND DEVS STAND OUT.</li>
     </ul>
   </li>
-
-  <li><strong>Add New Medication Functionality</strong>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture19',
+          title: 'Lecture 19',
+          content: [
+            {
+              title: 'C# PROGRAMMING OUTLINE:',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Introduction to c# programming</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Add, edit, and remove medications with options like dosage, frequency using DOM.</li>
+      <li>Overview of c#</li>
+      <li>Key features of c#</li>
+      <li>Setting up the c# development environment</li>
+      <li>Basics of c# syntax and structure</li>
     </ul>
   </li>
-
-  <li><strong>Medical Staff Directory</strong>
+</ul>`
+            }
+          ]
+        },
+        {
+          id: 'lecture20',
+          title: 'Lecture 20',
+          content: [
+            {
+              title: 'DATA TYPES AND VARIABLES',
+              description: `<ul class="list-decimal pl-4 space-y-4">
+  <li>
+    <strong>Primitive data types</strong>
     <ul class="list-disc pl-6 space-y-2">
-      <li>Directory with filtering and profile popup for doctors and nurses.</li>
+      <li>Declaring and initializing variables</li>
+      <li>Type conversion and casting</li>
+      <li>Constants and enumerations</li>
     </ul>
   </li>
-
-  <li><strong>Patient Portal Login</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Secure login system integrated with DOM interactivity for validation.</li>
-    </ul>
-  </li>
-
-  <li><strong>Patient Logout Functionality</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Proper session handling with DOM-based UI updates.</li>
-    </ul>
-  </li>
-
-  <li><strong>Patient Portal Dashboard</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Includes medical records, prescriptions, appointments management with DOM-driven interface.</li>
-    </ul>
-  </li>
-
-  <li><strong>Patient Testimonials Auto Slider</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Custom DOM-based slider for patient stories.</li>
-    </ul>
-  </li>
-
-  <li><strong>Health Risk Assessment Quiz</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Q&A format to evaluate health risks with real-time scoring using DOM.</li>
-    </ul>
-  </li>
-
-  <li><strong>Medical Records Management</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Upload, view, and manage health records dynamically using DOM.</li>
-    </ul>
-  </li>
-
-  <li><strong>File Upload for Patients</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Upload medical reports with preview, delete option using DOM.</li>
-    </ul>
-  </li>
-
-  <li><strong>Health Education Library</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Articles with modal popups for detailed reading experience.</li>
-    </ul>
-  </li>
-
-  <li><strong>Search & Category Filters</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Dynamic filtering for doctors, services, articles using DOM.</li>
-    </ul>
-  </li>
-
-  <li><strong>Pre-Visit Health Screening Assessment</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Step-based health screening with conditional questions using DOM.</li>
-    </ul>
-  </li>
-
-  <li><strong>Patient Feedback Survey</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Interactive feedback system with rating and comment options using DOM.</li>
-    </ul>
-  </li>
-
-  <li><strong>Donation Options</strong>
-    <ul class="list-disc pl-6 space-y-2">
-      <li>Different donation types like Money, Blood, Supplies with DOM-based form and selection process.</li>
-    </ul>
-  </li>
-
-</ul>`,
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-              VideoLink: 'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-              link: 'https://vveba-hospital.vercel.app/',
-            },
-          ],
+</ul>`
+            }
+          ]
         },
-        {
-          id: 'projects',
-          title: 'Projects',
-          content: [
-            {
-              title: 'WeTechHouse',
-              description:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur urna nulla, ac tristique est tempus ut. Nulla non mi quis ligula aliquet sodales a in purus. Quisque a nibh eu ante accumsan vestibulum vitae eu nulla. Ut tortor sapien, aliquet id hendrerit eu, scelerisque ut erat. Quisque rutrum semper sodales. Proin tristique a arcu ac tempor. Sed accumsan in metus a rutrum.In ac euismod velit, nec porta risus. Donec laoreet facilisis urna, a eleifend odio pellentesque in. In efficitur, libero non rhoncus rutrum, arcu magna gravida risus, sit amet viverra nibh lectus nec mauris. Mauris eget magna eros.',
-              VideoLink:
-                'https://www.youtube.com/embed/xOajkej5vZo?si=LkCW6xn4WOKtq5HD',
-            },
-            {
-              title: 'WeTechHouse',
-              description:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur urna nulla, ac tristique est tempus ut. Nulla non mi quis ligula aliquet sodales a in purus. Quisque a nibh eu ante accumsan vestibulum vitae eu nulla. Ut tortor sapien, aliquet id hendrerit eu, scelerisque ut erat. Quisque rutrum semper sodales. Proin tristique a arcu ac tempor. Sed accumsan in metus a rutrum.In ac euismod velit, nec porta risus. Donec laoreet facilisis urna, a eleifend odio pellentesque in. In efficitur, libero non rhoncus rutrum, arcu magna gravida risus, sit amet viverra nibh lectus nec mauris. Mauris eget magna eros.',
-              VideoLink:
-                'https://www.youtube.com/embed/6y9_c5Qavhs?si=auUt1bjGxNDQ6Ciz',
-            },
-          ],
-        },
-        {
-          id: 'team',
-          title: 'Team',
-          content: [
-            {
-              title: 'Frontend Developer',
-              description:
-                'A Frontend Developer specializes in building user interfaces using HTML, CSS, and JavaScript. They work with frameworks like React, Angular, or Vue.js to create responsive and interactive web applications. Their role involves collaborating with designers to implement UI/UX designs, optimizing performance, and ensuring cross-browser compatibility. Frontend Developers also integrate APIs and work closely with backend teams to deliver seamless user experiences. They stay updated with the latest web standards and accessibility guidelines. Strong problem-solving skills and attention to detail are essential for this role, as they debug issues and improve frontend functionality.',
-            },
-            {
-              title: 'MERN Stack Developer',
-              description:
-                'A MERN Stack Developer works with MongoDB, Express.js, React, and Node.js to build full-stack web applications. They handle both frontend and backend development, ensuring smooth data flow and server-client communication. Their responsibilities include designing RESTful APIs, managing databases, and creating dynamic user interfaces. MERN Developers optimize applications for speed and scalability while following best practices in security and code structure. They often use tools like Redux for state management and Mongoose for database interactions. This role requires proficiency in JavaScript, understanding of asynchronous programming, and experience with deployment on platforms like AWS or Heroku.',
-            },
-            {
-              title: 'Blockchain Developer',
-              description:
-                'A Blockchain Developer specializes in decentralized applications (DApps) and smart contracts using platforms like Ethereum, Solana, or Hyperledger. They write secure and efficient code in languages like Solidity or Rust, ensuring tamper-proof transactions. Their work involves developing blockchain protocols, integrating cryptocurrencies, and optimizing consensus algorithms. They also work on tokenomics, NFT platforms, and DeFi solutions. Blockchain Developers must understand cryptography, peer-to-peer networks, and distributed ledger technology. They often use tools like Truffle, Hardhat, or Web3.js for testing and deployment. Staying updated with blockchain trends and security practices is crucial in this rapidly evolving field.',
-            },
-            {
-              title: 'AI Engineer',
-              description:
-                'An AI Engineer designs and implements machine learning models and artificial intelligence solutions. They work with frameworks like TensorFlow, PyTorch, or scikit-learn to develop algorithms for tasks like natural language processing, computer vision, or predictive analytics. Their role involves data preprocessing, model training, and performance evaluation. AI Engineers optimize neural networks, deploy AI systems, and integrate them with applications. They often use Python and libraries like NumPy and Pandas. Strong mathematical skills in linear algebra, calculus, and statistics are essential. They collaborate with data scientists and software engineers to build scalable AI-driven products for industries like healthcare, finance, or robotics.',
-            },
-            {
-              title: 'Cybersecurity Specialist',
-              description:
-                'A Cybersecurity Specialist protects systems and networks from digital threats like hacking, malware, and data breaches. They conduct vulnerability assessments, implement firewalls, and monitor security logs for suspicious activity. Their responsibilities include penetration testing, encryption protocols, and incident response planning. They stay updated with the latest cyber threats and compliance standards like GDPR or HIPAA. Cybersecurity Specialists often work with tools like Wireshark, Metasploit, or SIEM systems. They educate teams on security best practices and develop policies to safeguard sensitive information. Certifications like CISSP or CEH are valuable in this role, which demands analytical thinking and ethical hacking skills.',
-            },
-            {
-              title: 'DevOps Engineer',
-              description:
-                'A DevOps Engineer bridges development and operations by automating workflows and improving collaboration. They use tools like Docker, Kubernetes, Jenkins, and Terraform to streamline CI/CD pipelines. Their role involves infrastructure as code (IaC), cloud deployment (AWS/Azure/GCP), and monitoring system performance. DevOps Engineers optimize scalability, reliability, and security while reducing deployment times. They troubleshoot issues across environments and ensure seamless software delivery. Proficiency in scripting (Bash, Python), version control (Git), and configuration management (Ansible) is essential. This role requires knowledge of microservices, load balancing, and logging tools like ELK Stack to maintain high-availability systems.',
-            },
-            {
-              title: 'Data Scientist',
-              description:
-                'A Data Scientist analyzes complex datasets to extract insights and drive decision-making. They use statistical methods, machine learning, and programming (Python/R) to clean, visualize, and interpret data. Their work includes predictive modeling, A/B testing, and creating dashboards with tools like Tableau or Power BI. Data Scientists collaborate with stakeholders to define business problems and communicate findings effectively. They leverage libraries like Pandas, SciPy, and Matplotlib for analysis. Strong skills in SQL, big data technologies (Hadoop/Spark), and cloud platforms are valuable. This role blends domain expertise, analytical thinking, and storytelling to transform raw data into actionable strategies.',
-            },
-            {
-              title: 'Cloud Architect',
-              description:
-                'A Cloud Architect designs and manages cloud infrastructure solutions on platforms like AWS, Azure, or Google Cloud. They develop scalable, secure, and cost-effective architectures for applications and services. Their responsibilities include selecting cloud services, optimizing resource allocation, and ensuring compliance with industry standards. Cloud Architects automate deployments using IaC tools like Terraform or CloudFormation and implement disaster recovery plans. They advise teams on cloud best practices and migrate on-premise systems to the cloud. Certifications like AWS Certified Solutions Architect are common in this role, which demands expertise in networking, virtualization, and hybrid/multi-cloud environments to build resilient systems.',
-            },
-            {
-              title: 'UI/UX Designer',
-              description:
-                'A UI/UX Designer creates intuitive and visually appealing digital experiences. They conduct user research, design wireframes, and prototype interfaces using tools like Figma, Sketch, or Adobe XD. Their work focuses on usability, accessibility, and user-centered design principles. UI/UX Designers collaborate with developers to ensure designs are implemented accurately and perform usability testing to gather feedback. They stay updated with design trends, typography, and color theory. Strong skills in information architecture, interaction design, and empathy for user needs are essential. This role balances creativity with analytical thinking to enhance customer satisfaction and engagement.',
-            },
-            {
-              title: 'QA Automation Engineer',
-              description:
-                'A QA Automation Engineer ensures software quality by designing and executing automated test scripts. They use frameworks like Selenium, Cypress, or Appium to test web and mobile applications. Their role involves writing test cases, identifying bugs, and reporting defects to development teams. QA Engineers integrate testing into CI/CD pipelines and perform regression, performance, and security testing. They work with programming languages like Java, Python, or JavaScript to create robust test suites. Attention to detail, analytical skills, and knowledge of SDLC are crucial. This role reduces manual testing efforts and improves software reliability by catching issues early in development.',
-            },
-          ],
-        },
-        {
-          id: 'training',
-          title: 'Training',
-          content: [
-            {
-              title: 'Structured Learning Path',
-              description:
-                "A well-defined curriculum ensures systematic skill development. Break topics into modules (e.g., 'JavaScript Basics → Advanced React → Backend Integration'). Use platforms like Coursera, Udacity, or freeCodeCamp for guided courses. Track progress with milestones to maintain motivation and clarity.",
-            },
-            {
-              title: 'Hands-On Projects',
-              description:
-                'Apply theory by building real-world projects (e.g., an e-commerce site or a chatbot). Projects reinforce learning, highlight gaps, and enhance portfolios. Start with small tasks, then scale complexity. GitHub repositories showcase your work to potential employers or clients.',
-            },
-            {
-              title: 'Peer Coding & Reviews',
-              description:
-                'Collaborate via pair programming or code reviews. Tools like GitHub PRs or VS Code Live Share facilitate feedback. Peers catch errors, suggest optimizations, and share alternative approaches, fostering collective growth and coding standards.',
-            },
-            {
-              title: 'Daily Coding Challenges',
-              description:
-                'Solve problems on LeetCode, HackerRank, or Codewars (30-60 mins/day). Focus on algorithms, data structures, and language-specific puzzles. Regular practice sharpens logic, speeds up debugging, and prepares for technical interviews.',
-            },
-            {
-              title: 'Weekly Tech Workshops',
-              description:
-                'Attend/web-host workshops on trending tools (e.g., Docker, GraphQL). Interactive sessions with Q&A deepen understanding. Record sessions for later review and invite experts to demo advanced use cases.',
-            },
-            {
-              title: 'Mentorship Sessions',
-              description:
-                'Engage 1:1 with mentors for personalized guidance. Platforms like ADPList or LinkedIn connect you with industry veterans. Discuss career roadmaps, code critiques, and strategies to overcome plateaus.',
-            },
-            {
-              title: 'Open-Source Contributions',
-              description:
-                "Contribute to projects on GitHub (e.g., fix bugs, add features). Start with 'good first issue' labels. Open-source builds collaboration skills, exposes you to large codebases, and boosts credibility.",
-            },
-            {
-              title: 'Certification Programs',
-              description:
-                'Earn credentials like AWS Certified Developer or Google Data Analytics. Certifications validate skills, increase employability, and often include hands-on labs. Prioritize industry-recognized programs aligned with your goals.',
-            },
-            {
-              title: 'Soft Skills Training',
-              description:
-                'Develop communication, teamwork, and time management. Use resources like Toastmasters for public speaking or Trello for task management. Soft skills complement technical abilities and are critical for leadership roles.',
-            },
-            {
-              title: 'Reflection & Iteration',
-              description:
-                "Weekly retrospectives to assess progress. Identify strengths (e.g., 'mastered React hooks') and weaknesses (e.g., 'needs SQL practice'). Adjust learning plans accordingly. Journals or apps like Notion help track growth.",
-            },
-          ],
-        },
-        {
-          id: 'requirement',
-          title: 'Requirement',
-          content: [
-            {
-              title: '10,000 Hours',
-              description:
-                'The concept of 10,000 hours, popularized by Malcolm Gladwell, suggests that mastery in any field requires approximately 10,000 hours of deliberate practice. This requirement ensures that team members have invested significant time in their domain, whether coding, designing, or problem-solving. It implies deep expertise, refined skills, and the ability to handle complex challenges efficiently. While not a strict measure, it serves as a benchmark for dedication and experience. Professionals with this level of commitment bring reliability, efficiency, and innovation to their roles, making them invaluable assets to the team and ensuring high-quality deliverables.',
-            },
-            {
-              title: 'Technology Stack',
-              description:
-                'A well-defined technology stack is crucial for project success. It includes programming languages, frameworks, libraries, and tools used in development. For example, a web developer’s stack might involve React, Node.js, and MongoDB. The right stack ensures scalability, performance, and maintainability. Teams must align on the stack to streamline collaboration, reduce integration issues, and optimize workflows. Evaluating factors like community support, learning curve, and future-proofing helps in selecting the best technologies. A robust stack accelerates development, enhances security, and improves user experience, making it a foundational requirement for any tech-driven project.',
-            },
-            {
-              title: 'Already Covered Technology',
-              description:
-                'This refers to technologies the team has already mastered and implemented in past projects. It includes proven tools, languages, and frameworks that members are proficient in, such as JavaScript, Python, or AWS. Leveraging existing expertise reduces onboarding time, minimizes errors, and ensures faster project delivery. Documenting covered technologies helps in resource allocation and skill assessment. It also provides a baseline for training and upskilling in newer technologies. By focusing on strengths, teams can maintain consistency, improve efficiency, and deliver reliable solutions without reinventing the wheel, while gradually integrating new tools as needed.',
-            },
-            {
-              title: 'Future Covered Technology',
-              description:
-                'Future covered technology includes emerging tools and trends the team plans to adopt, such as AI/ML, blockchain, or quantum computing. Staying ahead requires proactive learning and adaptation to industry shifts. Investing in future technologies ensures competitiveness, innovation, and scalability. Teams should allocate time for R&D, attend workshops, and experiment with prototypes. Roadmaps for adopting new tech should align with business goals and market demands. By preparing for advancements, teams can transition smoothly, avoid obsolescence, and offer cutting-edge solutions. This forward-thinking approach fosters continuous growth and positions the team as leaders in their field.',
-            },
-            {
-              title: '4 Hours Training',
-              description:
-                'Dedicating 4 hours weekly to training ensures continuous skill development and knowledge enhancement. Training can include online courses, workshops, coding challenges, or peer learning sessions. Structured learning keeps the team updated with industry trends, tools, and best practices. It also bridges skill gaps, boosts productivity, and fosters innovation. Encouraging certifications (e.g., AWS, Google Cloud) adds credibility. Training should be tailored to individual and project needs, balancing theory with hands-on practice. A culture of learning improves morale, retention, and adaptability, making the team resilient to technological changes and capable of tackling complex problems effectively.',
-            },
-            {
-              title: '8 Hours Working on Freelance Daily',
-              description:
-                'Working 8 hours daily on freelance projects ensures discipline, time management, and consistent income generation. Freelancers must balance client communication, project execution, and self-improvement within this timeframe. Structured work hours enhance productivity, meet deadlines, and maintain work-life balance. Tools like Trello or Toggl help track tasks and time. Freelancing builds diverse experience, problem-solving skills, and a strong portfolio. However, it requires self-motivation, clear contracts, and effective client management. By treating freelancing as a full-time commitment, professionals can deliver high-quality work, build long-term client relationships, and achieve financial stability while honing their expertise.',
-            },
-            {
-              title: 'Saturday and Sunday Off',
-              description:
-                'Having weekends off (Saturday and Sunday) is essential for mental health, creativity, and long-term productivity. It allows team members to recharge, pursue hobbies, and spend time with family. A strict five-day workweek prevents burnout, improves focus, and sustains motivation. Encouraging downtime fosters innovation, as fresh perspectives often emerge during breaks. Remote teams should respect time zones and avoid weekend communications unless urgent. Work-life balance increases job satisfaction and retention. Companies promoting this policy attract top talent and cultivate a healthy work culture. Rest is not a luxury but a necessity for sustained high performance and overall well-being.',
-            },
-          ],
-        },
-        {
-          id: 'faq',
-          title: 'FAQ',
-          content: [
-            {
-              title: 'What is the 10,000-hour rule?',
-              description:
-                "The 10,000-hour rule, popularized by Malcolm Gladwell in 'Outliers,' suggests that mastery in any skill requires roughly 10,000 hours of deliberate practice. While debated, it emphasizes consistent effort, focused learning, and real-world application to achieve expertise. It’s not just time spent but quality practice—iterating, refining, and overcoming challenges.",
-            },
-            {
-              title: 'Which technology stack is best for web development?',
-              description:
-                "The 'best' stack depends on the project. Common choices include: **MERN** (MongoDB, Express.js, React, Node.js) for full-stack JS apps, **LAMP** (Linux, Apache, MySQL, PHP) for traditional sites, or **JAMstack** (JavaScript, APIs, Markup) for static sites. Consider scalability, team expertise, and project requirements when choosing.",
-            },
-            {
-              title: 'How do I transition to a new technology stack?',
-              description:
-                '1. **Learn fundamentals**: Start with documentation/tutorials. 2. **Build small projects**: Reinforce concepts hands-on. 3. **Contribute to open-source**: Gain real-world experience. 4. **Seek mentorship**: Join communities like GitHub or Stack Overflow. 5. **Update your portfolio**: Showcase new skills with projects.',
-            },
-            {
-              title: 'What’s the difference between AI and Machine Learning?',
-              description:
-                '**AI (Artificial Intelligence)** is a broad field focused on creating systems that mimic human intelligence (e.g., chatbots, robotics). **Machine Learning (ML)** is a subset of AI where algorithms learn from data to make predictions (e.g., recommendation systems). Not all AI uses ML, but ML relies on AI principles.',
-            },
-            {
-              title: 'How can I improve my cybersecurity skills?',
-              description:
-                '1. **Certifications**: Pursue CompTIA Security+, CEH, or CISSP. 2. **Hands-on labs**: Use platforms like Hack The Box or TryHackMe. 3. **Stay updated**: Follow OWASP, Krebs on Security. 4. **Practice ethical hacking**: Learn tools like Metasploit/Wireshark. 5. **Join CTF competitions**: Test skills in real-world scenarios.',
-            },
-            {
-              title: 'Why are weekends off important for freelancers?',
-              description:
-                'Weekends prevent burnout, boost creativity, and maintain work-life balance. Constant work leads to diminishing returns—rest improves focus, productivity, and mental health. Use weekends to recharge, learn new skills, or network. Sustainable freelancing requires boundaries to avoid exhaustion.',
-            },
-            {
-              title: 'What’s the ideal daily routine for a freelancer?',
-              description:
-                '1. **Morning**: Deep work (4 hours on high-priority tasks). 2. **Afternoon**: Client calls/emails (2 hours). 3. **Evening**: Skill-building/admin (2 hours). Use tools like Toggl for time tracking, Pomodoro for focus, and automate invoicing with FreshBooks. Include breaks and exercise!',
-            },
-            {
-              title: 'How do I handle difficult clients as a freelancer?',
-              description:
-                '1. **Set clear contracts**: Define scope, revisions, and payment terms upfront. 2. **Communicate proactively**: Update clients regularly. 3. **Stay professional**: Address complaints calmly. 4. **Know when to walk away**: If demands are unreasonable, refer to your contract. Use platforms like Upwork for mediation if needed.',
-            },
-            {
-              title: 'What’s the future of blockchain technology?',
-              description:
-                'Beyond cryptocurrencies, blockchain is evolving in: 1. **DeFi** (Decentralized Finance), 2. **NFTs** (digital ownership), 3. **Supply chain transparency**, 4. **DAOs** (Decentralized Autonomous Organizations), and 5. **Web3** (user-controlled internet). Scalability and regulation remain key challenges.',
-            },
-            {
-              title: 'How do I stay motivated while working remotely?',
-              description:
-                '1. **Set goals**: Daily/Weekly targets. 2. **Create a workspace**: Separate work from leisure. 3. **Routine**: Stick to a schedule. 4. **Network**: Join virtual coworking spaces. 5. **Reward yourself**: Celebrate small wins. Tools like Notion or Trello help track progress and maintain accountability.',
-            },
-            // Add 90 more FAQs here...
-          ],
-        },
-        {
-          id: 'authentication',
-          title: 'Authentication',
-          content: [
-            {
-              title: 'ChatGPT',
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-            },
-            {
-              title: 'MidJourney',
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-            },
-            {
-              title: 'GitHub Copilot',
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-            },
-            {
-              title: 'Notion AI',
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-            },
-            {
-              title: 'Runway ML',
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-            },
-            {
-              title: 'DALL-E',
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-            },
-            {
-              title: 'Grammarly AI',
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-            },
-            {
-              title: 'Hugging Face',
-              imageLink:
-                'https://lh5.googleusercontent.com/proxy/t08n2HuxPfw8OpbutGWjekHAgxfPFv-pZZ5_-uTfhEGK8B5Lp-VN4VjrdxKtr8acgJA93S14m9NdELzjafFfy13b68pQ7zzDiAmn4Xg8LvsTw1jogn_7wStYeOx7ojx5h63Gliw',
-            },
-          ],
-        },
-        {
-          id: 'agreement',
-          title: 'Agreement',
-          content: [
-            {
-              title: 'Confidentiality Clause',
-              description:
-                'All parties agree to maintain strict confidentiality regarding project details, client information, and proprietary technologies. Sensitive data must not be disclosed to third parties without written consent. This includes codebases, business strategies, and trade secrets. Violations may result in legal action. Confidentiality persists even after contract termination. Employees/freelancers must sign NDAs where applicable. Secure communication tools (e.g., encrypted emails) should be used for sensitive exchanges. Exceptions apply only if required by law. Regular audits ensure compliance. This clause protects intellectual property and fosters trust between collaborators in competitive industries like tech and consulting.',
-            },
-            {
-              title: 'Project Ownership',
-              description:
-                'The client retains full ownership of deliverables upon final payment unless otherwise negotiated. Developers/designers waive moral rights to the work. Source code, designs, and documentation are transferred via a signed IP assignment agreement. Pre-existing tools/libraries used remain under their original licenses. Any open-source components must comply with their respective licenses. Disputes over ownership require mediation. Creators may showcase the work in portfolios unless prohibited. Custom licensing (e.g., white-labeling) can be arranged separately. Clear ownership terms prevent future legal conflicts and ensure transparent usage rights for all stakeholders.',
-            },
-            {
-              title: 'Payment Terms',
-              description:
-                'Payments are structured as follows: 30% upfront, 40% upon milestone completion, and 30% after final delivery. Invoices are due within 15 days; late payments incur a 2% monthly fee. Accepted methods include bank transfers, PayPal, or cryptocurrency (agreed in advance). Freelancers may request escrow for large projects. Recurring contracts follow a net-30 schedule. Disputed payments halt work until resolved. Currency and tax responsibilities (e.g., VAT) are specified in the contract. Payment terms ensure cash flow predictability and protect both parties from financial risks. Detailed records of transactions must be maintained by all parties.',
-            },
-            {
-              title: 'Termination Conditions',
-              description:
-                'Either party may terminate the agreement with 30 days’ written notice. Early termination fees apply if work is abandoned mid-project (e.g., 20% of remaining contract value). Clients receive all completed work up to the termination date. Developers retain unpaid invoices for delivered work. Grounds for immediate termination include breach of contract, illegal activities, or non-payment after reminders. Post-termination, confidentiality and non-compete clauses (if applicable) remain enforced. Termination protocols ensure orderly transitions, protect unpaid labor, and define accountability. Exit procedures (e.g., data handover) must be completed within 14 days of termination notice.',
-            },
-            {
-              title: 'Dispute Resolution',
-              description:
-                'Disputes are resolved through mediation before pursuing legal action. Parties agree to negotiate in good faith for 30 days. If unresolved, arbitration is conducted under [specified jurisdiction/body] (e.g., AAA). Each party covers its own legal fees unless the arbitrator rules otherwise. Small claims court handles disputes under $10,000. Electronic evidence (emails, logs) is admissible. This clause reduces litigation costs and delays. For international collaborations, UNICITRAL rules may apply. Documentation of all communications is critical for resolution. Binding arbitration clauses must be explicitly agreed upon in the contract to enforce this process.',
-            },
-            {
-              title: 'Service Scope',
-              description:
-                'The contract defines exact deliverables, deadlines, and revision limits (e.g., 3 rounds of edits). Additional requests beyond scope trigger change orders with adjusted timelines/fees. Exclusions (e.g., SEO for a website project) are listed explicitly. Developers provide technical feasibility assessments before scope approval. Clients must supply required materials (logos, APIs) on time to avoid delays. Scope creep is managed through formal change requests. A detailed statement of work (SoW) appendix outlines responsibilities. This prevents misunderstandings about deliverables and ensures projects stay on track. Both parties must sign off on scope modifications.',
-            },
-            {
-              title: 'Warranty Period',
-              description:
-                'Bugs arising from the developer’s work are fixed free of charge for 60 days post-delivery. Exclusions include issues caused by client modifications, third-party services, or hardware failures. Warranty claims require documented replication steps. Critical bugs (e.g., security flaws) are addressed within 48 hours; minor bugs within 14 days. No warranty covers ‘as-is’ deliverables. Post-warranty support is billed hourly or via maintenance contracts. This clause balances accountability with reasonable limits on liability. Warranties do not apply to open-source or third-party components outside the developer’s control. Clients should test thoroughly before sign-off.',
-            },
-            {
-              title: 'Non-Compete Agreement',
-              description:
-                'For 12 months post-contract, freelancers/employees cannot work with direct competitors or replicate solutions for rival firms in the same industry. Geographic and market segment restrictions are defined (e.g., US-based fintech startups). Non-compete terms must be reasonable to be enforceable. Compensation during restricted periods may be negotiated. Exclusions include general skills (e.g., Python programming) and public-domain knowledge. Violations may result in injunctions or damages. Some jurisdictions limit non-competes; local legal advice is recommended. This protects business interests while respecting professionals’ right to work. Non-solicitation of clients/staff is often included.',
-            },
-            {
-              title: 'Liability Limitations',
-              description:
-                'Liability is capped at the total contract value. Developers are not responsible for indirect damages (e.g., lost profits, data breaches from client-side vulnerabilities). Force majeure events (natural disasters, wars) exempt parties from penalties. Clients must back up their data; developers aren’t liable for loss/corruption. Cybersecurity responsibilities are shared per industry standards (e.g., OWASP for web apps). Insurance (e.g., E&O) is recommended for high-risk projects. Indemnification clauses protect against third-party claims from IP violations. Limitations align with standard tech industry contracts but may vary by jurisdiction. Clients may request higher caps for enterprise projects.',
-            },
-            {
-              title: 'Governing Law',
-              description:
-                'The agreement is governed by laws of [specified jurisdiction], typically where the developer is based or where the client operates. International contracts may choose neutral jurisdictions (e.g., Delaware, Singapore). Venue for legal actions is specified (e.g., courts in Zurich). Language for interpretations is set (usually English). Local consumer protection laws override contract terms where applicable. Legal notices must be sent to registered addresses. This clause ensures predictable legal outcomes and reduces forum-shopping. Tax obligations (e.g., GST/VAT) follow the applicable jurisdiction. Parties consent to electronic signatures for amendments. Legal counsel should review cross-border agreements.',
-            },
-          ],
-        },
-      ],
-    },
-    {
-      id: 'Front-End',
-      title: 'Front-End',
-      content: 'Front-End course content.',
-      color: 'rgba(54, 63, 70, 0.5)',
-      navigation: [
-        {
-          id: 'detail',
-          title: 'Detail',
-          content: [
-            {
-              week: 1,
-              title: 'Week 1 - Front-End',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 2,
-              title: 'Week 2 - Front-End',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 3,
-              title: 'Week 3 - Front-End',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 4,
-              title: 'Week 4 - Front-End',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 5,
-              title: 'Week 5 - Front-End',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 6,
-              title: 'Week 6 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 7,
-              title: 'Week 7 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 8,
-              title: 'Week 8 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 9,
-              title: 'Week 9 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 10,
-              title: 'Week 10 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 11,
-              title: 'Week 11 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 12,
-              title: 'Week 12 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 13,
-              title: 'Week 13 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 14,
-              title: 'Week 14 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 15,
-              title: 'Week 15 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 16,
-              title: 'Week 16 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 17,
-              title: 'Week 17 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 18,
-              title: 'Week 18 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 19,
-              title: 'Week 19 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 20,
-              title: 'Week 20 - Front-End',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 21,
-              title: 'Week 21 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 22,
-              title: 'Week 22 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 23,
-              title: 'Week 23 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 24,
-              title: 'Week 24 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 25,
-              title: 'Week 25 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 26,
-              title: 'Week 26 - Front-End',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-          ],
-        },
-        { id: 'earning-potential', title: 'Earning' },
-        { id: 'profile', title: 'Profile' },
-        { id: 'projects', title: 'Projects' },
-        { id: 'team', title: 'Team' },
-        { id: 'training', title: 'Training' },
-        { id: 'requirement', title: 'Requirement' },
-        { id: 'faq', title: 'FAQ' },
-        { id: 'authentication', title: 'Authentication' },
-        { id: 'agreement', title: 'Agreement' },
-      ],
-    },
-    {
-      id: 'Jam-Stack',
-      title: 'Jam-Stack',
-      content: 'Jam-Stack course content.',
-      color: 'rgba(54, 63, 70, 0.5)',
-      navigation: [
-        {
-          id: 'detail',
-          title: 'Detail',
-          content: [
-            {
-              week: 1,
-              title: 'Week 1 - Jam-Stack',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 2,
-              title: 'Week 2 - Jam-Stack',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 3,
-              title: 'Week 3 - Jam-Stack',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 4,
-              title: 'Week 4 - Jam-Stack',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 5,
-              title: 'Week 5 - Jam-Stack',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 6,
-              title: 'Week 6 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 7,
-              title: 'Week 7 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 8,
-              title: 'Week 8 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 9,
-              title: 'Week 9 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 10,
-              title: 'Week 10 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 11,
-              title: 'Week 11 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 12,
-              title: 'Week 12 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 13,
-              title: 'Week 13 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 14,
-              title: 'Week 14 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 15,
-              title: 'Week 15 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 16,
-              title: 'Week 16 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 17,
-              title: 'Week 17 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 18,
-              title: 'Week 18 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 19,
-              title: 'Week 19 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 20,
-              title: 'Week 20 - Jam-Stack',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 21,
-              title: 'Week 21 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 22,
-              title: 'Week 22 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 23,
-              title: 'Week 23 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 24,
-              title: 'Week 24 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 25,
-              title: 'Week 25 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 26,
-              title: 'Week 26 - Jam-Stack',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-          ],
-        },
-        { id: 'earning-potential', title: 'Earning' },
-        { id: 'profile', title: 'Profile' },
-        { id: 'projects', title: 'Projects' },
-        { id: 'team', title: 'Team' },
-        { id: 'training', title: 'Training' },
-        { id: 'requirement', title: 'Requirement' },
-        { id: 'faq', title: 'FAQ' },
-        { id: 'authentication', title: 'Authentication' },
-        { id: 'agreement', title: 'Agreement' },
-      ],
-    },
-    {
-      id: 'MERN',
-      title: 'MERN',
-      content: 'MERN course content.',
-      color: 'rgba(54, 63, 70, 0.5)',
-      navigation: [
-        {
-          id: 'detail',
-          title: 'Detail',
-          content: [
-            {
-              week: 1,
-              title: 'Week 1 - MERN',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 2,
-              title: 'Week 2 - MERN',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 3,
-              title: 'Week 3 - MERN',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 4,
-              title: 'Week 4 - MERN',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 5,
-              title: 'Week 5 - MERN',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 6,
-              title: 'Week 6 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 7,
-              title: 'Week 7 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 8,
-              title: 'Week 8 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 9,
-              title: 'Week 9 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 10,
-              title: 'Week 10 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 11,
-              title: 'Week 11 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 12,
-              title: 'Week 12 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 13,
-              title: 'Week 13 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 14,
-              title: 'Week 14 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 15,
-              title: 'Week 15 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 16,
-              title: 'Week 16 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 17,
-              title: 'Week 17 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 18,
-              title: 'Week 18 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 19,
-              title: 'Week 19 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 20,
-              title: 'Week 20 - MERN',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 21,
-              title: 'Week 21 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 22,
-              title: 'Week 22 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 23,
-              title: 'Week 23 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 24,
-              title: 'Week 24 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 25,
-              title: 'Week 25 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 26,
-              title: 'Week 26 - MERN',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-          ],
-        },
-        { id: 'earning-potential', title: 'Earning' },
-        { id: 'profile', title: 'Profile' },
-        { id: 'projects', title: 'Projects' },
-        { id: 'team', title: 'Team' },
-        { id: 'training', title: 'Training' },
-        { id: 'requirement', title: 'Requirement' },
-        { id: 'faq', title: 'FAQ' },
-        { id: 'authentication', title: 'Authentication' },
-        { id: 'agreement', title: 'Agreement' },
-      ],
-    },
-    {
-      id: 'Next.js',
-      title: 'Next.js',
-      content: 'Next.js course content.',
-      color: 'rgba(54, 63, 70, 0.5)',
-      navigation: [
-        {
-          id: 'detail',
-          title: 'Detail',
-          content: [
-            {
-              week: 1,
-              title: 'Week 1 - Next.js',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 2,
-              title: 'Week 2 - Next.js',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 3,
-              title: 'Week 3 - Next.js',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 4,
-              title: 'Week 4 - Next.js',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 5,
-              title: 'Week 5 - Next.js',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 6,
-              title: 'Week 6 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 7,
-              title: 'Week 7 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 8,
-              title: 'Week 8 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 9,
-              title: 'Week 9 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 10,
-              title: 'Week 10 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 11,
-              title: 'Week 11 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 12,
-              title: 'Week 12 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 13,
-              title: 'Week 13 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 14,
-              title: 'Week 14 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 15,
-              title: 'Week 15 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 16,
-              title: 'Week 16 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 17,
-              title: 'Week 17 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 18,
-              title: 'Week 18 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 19,
-              title: 'Week 19 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 20,
-              title: 'Week 20 - Next.js',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 21,
-              title: 'Week 21 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 22,
-              title: 'Week 22 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 23,
-              title: 'Week 23 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 24,
-              title: 'Week 24 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 25,
-              title: 'Week 25 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 26,
-              title: 'Week 26 - Next.js',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-          ],
-        },
-        { id: 'earning-potential', title: 'Earning' },
-        { id: 'profile', title: 'Profile' },
-        { id: 'projects', title: 'Projects' },
-        { id: 'team', title: 'Team' },
-        { id: 'training', title: 'Training' },
-        { id: 'requirement', title: 'Requirement' },
-        { id: 'faq', title: 'FAQ' },
-        { id: 'authentication', title: 'Authentication' },
-        { id: 'agreement', title: 'Agreement' },
-      ],
-    },
-    {
-      id: 'React Native',
-      title: 'React Native',
-      content: 'React Native course content.',
-      color: 'rgba(54, 63, 70, 0.5)', navigation: [
-        {
-          id: 'detail',
-          title: 'Detail',
-          content: [
-            {
-              week: 1,
-              title: 'Week 1 - React Native',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 2,
-              title: 'Week 2 - React Native',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 3,
-              title: 'Week 3 - React Native',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 4,
-              title: 'Week 4 - React Native',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 5,
-              title: 'Week 5 - React Native',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 6,
-              title: 'Week 6 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 7,
-              title: 'Week 7 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 8,
-              title: 'Week 8 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 9,
-              title: 'Week 9 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 10,
-              title: 'Week 10 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 11,
-              title: 'Week 11 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 12,
-              title: 'Week 12 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 13,
-              title: 'Week 13 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 14,
-              title: 'Week 14 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 15,
-              title: 'Week 15 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 16,
-              title: 'Week 16 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 17,
-              title: 'Week 17 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 18,
-              title: 'Week 18 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 19,
-              title: 'Week 19 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 20,
-              title: 'Week 20 - React Native',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 21,
-              title: 'Week 21 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 22,
-              title: 'Week 22 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 23,
-              title: 'Week 23 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 24,
-              title: 'Week 24 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 25,
-              title: 'Week 25 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 26,
-              title: 'Week 26 - React Native',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-          ],
-        },
-        { id: 'earning-potential', title: 'Earning' },
-        { id: 'profile', title: 'Profile' },
-        { id: 'projects', title: 'Projects' },
-        { id: 'team', title: 'Team' },
-        { id: 'training', title: 'Training' },
-        { id: 'requirement', title: 'Requirement' },
-        { id: 'faq', title: 'FAQ' },
-        { id: 'authentication', title: 'Authentication' },
-        { id: 'agreement', title: 'Agreement' },
-      ],
-    },
-    {
-      id: 'DevOps',
-      title: 'DevOps',
-      content: 'DevOps course content.',
-      color: 'rgba(54, 63, 70, 0.5)', navigation: [
-        {
-          id: 'detail',
-          title: 'Detail',
-          content: [
-            {
-              week: 1,
-              title: 'Week 1 - DevOps',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 2,
-              title: 'Week 2 - DevOps',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 3,
-              title: 'Week 3 - DevOps',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 4,
-              title: 'Week 4 - DevOps',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 5,
-              title: 'Week 5 - DevOps',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 6,
-              title: 'Week 6 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 7,
-              title: 'Week 7 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 8,
-              title: 'Week 8 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 9,
-              title: 'Week 9 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 10,
-              title: 'Week 10 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 11,
-              title: 'Week 11 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 12,
-              title: 'Week 12 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 13,
-              title: 'Week 13 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 14,
-              title: 'Week 14 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 15,
-              title: 'Week 15 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 16,
-              title: 'Week 16 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 17,
-              title: 'Week 17 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 18,
-              title: 'Week 18 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 19,
-              title: 'Week 19 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 20,
-              title: 'Week 20 - DevOps',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 21,
-              title: 'Week 21 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 22,
-              title: 'Week 22 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 23,
-              title: 'Week 23 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 24,
-              title: 'Week 24 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 25,
-              title: 'Week 25 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 26,
-              title: 'Week 26 - DevOps',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-          ],
-        },
-        { id: 'earning-potential', title: 'Earning' },
-        { id: 'profile', title: 'Profile' },
-        { id: 'projects', title: 'Projects' },
-        { id: 'team', title: 'Team' },
-        { id: 'training', title: 'Training' },
-        { id: 'requirement', title: 'Requirement' },
-        { id: 'faq', title: 'FAQ' },
-        { id: 'authentication', title: 'Authentication' },
-        { id: 'agreement', title: 'Agreement' },
-      ],
-    },
-    {
-      id: 'Salesforce',
-      title: 'Salesforce',
-      content: 'Salesforce course content.',
-      color: 'rgba(54, 63, 70, 0.5)', navigation: [
-        {
-          id: 'detail',
-          title: 'Detail',
-          content: [
-            {
-              week: 1,
-              title: 'Week 1 - Salesforce',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 2,
-              title: 'Week 2 - Salesforce',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 3,
-              title: 'Week 3 - Salesforce',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 4,
-              title: 'Week 4 - Salesforce',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 5,
-              title: 'Week 5 - Salesforce',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 6,
-              title: 'Week 6 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 7,
-              title: 'Week 7 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 8,
-              title: 'Week 8 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 9,
-              title: 'Week 9 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 10,
-              title: 'Week 10 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 11,
-              title: 'Week 11 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 12,
-              title: 'Week 12 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 13,
-              title: 'Week 13 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 14,
-              title: 'Week 14 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 15,
-              title: 'Week 15 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 16,
-              title: 'Week 16 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 17,
-              title: 'Week 17 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 18,
-              title: 'Week 18 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 19,
-              title: 'Week 19 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 20,
-              title: 'Week 20 - Salesforce',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 21,
-              title: 'Week 21 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 22,
-              title: 'Week 22 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 23,
-              title: 'Week 23 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 24,
-              title: 'Week 24 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 25,
-              title: 'Week 25 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 26,
-              title: 'Week 26 - Salesforce',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-          ],
-        },
-        { id: 'earning-potential', title: 'Earning' },
-        { id: 'profile', title: 'Profile' },
-        { id: 'projects', title: 'Projects' },
-        { id: 'team', title: 'Team' },
-        { id: 'training', title: 'Training' },
-        { id: 'requirement', title: 'Requirement' },
-        { id: 'faq', title: 'FAQ' },
-        { id: 'authentication', title: 'Authentication' },
-        { id: 'agreement', title: 'Agreement' },
-      ],
-    },
-    {
-      id: 'Microservices',
-      title: 'Microservices',
-      content: 'Microservices course content.',
-      color: 'rgba(54, 63, 70, 0.5)', navigation: [
-        {
-          id: 'detail',
-          title: 'Detail',
-          content: [
-            {
-              week: 1,
-              title: 'Week 1 - Microservices',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 2,
-              title: 'Week 2 - Microservices',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 3,
-              title: 'Week 3 - Microservices',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 4,
-              title: 'Week 4 - Microservices',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 5,
-              title: 'Week 5 - Microservices',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 6,
-              title: 'Week 6 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 7,
-              title: 'Week 7 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 8,
-              title: 'Week 8 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 9,
-              title: 'Week 9 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 10,
-              title: 'Week 10 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 11,
-              title: 'Week 11 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 12,
-              title: 'Week 12 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 13,
-              title: 'Week 13 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 14,
-              title: 'Week 14 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 15,
-              title: 'Week 15 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 16,
-              title: 'Week 16 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 17,
-              title: 'Week 17 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 18,
-              title: 'Week 18 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 19,
-              title: 'Week 19 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 20,
-              title: 'Week 20 - Microservices',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 21,
-              title: 'Week 21 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 22,
-              title: 'Week 22 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 23,
-              title: 'Week 23 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 24,
-              title: 'Week 24 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 25,
-              title: 'Week 25 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 26,
-              title: 'Week 26 - Microservices',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-          ],
-        },
-        { id: 'earning-potential', title: 'Earning' },
-        { id: 'profile', title: 'Profile' },
-        { id: 'projects', title: 'Projects' },
-        { id: 'team', title: 'Team' },
-        { id: 'training', title: 'Training' },
-        { id: 'requirement', title: 'Requirement' },
-        { id: 'faq', title: 'FAQ' },
-        { id: 'authentication', title: 'Authentication' },
-        { id: 'agreement', title: 'Agreement' },
-      ],
-    },
-    {
-      id: 'Blockchain',
-      title: 'Blockchain',
-      content: 'Blockchain course content.',
-      color: 'rgba(54, 63, 70, 0.5)', navigation: [
-        {
-          id: 'detail',
-          title: 'Detail',
-          content: [
-            {
-              week: 1,
-              title: 'Week 1 - Blockchain',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 2,
-              title: 'Week 2 - Blockchain',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 3,
-              title: 'Week 3 - Blockchain',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 4,
-              title: 'Week 4 - Blockchain',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 5,
-              title: 'Week 5 - Blockchain',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 6,
-              title: 'Week 6 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 7,
-              title: 'Week 7 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 8,
-              title: 'Week 8 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 9,
-              title: 'Week 9 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 10,
-              title: 'Week 10 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 11,
-              title: 'Week 11 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 12,
-              title: 'Week 12 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 13,
-              title: 'Week 13 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 14,
-              title: 'Week 14 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 15,
-              title: 'Week 15 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 16,
-              title: 'Week 16 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 17,
-              title: 'Week 17 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 18,
-              title: 'Week 18 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 19,
-              title: 'Week 19 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 20,
-              title: 'Week 20 - Blockchain',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 21,
-              title: 'Week 21 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 22,
-              title: 'Week 22 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 23,
-              title: 'Week 23 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 24,
-              title: 'Week 24 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 25,
-              title: 'Week 25 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 26,
-              title: 'Week 26 - Blockchain',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-          ],
-        },
-        { id: 'earning-potential', title: 'Earning' },
-        { id: 'profile', title: 'Profile' },
-        { id: 'projects', title: 'Projects' },
-        { id: 'team', title: 'Team' },
-        { id: 'training', title: 'Training' },
-        { id: 'requirement', title: 'Requirement' },
-        { id: 'faq', title: 'FAQ' },
-        { id: 'authentication', title: 'Authentication' },
-        { id: 'agreement', title: 'Agreement' },
-      ],
-    },
-    {
-      id: 'Data Science',
-      title: 'Data Science',
-      content: 'Data Science course content.',
-      color: 'rgba(54, 63, 70, 0.5)', navigation: [
-        {
-          id: 'detail',
-          title: 'Detail',
-          content: [
-            {
-              week: 1,
-              title: 'Week 1 - Data Science',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 2,
-              title: 'Week 2 - Data Science',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 3,
-              title: 'Week 3 - Data Science',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 4,
-              title: 'Week 4 - Data Science',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 5,
-              title: 'Week 5 - Data Science',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 6,
-              title: 'Week 6 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 7,
-              title: 'Week 7 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 8,
-              title: 'Week 8 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 9,
-              title: 'Week 9 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 10,
-              title: 'Week 10 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 11,
-              title: 'Week 11 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 12,
-              title: 'Week 12 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 13,
-              title: 'Week 13 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 14,
-              title: 'Week 14 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 15,
-              title: 'Week 15 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 16,
-              title: 'Week 16 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 17,
-              title: 'Week 17 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 18,
-              title: 'Week 18 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 19,
-              title: 'Week 19 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 20,
-              title: 'Week 20 - Data Science',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 21,
-              title: 'Week 21 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 22,
-              title: 'Week 22 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 23,
-              title: 'Week 23 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 24,
-              title: 'Week 24 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 25,
-              title: 'Week 25 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 26,
-              title: 'Week 26 - Data Science',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-          ],
-        },
-        { id: 'earning-potential', title: 'Earning' },
-        { id: 'profile', title: 'Profile' },
-        { id: 'projects', title: 'Projects' },
-        { id: 'team', title: 'Team' },
-        { id: 'training', title: 'Training' },
-        { id: 'requirement', title: 'Requirement' },
-        { id: 'faq', title: 'FAQ' },
-        { id: 'authentication', title: 'Authentication' },
-        { id: 'agreement', title: 'Agreement' },
-      ],
-    },
-    {
-      id: 'Machine Learning',
-      title: 'Machine Learning',
-      content: 'Machine Learning course content.',
-      color: 'rgba(54, 63, 70, 0.5)', navigation: [
-        {
-          id: 'detail',
-          title: 'Detail',
-          content: [
-            {
-              week: 1,
-              title: 'Week 1 - Machine Learning',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 2,
-              title: 'Week 2 - Machine Learning',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 3,
-              title: 'Week 3 - Machine Learning',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 4,
-              title: 'Week 4 - Machine Learning',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 5,
-              title: 'Week 5 - Machine Learning',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 6,
-              title: 'Week 6 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 7,
-              title: 'Week 7 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 8,
-              title: 'Week 8 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 9,
-              title: 'Week 9 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 10,
-              title: 'Week 10 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 11,
-              title: 'Week 11 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 12,
-              title: 'Week 12 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 13,
-              title: 'Week 13 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 14,
-              title: 'Week 14 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 15,
-              title: 'Week 15 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 16,
-              title: 'Week 16 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 17,
-              title: 'Week 17 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 18,
-              title: 'Week 18 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 19,
-              title: 'Week 19 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 20,
-              title: 'Week 20 - Machine Learning',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 21,
-              title: 'Week 21 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 22,
-              title: 'Week 22 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 23,
-              title: 'Week 23 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 24,
-              title: 'Week 24 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 25,
-              title: 'Week 25 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 26,
-              title: 'Week 26 - Machine Learning',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-          ],
-        },
-        { id: 'earning-potential', title: 'Earning' },
-        { id: 'profile', title: 'Profile' },
-        { id: 'projects', title: 'Projects' },
-        { id: 'team', title: 'Team' },
-        { id: 'training', title: 'Training' },
-        { id: 'requirement', title: 'Requirement' },
-        { id: 'faq', title: 'FAQ' },
-        { id: 'authentication', title: 'Authentication' },
-        { id: 'agreement', title: 'Agreement' },
-      ],
-    },
-    {
-      id: 'AI',
-      title: 'AI',
-      content: 'AI course content.',
-      color: 'rgba(54, 63, 70, 0.5)', navigation: [
-        {
-          id: 'detail',
-          title: 'Detail',
-          content: [
-            {
-              week: 1,
-              title: 'Week 1 - AI',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 2,
-              title: 'Week 2 - AI',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 3,
-              title: 'Week 3 - AI',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 4,
-              title: 'Week 4 - AI',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 5,
-              title: 'Week 5 - AI',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 6,
-              title: 'Week 6 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 7,
-              title: 'Week 7 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 8,
-              title: 'Week 8 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 9,
-              title: 'Week 9 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 10,
-              title: 'Week 10 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 11,
-              title: 'Week 11 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 12,
-              title: 'Week 12 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 13,
-              title: 'Week 13 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 14,
-              title: 'Week 14 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 15,
-              title: 'Week 15 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 16,
-              title: 'Week 16 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 17,
-              title: 'Week 17 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 18,
-              title: 'Week 18 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 19,
-              title: 'Week 19 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 20,
-              title: 'Week 20 - AI',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 21,
-              title: 'Week 21 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 22,
-              title: 'Week 22 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 23,
-              title: 'Week 23 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 24,
-              title: 'Week 24 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 25,
-              title: 'Week 25 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 26,
-              title: 'Week 26 - AI',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-          ],
-        },
-        { id: 'earning-potential', title: 'Earning' },
-        { id: 'profile', title: 'Profile' },
-        { id: 'projects', title: 'Projects' },
-        { id: 'team', title: 'Team' },
-        { id: 'training', title: 'Training' },
-        { id: 'requirement', title: 'Requirement' },
-        { id: 'faq', title: 'FAQ' },
-        { id: 'authentication', title: 'Authentication' },
-        { id: 'agreement', title: 'Agreement' },
-      ],
-    },
-    {
-      id: 'CEH V13',
-      title: 'CEH V13',
-      content: 'CEH V13 course content.',
-      color: 'rgba(54, 63, 70, 0.5)', navigation: [
-        {
-          id: 'detail',
-          title: 'Detail',
-          content: [
-            {
-              week: 1,
-              title: 'Week 1 - CEH V13',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 2,
-              title: 'Week 2 - CEH V13',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 3,
-              title: 'Week 3 - CEH V13',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 4,
-              title: 'Week 4 - CEH V13',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 5,
-              title: 'Week 5 - CEH V13',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-
-              link: 'www.google.com',
-            },
-            {
-              week: 6,
-              title: 'Week 6 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 7,
-              title: 'Week 7 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 8,
-              title: 'Week 8 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 9,
-              title: 'Week 9 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 10,
-              title: 'Week 10 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 11,
-              title: 'Week 11 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 12,
-              title: 'Week 12 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 13,
-              title: 'Week 13 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 14,
-              title: 'Week 14 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 15,
-              title: 'Week 15 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 16,
-              title: 'Week 16 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 17,
-              title: 'Week 17 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 18,
-              title: 'Week 18 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 19,
-              title: 'Week 19 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 20,
-              title: 'Week 20 - CEH V13',
-              content:
-                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis, orci sit amet posuere cursus, nibh libero dignissim orci, at tristique velit est vitae est. Ut lobortis purus in metus aliquam, sed hendrerit mi dignissim. Donec elementum, sem nec gravida molestie, sem velit scelerisque sapien, non tempor nisl purus sit amet augue. Nunc in lobortis nunc, eu rhoncus dolor. Vestibulum quis pulvinar massa. Vestibulum tristique lectus sagittis, ullamcorper magna et, pulvinar augue. Suspendisse condimentum ipsum ut consectetur malesuada. Vivamus bibendum rhoncus dapibus. Morbi efficitur enim in nulla cursus, ac ultrices velit accumsan. Pellentesque sollicitudin pretium elit, eleifend ultrices massa tincidunt et. Sed quis pulvinar eros. Vestibulum mi felis, posuere nec arcu eu, tempor mattis mi. Ut pellentesque, ligula et efficitur ultricies, mi ante viverra nulla, sed rhoncus urna libero quis purus. Nullam dignissim eget eros eget mollis. Donec ac aliquam lacus, vel malesuada quam.\nAliquam eget fermentum dui. Mauris ornare tempus massa, non consequat leo gravida et. Sed tincidunt purus urna, ut gravida urna lobortis a. Suspendisse aliquam, mi vitae gravida gravida, mauris leo commodo nisi, ultricies elementum est augue vitae lacus. Sed imperdiet a sapien ac sagittis. Morbi et mattis turpis. Aenean tristique, ante non iaculis fringilla, ligula mi efficitur quam, eu tristique leo massa id lorem. Nunc porttitor risus ac magna vestibulum suscipit. Cras consequat augue in mauris bibendum tristique. Cras iaculis eu dolor sit amet vehicula. Etiam volutpat nisi at odio commodo semper. Curabitur tempor efficitur urna, vitae faucibus ex convallis at. Sed laoreet bibendum ultrices. Donec.',
-              link: 'www.google.com',
-            },
-            {
-              week: 21,
-              title: 'Week 21 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 22,
-              title: 'Week 22 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 23,
-              title: 'Week 23 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 24,
-              title: 'Week 24 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 25,
-              title: 'Week 25 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-            {
-              week: 26,
-              title: 'Week 26 - CEH V13',
-              content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-              link: 'www.google.com',
-            },
-          ],
-        },
-        { id: 'earning-potential', title: 'Earning' },
-        { id: 'profile', title: 'Profile' },
-        { id: 'projects', title: 'Projects' },
-        { id: 'team', title: 'Team' },
-        { id: 'training', title: 'Training' },
-        { id: 'requirement', title: 'Requirement' },
-        { id: 'faq', title: 'FAQ' },
-        { id: 'authentication', title: 'Authentication' },
-        { id: 'agreement', title: 'Agreement' },
       ],
     },
   ],

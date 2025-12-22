@@ -55,7 +55,7 @@ export const CourseDetails = () => {
 
   const renderContent = () => {
     const navContent = selectedCourse.navigation.find((nav) => nav.id === selectedNav);
-    
+
     switch (selectedNav) {
       case 'detail':
         return (
@@ -116,9 +116,28 @@ export const CourseDetails = () => {
             ))}
           </div>
         );
-
       case 'profile':
       case 'projects':
+      case 'lecture1':
+      case 'lecture2':
+      case 'lecture3':
+      case 'lecture4':
+      case 'lecture5':
+      case 'lecture6':
+      case 'lecture7':
+      case 'lecture8':
+      case 'lecture9':
+      case 'lecture10':
+      case 'lecture11':
+      case 'lecture12':
+      case 'lecture13':
+      case 'lecture14':
+      case 'lecture15':
+      case 'lecture16':
+      case 'lecture17':
+      case 'lecture18':
+      case 'lecture19':
+      case 'lecture20':
         return (
           <div>
             {selectedNav === 'profile' && (
@@ -126,7 +145,7 @@ export const CourseDetails = () => {
                 An Individual Profile After completing 8 Months
               </h3>
             )}
-            
+
             {navContent?.content?.map((item, index) => (
               <div key={index} className="mb-6">
                 <h3 className="text-2xl text-red-600 mb-2 font-bold">{item.title}</h3>
@@ -155,7 +174,7 @@ export const CourseDetails = () => {
                 {item.link && (
                   <Button className="w-full mt-6 bg-[#363f46] hover:bg-[#e92e3e]">
                     <Button
-                    onClick={() => handleVideoDialog(item.link)}
+                      onClick={() => handleVideoDialog(item.link)}
                       className="text-white bg-[#363f46] hover:bg-[#e92e3e] w-full"
                     >
                       Click Here to Watch Live Demo
@@ -233,8 +252,8 @@ export const CourseDetails = () => {
         {/* Course Dropdown */}
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               className="w-full md:w-auto justify-between bg-[#363f46] text-white hover:text-white hover:bg-[#363f46]/90"
             >
               <span className="truncate max-w-[180px]">{selectedCourse.title}</span>
@@ -243,7 +262,7 @@ export const CourseDetails = () => {
           </DropdownMenuTrigger>
           <DropdownMenuContent className="w-[200px]">
             {data.courses.map((course) => (
-              <DropdownMenuItem 
+              <DropdownMenuItem
                 key={course.id}
                 onClick={() => handleCourseSelect(course)}
                 className={course.id === selectedCourse.id ? 'bg-gray-100' : ''}
