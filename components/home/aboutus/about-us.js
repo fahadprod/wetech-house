@@ -69,9 +69,9 @@ export const AboutUs = () => {
                     <Phone className="text-[#e92e3e] w-6 h-6" />
                   </div>
                   <div className="text-left">
-                    <a href="tel:9231971671681" className="text-white hover:text-gray-200">
+                    <a href="tel:923092977716" className="text-white hover:text-gray-200">
                       <span className="block text-sm">Call for help</span>
-                      <span className="block text-xl font-semibold">+92 3001234567</span>
+                      <span className="block text-xl font-semibold">+92 3092977716</span>
                     </a>
                   </div>
                 </div>

@@ -84,16 +84,19 @@ export const Header = () => {
   };
 
   return (
-    <header className="relative w-full bg-transparent z-50">
+    <header className="relative w-full z-50 
+  bg-white/5 backdrop-blur-[2px] 
+ 
+  shadow-lg">
       <div className="flex justify-between items-center mb-3 px-4 py-5 lg:px-10 lg:pt-5">
         <div className="flex items-center">
           <Link href="/">
-            <div className="relative w-[100px] h-14 lg:w-[150px] lg:h-[50px]">
+            <div className="relative w-[100px] h-14 lg:w-[120px] lg:h-[50px]">
               <Image
                 src="/images/wetech-logo.png"
                 alt="Logo"
                 fill
-                className="object-contain"
+                className="object-cover"
               />
             </div>
           </Link>
@@ -106,7 +109,7 @@ export const Header = () => {
               key={index}
               onClick={item.action}
               variant="ghost"
-              className="text-[#353e45] cursor-pointer font-bold hover:bg-transparent hover:text-[#353e45]/80"
+              className="text-[#A6A6A6] cursor-pointer font-bold hover:bg-transparent hover:text-[#e92e3e]/80"
             >
               {item.label}
             </Button>

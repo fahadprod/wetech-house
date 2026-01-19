@@ -66,7 +66,7 @@ export const Footer = () => {
        </div>
        <div className="flex gap-4">
         <a
-         href="#"
+         href="https://www.facebook.com/WeTechHouse"
          className="text-white p-3 rounded bg-gray-400 hover:bg-[#e92e3e] hover:text-white"
         >
          <FaFacebook size={18} />
@@ -78,7 +78,7 @@ export const Footer = () => {
          <FaTwitter size={18} />
         </a>
         <a
-         href="#"
+         href="https://www.instagram.com/wetechhouse/"
          className="text-white p-3 rounded bg-gray-400 hover:bg-[#e92e3e] hover:text-white"
         >
          <FaInstagram size={18} />
@@ -145,11 +145,11 @@ export const Footer = () => {
           <Phone className="flex-shrink-0 text-white" size={18} />
          </span>
          <div className="space-y-1">
-          <a href="tel:923001234567" className="block hover:text-white">
-           (092) 300 12 34 567
+          <a href="tel:+923092977716" className="block hover:text-white">
+           (+92) 309 2977716
           </a>
-          <a href="tel:923001234567" className="block hover:text-white">
-           (092) 300 12 34 567
+          <a href="tel:+923092977716" className="block hover:text-white">
+           (+92) 309 2977716
           </a>
          </div>
         </div>

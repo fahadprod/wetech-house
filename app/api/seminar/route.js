@@ -5,10 +5,9 @@ import Seminar from '@/models/Seminar';
 import mongoose from 'mongoose';
 import { NextResponse } from 'next/server';
 
-await dbConnect();
-
 // Get seminars for the next 30 days
 export async function GET() {
+    await dbConnect();
     try {
         const startDate = new Date();
         const endDate = new Date();

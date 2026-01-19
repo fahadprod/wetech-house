@@ -23,7 +23,7 @@ const CarouselSlider = () => {
                 thumbIcon:
                     'https://template.canva.com/EAGSVDF6hSk/1/0/1600w-ryMlOVBL5JE.jpg',
                 image:
-                    'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-01.jpg',
+                    '/carousel/generated/bg-01-v2.png',
                 details: `The Six-Month Intensive Graphic Design + UI/UX Course is a future-ready, professional diploma program that transforms beginners and career-switchers into job-ready designers equipped with both traditional graphic design mastery and cutting-edge AI-enriched workflows. Delivered over 24–26 weeks (approximately 600–800 hours including live sessions, assignments, and portfolio projects), the curriculum focuses exclusively on the Adobe Creative Cloud ecosystem (Photoshop, Illustrator, InDesign, XD/Figma integration, and After Effects basics) while seamlessly integrating generative AI tools such as Midjourney, Adobe Firefly, DALL·E, Runway, Magnific.ai, and Uizard. Graduates complete the program with a competitive portfolio of 10–15 projects spanning branding, digital design, and user interface design, positioning them for high-demand roles in agencies, startups, tech companies, and freelance markets where junior designers now commonly earn projected $3,000–$5,000+ annually (or equivalent).																									
      
                 Course 01: Students will master visual communication principles, professional Adobe workflows, AI-accelerated ideation and asset creation, and user-centered UI/UX design processes. The program emphasizes ethical AI usage, prompt engineering, iterative prototyping, and human-AI collaboration, ensuring graduates are not replaced by AI but empowered to lead with it.																									
@@ -48,7 +48,7 @@ By graduation, students are fluent in the entire Adobe Suite, proficient with le
                 topic: '$100/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 309 2977716',
                     'Appointments Required for Entry',
                     'Eligibility: Matric or Higher',
                 ],
@@ -58,7 +58,7 @@ By graduation, students are fluent in the entire Adobe Suite, proficient with le
                 thumbIcon:
                     'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-2.jpg',
                 image:
-                    'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-02.jpg',
+                    '/carousel/generated/bg-02-v2.png',
                 details: `
           To qualify for Stage 02, students must complete all three levels of Stage 01, which provides the essential foundation for modern frontend development:
           
@@ -83,7 +83,7 @@ By graduation, students are fluent in the entire Adobe Suite, proficient with le
                 topic: '$500/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 309 2977716',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
                 ],
@@ -93,7 +93,7 @@ By graduation, students are fluent in the entire Adobe Suite, proficient with le
                 thumbIcon:
                     'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-3.jpg',
                 image:
-                    'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-03.jpg',
+                    '/carousel/generated/bg-03-v2.png',
                 details: `To become a Next.js Specialist in Stage 03, students must first complete all levels of Stage 01 and Stage 02, which together provide the essential groundwork for advanced frontend and full-stack development.
           
           Level 01: 6 months of paid training in HTML, CSS, JavaScript, SASS, Bootstrap, Tailwind CSS, responsive design, DOM manipulation, AJAX, HTML local storage, JSON, webforms and data structures, followed by 2 months of free profile project work.
@@ -121,7 +121,7 @@ By graduation, students are fluent in the entire Adobe Suite, proficient with le
                 topic: '$1,000/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 309 2977716',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
                 ],
@@ -131,7 +131,7 @@ By graduation, students are fluent in the entire Adobe Suite, proficient with le
                 thumbIcon:
                     'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-4.jpg',
                 image:
-                    'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-04.jpg',
+                    '/carousel/generated/bg-04-v2.png',
                 details: `Before entering Stage 04, students must successfully complete all levels of Stage 01, Stage 02, and Stage 03. These foundational stages are essential to prepare learners with the practical development mindset, coding discipline, and real-world project experience required for advanced infrastructure and deployment roles.
           
           Level 01: 6 months of paid training in HTML, CSS, JavaScript, SASS, Bootstrap, Tailwind CSS, responsive design, DOM manipulation, AJAX, HTML local storage, JSON, webforms and data structures, followed by 2 months of free profile projects.
@@ -169,7 +169,7 @@ By graduation, students are fluent in the entire Adobe Suite, proficient with le
                 topic: '$1,500/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 309 2977716',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
                 ],
@@ -177,46 +177,31 @@ By graduation, students are fluent in the entire Adobe Suite, proficient with le
             {
                 id: 4,
                 thumbIcon:
-                    'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-5.jpg',
+                    'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-1.jpg',
                 image:
-                    'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-05.jpg',
-                details: `
-          To enroll in <b>Stage 5: Microservices Architect,</b> students must complete all levels of Stage 01, Stage 02, Stage 03, and Stage 04. These foundational and professional levels ensure learners have mastered full-stack development, system deployment, and production-grade engineering before moving into scalable backend architecture.
-          
-          Level 01: 6-month paid training in HTML, CSS, JavaScript, SASS, Bootstrap, Tailwind CSS, responsive design, DOM manipulation, AJAX, HTML local storage, JSON, webforms and data structures. Followed by 2 months of free profile projects.
-          
-          Level 02: Focused entirely on the fundamentals of JavaScript, developing strong logic and scripting abilities.
-          
-          Level 03: Introduces React.js and Next.js, enabling students to create dynamic, modern user interfaces.
-          
-          Level 04: JAMstack Developer – Focus on API-driven, static-first web development using modern tools and architecture.
-          
-          Level 05: MERN Stack Developer – Build full-stack applications using MongoDB, Express.js, React, and Node.js.
-          
-          Level 06: Next.js (Basic) – Learn advanced routing, rendering, and optimization techniques in Next.js.
-          
-          Level 07: 6-month professional training focused on building real-world, enterprise-level applications using Next.js, along with real deployment practices, teamwork, and performance tuning.
-          
-          Level 08: Students learn deployment pipelines, automation, system monitoring, and infrastructure management over 01-year of free training (4 hours/day). The program simulates real-time production environments to shape operational maturity. Alongside job placement, students also become eligible to pursue two globally recognized certifications by Amazon Web Services (AWS):
-         
-         AWS Certified Solutions Architect – Associate
-         AWS Certified DevOps Engineer – Professional
-          
-          Now Entering Stage 5: Microservices Architect
-          
-          With a powerful full-stack and DevOps foundation, students are now eligible for Stage 5.
-          
-          Level 09: Microservices Architect a specialized 01-year training (free, 4 hours/day) designed to prepare developers for scalable backend system design and cloud-native architecture. In this stage, students operate in simulated enterprise environments where service-based thinking, team collaboration, and distributed application design are key. This is where coders become system architects.
-          Students who complete this stage will also receive a globally recognized certification in Spring Boot Java Microservices, proving their backend and architecture expertise to international employers.
-          
-          Upon completion, every student is guaranteed a $3000/month job in our company, launching them into elite backend engineering roles where they build, scale, and manage high-demand systems.`,
+                    '/carousel/generated/digital_marketing_real.png',
+                details: `Digital Marketing is one of the fastest-growing industries, essential for every business today. Our Digital Marketing Specialist program is designed to transform you into a data-driven marketer capable of scaling brands and driving revenue.
+
+Level 01: Fundamentals of Marketing & Branding – Understanding consumer psychology, brand identity, and market research.
+
+Level 02: Search Engine Optimization (SEO) – Master On-Page, Off-Page, and Technical SEO to rank websites on Google's top results.
+
+Level 03: Social Media Marketing (SMM) – Advanced strategies for Facebook, Instagram, LinkedIn, and TikTok to build communities and drive engagement.
+
+Level 04: Performance Marketing (PPC & Ads) – Expert training in Google Ads, Meta Ads, and programmatic advertising to maximize ROI.
+
+Level 05: Content Marketing & Copywriting – Learn to craft compelling narratives that convert visitors into loyal customers.
+
+Level 06: Data Analytics & Automation – Master Google Analytics 4 (GA4), heatmaps, and CRM automation tools like HubSpot and Mailchimp.
+
+Upon completion, every student is guaranteed a job with a $2,500/month salary, ready to lead digital campaigns for global brands.`,
                 avatar:
                     'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-avatar-05.jpg',
-                title: 'Microservices Architect',
-                topic: '$3,000/month Guaranteed',
+                title: 'Digital Marketing Specialist',
+                topic: '$2,500/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 309 2977716',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
                 ],
@@ -226,7 +211,7 @@ By graduation, students are fluent in the entire Adobe Suite, proficient with le
                 thumbIcon:
                     'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-6.jpg',
                 image:
-                    'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-06.jpg',
+                    '/carousel/generated/bg-06-v2.png',
                 details: `Before entering Stage 06, students must successfully complete all levels of Stage 01, Stage 02, Stage 03, Stage 04, and Stage 05. These prior stages are essential for shaping a well-rounded tech expert skilled in frontend development, backend architecture, system deployment, and operational engineering.
           
           Level 01: 6 months of paid foundational training in HTML, CSS, JavaScript, SASS, Bootstrap, Tailwind CSS, responsive design, DOM manipulation, AJAX, HTML local storage, JSON, webforms and data structures, followed by 2 months of free portfolio project building
@@ -278,7 +263,7 @@ By graduation, students are fluent in the entire Adobe Suite, proficient with le
                 topic: '$4,000/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 309 2977716',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
                 ],
@@ -288,7 +273,7 @@ By graduation, students are fluent in the entire Adobe Suite, proficient with le
                 thumbIcon:
                     'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-7.jpg',
                 image:
-                    'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-07.jpg',
+                    '/carousel/generated/bg-07-v2.png',
                 details: `
           To qualify for Stage 07: AI Engineer, students must complete all levels of Stage 01 through Stage 06. These stages build the full journey—from frontend foundations to backend mastery, system deployment, microservices, and secure blockchain development—equipping learners with the technical depth and real-world experience needed to move into the high-demand field of Artificial Intelligence.
           
@@ -333,7 +318,7 @@ By graduation, students are fluent in the entire Adobe Suite, proficient with le
                 topic: '$6,000/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 309 2977716',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
                 ],
@@ -343,7 +328,7 @@ By graduation, students are fluent in the entire Adobe Suite, proficient with le
                 thumbIcon:
                     'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-cart-8.jpg',
                 image:
-                    'https://vveba.s3.eu-north-1.amazonaws.com/carousel/slider-bg-08.png',
+                    '/carousel/generated/bg-08-v2.png',
                 details: `
           Stage 08 represents one of the most critical, high-responsibility roles in today’s digital world—Cybersecurity Expert. To be eligible for this elite training, students must complete all previous stages (Stage 01 through Stage 07), which collectively equip them with the deep technical foundation, system understanding, and secure development practices required to defend against cyber threats in modern enterprises.
           
@@ -435,7 +420,7 @@ By graduation, students are fluent in the entire Adobe Suite, proficient with le
                 topic: '$10,000/month Guaranteed',
                 description: [
                     'We train you and ensure a job placement at WETECHHOUSE Pvt. Ltd.',
-                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 300 1234567',
+                    'Join our FREE Seminar – Reserve your seat now: 📞 +92 309 2977716',
                     'Appointments Required for Entry',
                     'Eligibility: Intermediate or equivalent',
                 ],

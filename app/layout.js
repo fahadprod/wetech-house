@@ -5,7 +5,9 @@ import { Header } from "@/components/header/header";
 import { Footer } from "@/components/footer/footer";
 import { AuthProvider } from "./context/AuthContext";
 import GTM from "@/lib/GTM";
+import MetaPixel from "@/lib/MetaPixel";
 import ChatlingWidget from "@/lib/ChatlingWidget";
+import { FaWhatsapp } from "react-icons/fa";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -29,12 +31,15 @@ export default function RootLayout({ children }) {
       </head>
       <body className={`${poppins.variable} font-sans overflow-x-hidden`}>
         <GTM />
+        <MetaPixel />
         <AuthProvider>
           <Header />
           {children}
           <Footer />
         </AuthProvider>
-        <ChatlingWidget />
+        <div className="fixed z-99 bottom-4 right-4">
+          <FaWhatsapp size={32} color="#25D366" />
+        </div>
       </body>
     </html>
   );
